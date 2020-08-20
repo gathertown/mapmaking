@@ -2,14 +2,14 @@
 Maps, tilesets, and assets oh my!
 
 
-## MAP GURU USAGE (ie, mark and nate)
+## MAP GURU USAGE
 1. Clone this repo: https://github.com/gathertown/mapmaking.git
-1a. I put it in my local "Gather" directory as "mapmaking".
+( I put it in my local "Gather" directory as "mapmaking". )
 2. Use some sort of git management program (I use Fork) or be a boss and go comand-line.
 3. Before you start at the beginning of the day, Fetch.
 4. If you make a change to the repo, Merge and Push.
 
-## BASIC USAGE (ie, maybe you)
+## BASIC USAGE
 1. Clone this repo: https://github.com/gathertown/mapmaking.git
 2. Find the thing you want, assume it'll be up to date. Download it.
    ^ probably best for image files. If you're planning on modifying something, come use the repo!
