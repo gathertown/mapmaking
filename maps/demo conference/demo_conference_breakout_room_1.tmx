@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="33" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
  <editorsettings>
-  <export target="demo_conference_breakout_room_1..tmx" format="tmx"/>
+  <export target="demo_conference_breakout_room_2..tmx" format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="../../tilesets/Gather Games 0.x.tsx"/>
  <tileset firstgid="929" source="../../tilesets/Gather University 0.x.tsx"/>
