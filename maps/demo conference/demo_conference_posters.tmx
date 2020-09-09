@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="48" height="46" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="3">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="48" height="46" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="3">
  <tileset firstgid="1" source="../../tilesets/Gather University 0.x.tsx"/>
  <tileset firstgid="465" source="../../tilesets/Gather Conference 0.x.tsx"/>
  <layer id="15" name="Background" width="48" height="46">
