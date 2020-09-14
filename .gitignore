@@ -1,3 +1,6 @@
 ﻿*.log
 maps/*scratch.tmx
 maps/challanges
+*/*/*scratch.tmx
+.xcf
+*scratch.png
