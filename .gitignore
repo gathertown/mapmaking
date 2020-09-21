@@ -2,5 +2,5 @@
 maps/*scratch.tmx
 maps/challanges
 */*/*scratch.tmx
-.xcf
+*.xcf
 *scratch.png
