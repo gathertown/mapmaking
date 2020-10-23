@@ -903,9 +903,6 @@
    <object id="19" x="224.09" y="1119.33" width="128" height="31.9957">
     <text fontfamily="MS Shell Dlg 2" pixelsize="12" wrap="1" color="#ffffff" halign="center" valign="center">Swimming Pool</text>
    </object>
-   <object id="20" x="964.689" y="1093.55" width="952.932" height="341.318">
-    <text fontfamily="Open Sans" pixelsize="96" wrap="1" color="#4b000000" bold="1" halign="center" valign="center">WELCOME PRODUCT HUNTERS</text>
-   </object>
    <object id="22" x="543.848" y="671.507" width="128.057" height="65.0479">
     <text fontfamily="MS Shell Dlg 2" pixelsize="12" wrap="1" color="#aaaaaa" halign="center" valign="center">CLOSED FOR MAINTENANCE</text>
    </object>
