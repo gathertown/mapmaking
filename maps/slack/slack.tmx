@@ -7,7 +7,7 @@
  <tileset firstgid="4392" source="../../tilesets/Gather Plants 1.x.tsx"/>
  <tileset firstgid="5192" source="../../tilesets/Gather Decoration 1.x.tsx"/>
  <tileset firstgid="10952" source="../../tilesets/Gather Shadows 1.x.tsx"/>
- <group id="10" name="BG" visible="0">
+ <group id="10" name="BG">
   <layer id="4" name="bg image" width="46" height="44">
    <data encoding="csv">
 0,91,92,93,94,95,96,2147483741,92,2147483740,2147483739,91,92,93,94,95,96,97,98,99,100,92,92,93,94,95,96,2147483741,92,92,92,91,92,93,2147483745,96,96,97,98,99,100,91,92,93,94,0,
