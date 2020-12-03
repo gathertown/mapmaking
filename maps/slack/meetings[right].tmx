@@ -7,7 +7,7 @@
  <tileset firstgid="4392" source="../../tilesets/Gather Decoration 1.x.tsx"/>
  <tileset firstgid="10152" source="../../tilesets/Gather Plants 1.x.tsx"/>
  <tileset firstgid="10952" source="../../tilesets/Gather Walls Interior 1.x.tsx"/>
- <group id="5" name="BG" visible="0">
+ <group id="5" name="BG">
   <layer id="3" name="floor" width="19" height="40">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
