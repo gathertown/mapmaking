@@ -1,0 +1,1 @@
+through a series of unfortunate (and Git-fueled) events, these maps are entirely out of date and there's no way to recover the up-to-date ones. The best way to edit is likely through Photoshop :/
