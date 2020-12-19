@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="6" height="2" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/Gather Walls Interior 1.x.tsx"/>
+ <tileset firstgid="2251" source="../../tilesets/Gather Swatches 1.x.tsx"/>
+ <layer id="1" name="Wall" width="6" height="2">
+  <data encoding="csv">
+859,860,859,860,859,860,
+884,885,884,885,884,885
+</data>
+ </layer>
+ <layer id="2" name="Texture (50%)" width="6" height="2" opacity="0.5">
+  <data encoding="csv">
+2281,2281,2281,2281,2281,2281,
+2281,2281,2281,2281,2281,2281
+</data>
+ </layer>
+</map>
