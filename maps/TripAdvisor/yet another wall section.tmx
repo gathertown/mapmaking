@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="1" height="5" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/Gather Walls Interior 1.x.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="1" height="5">
+  <data encoding="csv">
+302,
+327,
+352,
+352,
+352
+</data>
+ </layer>
+</map>
