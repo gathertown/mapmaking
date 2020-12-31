@@ -6,6 +6,8 @@
   <terrain name="Medium wood platforms" tile="129"/>
   <terrain name="light wood platforms" tile="137"/>
   <terrain name="Purple heart platforms" tile="145"/>
+  <terrain name="Sand Ripples" tile="1051"/>
+  <terrain name="Wet Sand" tile="937"/>
  </terraintypes>
  <tile id="80" terrain=",,,0"/>
  <tile id="81" terrain=",,0,0"/>
@@ -75,4 +77,38 @@
  <tile id="304" terrain="3,,3,3"/>
  <tile id="305" terrain=",,3,3"/>
  <tile id="306" terrain=",3,3,3"/>
+ <tile id="890" terrain="4,4,4,"/>
+ <tile id="891" terrain="4,4,,"/>
+ <tile id="892" terrain="4,4,,4"/>
+ <tile id="896" terrain=",,,5"/>
+ <tile id="897" terrain=",,5,5"/>
+ <tile id="898" terrain=",,5,"/>
+ <tile id="930" terrain="4,,4,"/>
+ <tile id="932" terrain=",4,,4"/>
+ <tile id="936" terrain=",5,,5"/>
+ <tile id="937" terrain="5,5,5,5"/>
+ <tile id="938" terrain="5,,5,"/>
+ <tile id="970" terrain="4,,4,4"/>
+ <tile id="971" terrain=",,4,4"/>
+ <tile id="972" terrain=",4,4,4"/>
+ <tile id="976" terrain=",5,,"/>
+ <tile id="977" terrain="5,5,,"/>
+ <tile id="978" terrain="5,,,"/>
+ <tile id="1010" terrain=",,,4"/>
+ <tile id="1011" terrain=",,4,4"/>
+ <tile id="1012" terrain=",,4,"/>
+ <tile id="1016" terrain="5,5,5,"/>
+ <tile id="1017" terrain="5,5,,"/>
+ <tile id="1018" terrain="5,5,,5"/>
+ <tile id="1050" terrain=",4,,4"/>
+ <tile id="1051" terrain="4,4,4,4"/>
+ <tile id="1052" terrain="4,,4,"/>
+ <tile id="1056" terrain="5,,5,"/>
+ <tile id="1058" terrain=",5,,5"/>
+ <tile id="1090" terrain=",4,,"/>
+ <tile id="1091" terrain="4,4,,"/>
+ <tile id="1092" terrain="4,,,"/>
+ <tile id="1096" terrain="5,,5,5"/>
+ <tile id="1097" terrain=",,5,5"/>
+ <tile id="1098" terrain=",5,5,5"/>
 </tileset>
