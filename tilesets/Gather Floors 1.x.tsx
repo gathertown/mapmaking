@@ -24,7 +24,8 @@
   <terrain name="Oak Platform Legless" tile="132"/>
   <terrain name="Pine Platform Legless" tile="140"/>
   <terrain name="Purple Platform Legless" tile="148"/>
-  <terrain name="New Terrain" tile="1182"/>
+  <terrain name="Lt. Clover" tile="1182"/>
+  <terrain name="Md. Clover" tile="1144"/>
  </terraintypes>
  <tile id="80" terrain=",,,0"/>
  <tile id="81" terrain=",,0,0"/>
@@ -225,9 +226,15 @@
  <tile id="1140" terrain="22,22,22,22"/>
  <tile id="1141" terrain="22,22,22,22"/>
  <tile id="1143" terrain="22,22,22,22"/>
+ <tile id="1144" terrain="23,23,23,23"/>
+ <tile id="1145" terrain="23,23,23,23"/>
+ <tile id="1147" terrain="23,23,23,23"/>
  <tile id="1180" terrain="22,22,22,22"/>
+ <tile id="1184" terrain="23,23,23,23"/>
  <tile id="1221" terrain="22,22,22,22"/>
  <tile id="1223" terrain="22,22,22,22"/>
+ <tile id="1225" terrain="23,23,23,23"/>
+ <tile id="1227" terrain="23,23,23,23"/>
  <tile id="1320" terrain=",,,6"/>
  <tile id="1321" terrain=",,6,6"/>
  <tile id="1322" terrain=",,6,"/>
