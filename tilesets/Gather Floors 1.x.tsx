@@ -26,6 +26,7 @@
   <terrain name="Purple Platform Legless" tile="148"/>
   <terrain name="Lt. Clover" tile="1182"/>
   <terrain name="Md. Clover" tile="1144"/>
+  <terrain name="dirt" tile="940"/>
  </terraintypes>
  <tile id="80" terrain=",,,0"/>
  <tile id="81" terrain=",,0,0"/>
@@ -185,6 +186,9 @@
  <tile id="896" terrain=",,,5"/>
  <tile id="897" terrain=",,5,5"/>
  <tile id="898" terrain=",,5,"/>
+ <tile id="899" terrain=",,,24"/>
+ <tile id="900" terrain=",,24,24"/>
+ <tile id="901" terrain=",,24,"/>
  <tile id="902" terrain=",17,,"/>
  <tile id="903" terrain="17,17,,"/>
  <tile id="904" terrain="17,,,"/>
@@ -200,22 +204,32 @@
  <tile id="936" terrain=",5,,5"/>
  <tile id="937" terrain="5,5,5,5"/>
  <tile id="938" terrain="5,,5,"/>
+ <tile id="939" terrain=",24,,24"/>
+ <tile id="940" terrain="24,24,24,24"/>
+ <tile id="941" terrain="24,,24,"/>
  <tile id="970" terrain="4,,4,4"/>
  <tile id="971" terrain=",,4,4"/>
  <tile id="972" terrain=",4,4,4"/>
  <tile id="976" terrain=",5,,"/>
  <tile id="977" terrain="5,5,,"/>
  <tile id="978" terrain="5,,,"/>
+ <tile id="979" terrain=",24,,"/>
+ <tile id="980" terrain="24,24,,"/>
+ <tile id="981" terrain="24,,,"/>
  <tile id="1010" terrain=",,,4"/>
  <tile id="1011" terrain=",,4,4"/>
  <tile id="1012" terrain=",,4,"/>
  <tile id="1016" terrain="5,5,5,"/>
  <tile id="1017" terrain="5,5,,5"/>
+ <tile id="1019" terrain="24,24,24,"/>
+ <tile id="1020" terrain="24,24,,24"/>
  <tile id="1050" terrain=",4,,4"/>
  <tile id="1051" terrain="4,4,4,4"/>
  <tile id="1052" terrain="4,,4,"/>
  <tile id="1056" terrain="5,,5,5"/>
  <tile id="1057" terrain=",5,5,5"/>
+ <tile id="1059" terrain="24,,24,24"/>
+ <tile id="1060" terrain=",24,24,24"/>
  <tile id="1090" terrain=",4,,"/>
  <tile id="1091" terrain="4,4,,"/>
  <tile id="1092" terrain="4,,,"/>
