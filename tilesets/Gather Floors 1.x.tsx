@@ -210,19 +210,15 @@
  <tile id="1011" terrain=",,4,4"/>
  <tile id="1012" terrain=",,4,"/>
  <tile id="1016" terrain="5,5,5,"/>
- <tile id="1017" terrain="5,5,,"/>
- <tile id="1018" terrain="5,5,,5"/>
+ <tile id="1017" terrain="5,5,,5"/>
  <tile id="1050" terrain=",4,,4"/>
  <tile id="1051" terrain="4,4,4,4"/>
  <tile id="1052" terrain="4,,4,"/>
- <tile id="1056" terrain="5,,5,"/>
- <tile id="1058" terrain=",5,,5"/>
+ <tile id="1056" terrain="5,,5,5"/>
+ <tile id="1057" terrain=",5,5,5"/>
  <tile id="1090" terrain=",4,,"/>
  <tile id="1091" terrain="4,4,,"/>
  <tile id="1092" terrain="4,,,"/>
- <tile id="1096" terrain="5,,5,5"/>
- <tile id="1097" terrain=",,5,5"/>
- <tile id="1098" terrain=",5,5,5"/>
  <tile id="1140" terrain="22,22,22,22"/>
  <tile id="1141" terrain="22,22,22,22"/>
  <tile id="1143" terrain="22,22,22,22"/>
