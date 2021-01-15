@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.4" tiledversion="1.4.3" name="Gather Decoration 1.x" tilewidth="32" tileheight="32" tilecount="5760" columns="36">
- <image source="gather_decoration_1.17.png" width="1152" height="5120"/>
+ <image source="gather_decoration_1.18.png" width="1152" height="5120"/>
  <terraintypes>
   <terrain name="tight wide fence" tile="2153"/>
   <terrain name="wide white fence" tile="2148"/>
