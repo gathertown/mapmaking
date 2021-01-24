@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.4" tiledversion="1.4.3" name="Gather Floors 1.x" tilewidth="32" tileheight="32" tilecount="2560" columns="40">
- <image source="gather_floors_1.3.png" width="1280" height="2048"/>
+ <image source="gather_floors_1.4.png" width="1280" height="2048"/>
  <terraintypes>
   <terrain name="Walnut Platform" tile="121"/>
   <terrain name="Oak Platform" tile="129"/>
@@ -26,7 +26,8 @@
   <terrain name="Purple Platform Legless" tile="148"/>
   <terrain name="Lt. Clover" tile="1182"/>
   <terrain name="Md. Clover" tile="1144"/>
-  <terrain name="dirt" tile="940"/>
+  <terrain name="Dirt" tile="1109"/>
+  <terrain name="Dirt (dug)" tile="940"/>
  </terraintypes>
  <tile id="80" terrain=",,,0"/>
  <tile id="81" terrain=",,0,0"/>
@@ -186,9 +187,9 @@
  <tile id="896" terrain=",,,5"/>
  <tile id="897" terrain=",,5,5"/>
  <tile id="898" terrain=",,5,"/>
- <tile id="899" terrain=",,,24"/>
- <tile id="900" terrain=",,24,24"/>
- <tile id="901" terrain=",,24,"/>
+ <tile id="899" terrain=",,,25"/>
+ <tile id="900" terrain=",,25,25"/>
+ <tile id="901" terrain=",,25,"/>
  <tile id="902" terrain=",17,,"/>
  <tile id="903" terrain="17,17,,"/>
  <tile id="904" terrain="17,,,"/>
@@ -204,35 +205,48 @@
  <tile id="936" terrain=",5,,5"/>
  <tile id="937" terrain="5,5,5,5"/>
  <tile id="938" terrain="5,,5,"/>
- <tile id="939" terrain=",24,,24"/>
- <tile id="940" terrain="24,24,24,24"/>
- <tile id="941" terrain="24,,24,"/>
+ <tile id="939" terrain=",25,,25"/>
+ <tile id="940" terrain="25,25,25,25"/>
+ <tile id="941" terrain="25,,25,"/>
+ <tile id="947" terrain=",,,24"/>
+ <tile id="948" terrain=",,24,24"/>
+ <tile id="949" terrain=",,24,"/>
  <tile id="970" terrain="4,,4,4"/>
  <tile id="971" terrain=",,4,4"/>
  <tile id="972" terrain=",4,4,4"/>
  <tile id="976" terrain=",5,,"/>
  <tile id="977" terrain="5,5,,"/>
  <tile id="978" terrain="5,,,"/>
- <tile id="979" terrain=",24,,"/>
- <tile id="980" terrain="24,24,,"/>
- <tile id="981" terrain="24,,,"/>
+ <tile id="979" terrain=",25,,"/>
+ <tile id="980" terrain="25,25,,"/>
+ <tile id="981" terrain="25,,,"/>
+ <tile id="987" terrain=",24,,24"/>
+ <tile id="988" terrain="24,24,24,24"/>
+ <tile id="989" terrain="24,,24,"/>
  <tile id="1010" terrain=",,,4"/>
  <tile id="1011" terrain=",,4,4"/>
  <tile id="1012" terrain=",,4,"/>
  <tile id="1016" terrain="5,5,5,"/>
  <tile id="1017" terrain="5,5,,5"/>
- <tile id="1019" terrain="24,24,24,"/>
- <tile id="1020" terrain="24,24,,24"/>
+ <tile id="1019" terrain="25,25,25,"/>
+ <tile id="1020" terrain="25,25,,25"/>
+ <tile id="1027" terrain=",24,,"/>
+ <tile id="1028" terrain="24,24,,"/>
+ <tile id="1029" terrain="24,,,"/>
  <tile id="1050" terrain=",4,,4"/>
  <tile id="1051" terrain="4,4,4,4"/>
  <tile id="1052" terrain="4,,4,"/>
  <tile id="1056" terrain="5,,5,5"/>
  <tile id="1057" terrain=",5,5,5"/>
- <tile id="1059" terrain="24,,24,24"/>
- <tile id="1060" terrain=",24,24,24"/>
+ <tile id="1059" terrain="25,,25,25"/>
+ <tile id="1060" terrain=",25,25,25"/>
+ <tile id="1067" terrain="24,24,24,"/>
+ <tile id="1068" terrain="24,24,,24"/>
  <tile id="1090" terrain=",4,,"/>
  <tile id="1091" terrain="4,4,,"/>
  <tile id="1092" terrain="4,,,"/>
+ <tile id="1107" terrain="24,,24,24"/>
+ <tile id="1108" terrain=",24,24,24"/>
  <tile id="1140" terrain="22,22,22,22"/>
  <tile id="1141" terrain="22,22,22,22"/>
  <tile id="1143" terrain="22,22,22,22"/>
