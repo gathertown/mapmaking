@@ -26,8 +26,9 @@
   <terrain name="Purple Platform Legless" tile="148"/>
   <terrain name="Lt. Clover" tile="1182"/>
   <terrain name="Md. Clover" tile="1144"/>
-  <terrain name="Dirt" tile="1109"/>
+  <terrain name="Dirt" tile="988"/>
   <terrain name="Dirt (dug)" tile="940"/>
+  <terrain name="Water Edge [on top of land]" tile="855"/>
  </terraintypes>
  <tile id="80" terrain=",,,0"/>
  <tile id="81" terrain=",,0,0"/>
@@ -165,12 +166,21 @@
  <tile id="307" terrain="21,,21,21"/>
  <tile id="308" terrain=",,21,21"/>
  <tile id="309" terrain=",21,21,21"/>
+ <tile id="773" terrain=",,,26"/>
+ <tile id="774" terrain=",,26,26"/>
+ <tile id="775" terrain=",,26,"/>
+ <tile id="813" terrain=",26,,26"/>
+ <tile id="814" terrain="26,26,26,26"/>
+ <tile id="815" terrain="26,,26,"/>
  <tile id="822" terrain=",,,17"/>
  <tile id="823" terrain=",,17,17"/>
  <tile id="824" terrain=",,17,"/>
  <tile id="827" terrain=",,,16"/>
  <tile id="828" terrain=",,16,16"/>
  <tile id="829" terrain=",,16,"/>
+ <tile id="853" terrain=",26,,"/>
+ <tile id="854" terrain="26,26,,"/>
+ <tile id="855" terrain="26,,,"/>
  <tile id="862" terrain=",17,,17"/>
  <tile id="863" terrain="17,17,17,17"/>
  <tile id="864" terrain="17,,17,"/>
@@ -184,6 +194,8 @@
  <tile id="890" terrain="4,4,4,"/>
  <tile id="891" terrain="4,4,,"/>
  <tile id="892" terrain="4,4,,4"/>
+ <tile id="893" terrain="26,26,26,"/>
+ <tile id="894" terrain="26,26,,26"/>
  <tile id="896" terrain=",,,5"/>
  <tile id="897" terrain=",,5,5"/>
  <tile id="898" terrain=",,5,"/>
@@ -202,6 +214,8 @@
  <tile id="911" terrain=",16,16,16"/>
  <tile id="930" terrain="4,,4,"/>
  <tile id="932" terrain=",4,,4"/>
+ <tile id="933" terrain="26,,26,26"/>
+ <tile id="934" terrain=",26,26,26"/>
  <tile id="936" terrain=",5,,5"/>
  <tile id="937" terrain="5,5,5,5"/>
  <tile id="938" terrain="5,,5,"/>
