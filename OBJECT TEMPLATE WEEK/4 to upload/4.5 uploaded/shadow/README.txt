@@ -1,0 +1,1 @@
+upload as one object with 4 'orientations'
