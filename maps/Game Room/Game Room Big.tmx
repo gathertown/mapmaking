@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="41" height="83" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="41" height="83" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="1">
  <editorsettings>
-  <export format="tmx"/>
+  <export target="." format="tmx"/>
  </editorsettings>
  <tileset firstgid="1" source="../../tilesets/Gather Chairs 1.x.tsx"/>
  <tileset firstgid="801" source="../../tilesets/Gather Decoration 1.x.tsx"/>
