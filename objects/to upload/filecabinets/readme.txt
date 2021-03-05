@@ -1,0 +1,1 @@
+Each size should be it's own object. e.g. Filecabinet (Tall Narrow)
