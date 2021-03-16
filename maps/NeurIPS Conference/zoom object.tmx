@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="10" height="2" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/Gather Shadows 1.x.tsx"/>
+ <tileset firstgid="201" source="NeurIps.tsx"/>
+ <group id="4" name="Inactive" visible="0">
+  <layer id="2" name="Zoom Image (50%)" width="10" height="2" opacity="0.5">
+   <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,201,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="3" name="Floor" width="10" height="2">
+   <data encoding="csv">
+65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65
+</data>
+  </layer>
+ </group>
+ <group id="5" name="Active">
+  <layer id="8" name="Zoom Image (50%)" width="10" height="2" opacity="0.5">
+   <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,201,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="6" name="Floor" width="10" height="2">
+   <data encoding="csv">
+79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79
+</data>
+  </layer>
+ </group>
+</map>
