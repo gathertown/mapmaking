@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="37" height="34" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
- <tileset firstgid="1" source="../../../tilesets/Gather Plants Outdoor 2.x.tsx"/>
- <tileset firstgid="1761" source="../../../tilesets/Gather Plants 1.x.tsx"/>
- <tileset firstgid="2641" source="../../../tilesets/Gather Floors 1.x.tsx"/>
- <tileset firstgid="5201" source="../../../tilesets/Gather Decoration 1.x.tsx"/>
- <tileset firstgid="12761" source="../../../tilesets/Gather Tables 2.x.tsx"/>
- <tileset firstgid="21761" source="../../../tilesets/Gather Walls Interior 1.x.tsx"/>
+ <tileset firstgid="1" source="../../tilesets/Gather Plants Outdoor 2.x.tsx"/>
+ <tileset firstgid="1761" source="../../tilesets/Gather Plants 1.x.tsx"/>
+ <tileset firstgid="2641" source="../../tilesets/Gather Floors 1.x.tsx"/>
+ <tileset firstgid="5201" source="../../tilesets/Gather Decoration 1.x.tsx"/>
+ <tileset firstgid="12761" source="../../tilesets/Gather Tables 2.x.tsx"/>
+ <tileset firstgid="21761" source="../../tilesets/Gather Walls Interior 1.x.tsx"/>
  <layer id="2" name="Stone" width="37" height="34">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
