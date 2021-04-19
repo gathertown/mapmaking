@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="4" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" source="../../../tilesets/Gather Floors 1.x.tsx"/>
+ <tileset firstgid="2561" source="../../../tilesets/Gather Decoration 1.x.tsx"/>
+ <layer id="1" name="BRidge" width="4" height="6">
+  <data encoding="csv">
+0,0,0,0,
+81,82,82,83,
+121,2,3,123,
+121,2,3,123,
+121,2,3,123,
+161,162,162,163
+</data>
+ </layer>
+ <layer id="2" name="Stairs" width="4" height="6" offsetx="16" offsety="0">
+  <data encoding="csv">
+5,0,7,0,
+45,46,47,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+374,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Railings" width="4" height="6" offsetx="-2" offsety="-3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,9406,
+0,0,0,9442,
+0,0,0,9442,
+0,0,0,9442,
+0,0,0,9478
+</data>
+ </layer>
+ <layer id="5" name="Railing 2" width="4" height="6" offsetx="2" offsety="-3">
+  <data encoding="csv">
+0,0,0,0,
+9406,0,0,0,
+9442,0,0,0,
+9442,0,0,0,
+9442,0,0,0,
+9478,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="OVerstairs" width="4" height="6" offsetx="16" offsety="0">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+0,0,0,0,
+366,367,368,0
+</data>
+ </layer>
+</map>
