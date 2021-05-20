@@ -7,7 +7,7 @@
  <tileset firstgid="8941" source="../../tilesets/Gather Islands.tsx"/>
  <tileset firstgid="9421" source="../../tilesets/Gather Plants Outdoor 2.x.tsx"/>
  <tileset firstgid="11261" source="../../tilesets/Gather Decoration 1.x.tsx"/>
- <group id="27" name="bg" visible="0">
+ <group id="27" name="bg">
   <layer id="1" name="grond1" width="75" height="75">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
