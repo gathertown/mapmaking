@@ -1160,7 +1160,7 @@
    </data>
   </layer>
  </group>
- <group id="8" name="FG" visible="0">
+ <group id="8" name="FG">
   <layer id="14" name="underwall decor" width="30" height="46">
    <data encoding="csv">
     <chunk x="-16" y="0" width="16" height="16">
