@@ -6,7 +6,7 @@
  <tileset firstgid="10523" source="../../tilesets/Gather Plants Outdoor 2.x.tsx"/>
  <tileset firstgid="12363" source="../../tilesets/Gather Decoration 1.x.tsx"/>
  <tileset firstgid="19923" source="../series A formula 1 party year/vic deco.tsx"/>
- <tileset firstgid="27048" source="jaden scratch rose edition.tsx"/>
+ <tileset firstgid="27048" source="open mic/jaden scratch rose edition.tsx"/>
  <tileset firstgid="27318" source="../Gather Office 4/Desks 2.tsx"/>
  <tileset firstgid="27864" source="../../tilesets/Gather Shadows 1.x.tsx"/>
  <tileset firstgid="28304" source="../Slack Office/slack furn.tsx"/>
