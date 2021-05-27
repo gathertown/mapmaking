@@ -29,6 +29,7 @@
   <terrain name="Dirt" tile="988"/>
   <terrain name="Dirt (dug)" tile="940"/>
   <terrain name="Water Edge [on top of land]" tile="855"/>
+  <terrain name="Floating Island" tile="1703"/>
  </terraintypes>
  <tile id="80" terrain=",,,0"/>
  <tile id="81" terrain=",,0,0"/>
@@ -443,4 +444,17 @@
  <tile id="1555" terrain="15,,15,15"/>
  <tile id="1556" terrain=",,15,15"/>
  <tile id="1557" terrain=",15,15,15"/>
+ <tile id="1662" terrain=",,,27"/>
+ <tile id="1663" terrain=",,27,27"/>
+ <tile id="1664" terrain=",,27,"/>
+ <tile id="1665" terrain="27,27,27,"/>
+ <tile id="1666" terrain="27,27,,27"/>
+ <tile id="1702" terrain=",27,,27"/>
+ <tile id="1703" terrain="27,27,27,27"/>
+ <tile id="1704" terrain="27,,27,"/>
+ <tile id="1705" terrain="27,,27,27"/>
+ <tile id="1706" terrain=",27,27,27"/>
+ <tile id="1742" terrain=",27,,"/>
+ <tile id="1743" terrain="27,27,,"/>
+ <tile id="1744" terrain="27,,,"/>
 </tileset>

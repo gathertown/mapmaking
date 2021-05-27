@@ -1163,7 +1163,7 @@
 </data>
   </layer>
  </group>
- <group id="29" name="fg">
+ <group id="29" name="fg" visible="0">
   <layer id="41" name="dark shadow" width="58" height="60" opacity="0.8">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
