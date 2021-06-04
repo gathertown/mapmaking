@@ -659,7 +659,7 @@
 </data>
   </layer>
  </group>
- <group id="21" name="fg" visible="0">
+ <group id="21" name="fg">
   <layer id="19" name="fg walls" width="53" height="46">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
