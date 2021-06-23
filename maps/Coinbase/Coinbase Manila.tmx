@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="17" height="42" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../../Documents/GitHub/mapmaking/tilesets/Gather Tables 1.x.tsx"/>
+ <tileset firstgid="807" source="../../../../../Documents/GitHub/mapmaking/tilesets/Gather Walls Interior 1.x.tsx"/>
+ <tileset firstgid="3057" source="../../../../../Documents/GitHub/mapmaking/tilesets/Gather Floors 1.x.tsx"/>
+ <tileset firstgid="5617" source="../../../../../Documents/GitHub/mapmaking/tilesets/Gather Chairs 1.x.tsx"/>
+ <tileset firstgid="6017" source="../../../../../Documents/GitHub/mapmaking/tilesets/Gather Decoration 1.x.tsx"/>
+ <tileset firstgid="11777" source="../../../../../Documents/GitHub/mapmaking/tilesets/Gather Plants 1.x.tsx"/>
+ <tileset firstgid="12577" source="../../tilesets/Gather Chairs 1.x.tsx"/>
+ <tileset firstgid="12977" source="../../tilesets/Gather Decoration 1.x.tsx"/>
+ <tileset firstgid="18737" source="../../../../../Documents/GitHub/mapmaking/tilesets/Gather Shadows 1.x.tsx"/>
+ <layer id="11" name="Basement" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCtUAADCfDgAAnw4GAB0BPiQBBbZLWDsCFQAELx0R
+  </data>
+ </layer>
+ <layer id="3" name="Floor" width="17" height="42" opacity="0.8">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoChUBAGABDAAAAgwAAAMMAAAHgMDzdwUBPgDrgNqh1w5MAdDjZQc=
+  </data>
+ </layer>
+ <layer id="5" name="Carpet" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCh0CAHQCAABpAAAAagAAAGsA0g0AwNHSDQBgANENAKCpDQAA0dINAKDR0g0ACQCewPmzO+DqoDhHUNkOiXDl2yVvEPUJBbA=
+  </data>
+ </layer>
+ <layer id="2" name="Walls" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCjUEANQDIgQAACUmBAA7BAAAPj8iBAAALgQAAC8EAAAxBIC8BAAARwQAAEgEAABKwtXuAADX1fDu0QQAACPqBAAAPByg4JYU3OOgghRIcNViEHBxnkBv/POWD/8EGjjHmFepjmNMVlkPOcEz3HUukHxOVpIGkZ13tmvHiDO3E3QkO2pgyAYLTEIS
+  </data>
+ </layer>
+ <layer id="14" name="Shadows" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCg0EAAQDAADFSQCAu0kA4MUAu0kAgKFAwKFJAMC7ScWgxcVJAGC7SQBgoUkA4LtJACDFSQBAIqBwt4AAA6ACqppCBwGoYFX5XJ1mQV+f8UgQe39uyPytfGZEQNz7X2JogNDElOVmVUaS0/iN6R8WJvB61gHUSJJPxB5ijCSnoRfj2xXYAQ==
+  </data>
+ </layer>
+ <layer id="12" name="Underthings" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCiUCAJgAAEAxAEExgACJMaIxijGAozGAEqDgygfAAkOrDT2gVD5RFZ2+4a9DSGPDvUOzqCs3q0Kg+s3T/JqRsOqYXZP6UM0P
+  </data>
+ </layer>
+ <layer id="1" name="Tables" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCpUDADLECxSQjSAA9NygxOVLl5RwGBp1UFvfA6MmLZoy6D3PWfKQd2zOfGm8OFF4cOAaqms6IKBAxZY9YANtMQc5CugLJOR6UPmkol+IpVfAIn2BOKw/dEFVbqqTKE/7+IgDdbT/0ZJVfnI6V8hQ/+jKpQ+qWA==
+  </data>
+ </layer>
+ <layer id="15" name="Offset" width="17" height="42" offsetx="0" offsety="-4">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCr0AACAAAEIeBQCtoYLKzaVCGVDBLyYe4gdY
+  </data>
+ </layer>
+ <layer id="13" name="Overthings" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoCi0BAFgAAHkuAI0uAJ45gAgAOaCg8mlUyAAK7ix3J2C5wD8MpHGkAlg=
+  </data>
+ </layer>
+ <layer id="10" name="Foreground" width="17" height="42">
+  <data encoding="base64" compression="zstd">
+   KLUv/WAoClUCAMgAAHouAI4uABIWAEEeZR6LMaQxeS4AfY2REqDQSh8gIwxbrAaM9yQlHn20xeo5VFRXblJnovzN0v8maX4z6b8pByoE1UxypBgG
+  </data>
+ </layer>
+</map>
