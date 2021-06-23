@@ -1,0 +1,1 @@
+Use the layered Aseprite doc to change text, then export to "landing zone.png"
