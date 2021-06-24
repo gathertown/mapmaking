@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.3" name="Gather Floors 1.x" tilewidth="32" tileheight="32" tilecount="2560" columns="40">
- <image source="gather_floors_1.4.png" width="1280" height="2048"/>
+<tileset version="1.4" tiledversion="1.4.3" name="Gather Floors 1.x" tilewidth="32" tileheight="32" tilecount="2720" columns="40">
+ <image source="gather_floors_1.4.png" width="1280" height="2176"/>
  <terraintypes>
   <terrain name="Walnut Platform" tile="121"/>
   <terrain name="Oak Platform" tile="129"/>
@@ -30,6 +30,8 @@
   <terrain name="Dirt (dug)" tile="940"/>
   <terrain name="Water Edge [on top of land]" tile="855"/>
   <terrain name="Floating Island" tile="1703"/>
+  <terrain name="Grass Lt (Textured)" tile="2605"/>
+  <terrain name="Grass Lt (Smooth" tile="2657"/>
  </terraintypes>
  <tile id="80" terrain=",,,0"/>
  <tile id="81" terrain=",,0,0"/>
@@ -457,4 +459,36 @@
  <tile id="1742" terrain=",27,,"/>
  <tile id="1743" terrain="27,27,,"/>
  <tile id="1744" terrain="27,,,"/>
+ <tile id="2600" terrain="28,28,28,28"/>
+ <tile id="2601" terrain="28,28,28,28"/>
+ <tile id="2602" terrain="28,28,28,28"/>
+ <tile id="2603" terrain="28,28,28,28"/>
+ <tile id="2604" terrain="28,28,28,28"/>
+ <tile id="2605" terrain="28,28,28,28"/>
+ <tile id="2606" terrain="28,28,28,28"/>
+ <tile id="2607" terrain="28,28,28,28"/>
+ <tile id="2608" terrain="29,29,29,29"/>
+ <tile id="2609" terrain="29,29,29,29"/>
+ <tile id="2610" terrain="29,29,29,29"/>
+ <tile id="2611" terrain="29,29,29,29"/>
+ <tile id="2612" terrain="29,29,29,29"/>
+ <tile id="2613" terrain="29,29,29,29"/>
+ <tile id="2614" terrain="29,29,29,29"/>
+ <tile id="2615" terrain="29,29,29,29"/>
+ <tile id="2616" terrain=",,,29"/>
+ <tile id="2617" terrain=",,29,29"/>
+ <tile id="2618" terrain=",,29,"/>
+ <tile id="2619" terrain="29,29,29,"/>
+ <tile id="2620" terrain="29,29,,"/>
+ <tile id="2621" terrain="29,29,,29"/>
+ <tile id="2656" terrain=",29,,29"/>
+ <tile id="2658" terrain="29,,29,"/>
+ <tile id="2659" terrain="29,,29,"/>
+ <tile id="2661" terrain=",29,,29"/>
+ <tile id="2696" terrain=",29,,"/>
+ <tile id="2697" terrain="29,29,,"/>
+ <tile id="2698" terrain="29,,,"/>
+ <tile id="2699" terrain="29,,29,29"/>
+ <tile id="2700" terrain=",,29,29"/>
+ <tile id="2701" terrain=",29,29,29"/>
 </tileset>
