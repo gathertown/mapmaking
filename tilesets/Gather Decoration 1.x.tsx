@@ -31,7 +31,7 @@
   </animation>
  </tile>
  <wangsets>
-  <wangset name="Fences" type="corner" tile="6831">
+  <wangset name="Fences (outlines)" type="corner" tile="6831">
    <wangcolor name="tight wide fence" color="#ff0000" tile="2153" probability="1"/>
    <wangcolor name="wide white fence" color="#00ff00" tile="2148" probability="1"/>
    <wangcolor name="tight butter fence" color="#0000ff" tile="2322" probability="1"/>
