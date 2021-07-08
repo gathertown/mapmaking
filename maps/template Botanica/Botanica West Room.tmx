@@ -1533,7 +1533,7 @@
 </data>
   </layer>
  </group>
- <group id="17" name="FG" visible="0">
+ <group id="17" name="FG">
   <layer id="36" name="fences" width="55" height="42">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
