@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="1" height="5" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="../../../tilesets/gather_floors_1.x.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="1" height="5">
+  <data encoding="csv">
+402,
+402,
+402,
+402,
+402
+</data>
+ </layer>
+</map>
