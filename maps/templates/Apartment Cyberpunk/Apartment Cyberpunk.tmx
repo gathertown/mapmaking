@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="16" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/gather_decoration_1.x.tsx"/>
+ <tileset firstgid="7561" source="../../tilesets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="12761" source="../../tilesets/gather_exterior_roofs_2.x.tsx"/>
+ <tileset firstgid="26261" source="../../tilesets/gather_exterior_walls_1.x.tsx"/>
+ <tileset firstgid="28411" source="../../tilesets/gather_exterior_walls_2.x.tsx"/>
+ <tileset firstgid="59611" source="../../tilesets/gather_floors_1.x.tsx"/>
+ <tileset firstgid="62811" source="../../tilesets/gather_games_1.x.tsx"/>
+ <tileset firstgid="63411" source="../../tilesets/gather_interior_walls_1.x.tsx"/>
+ <tileset firstgid="70936" source="../../tilesets/gather_logos_1.x.tsx"/>
+ <tileset firstgid="71400" source="../../tilesets/gather_plants_1.x.tsx"/>
+ <tileset firstgid="72280" source="../../tilesets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="74120" source="../../tilesets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="74560" source="../../tilesets/gather_signage_1.x.tsx"/>
+ <tileset firstgid="77752" source="../../tilesets/gather_swatches_1.x.tsx"/>
+ <tileset firstgid="77987" source="../../tilesets/gather_tables_1.x.tsx"/>
+ <tileset firstgid="79053" source="../../tilesets/gather_tables_2.x.tsx"/>
+ <tileset firstgid="88053" source="../../tilesets/temp.tsx"/>
+ <tileset firstgid="91053" source="../../assets/skyline small (for behind windows).tsx"/>
+ <layer id="3" name="Background" width="16" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,91083,91084,91088,91089,0,0,0,
+0,0,0,0,0,0,0,0,0,91098,91099,91103,91104,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Floors" width="16" height="8">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,59635,59636,59637,59635,59636,59637,59635,59636,3221285430,3221285430,3221285430,3221285430,0,59636,0,
+0,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,0,
+0,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,0,
+0,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,0,
+0,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,59637,59635,59636,0,
+0,0,0,0,0,0,0,0,0,0,59635,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,59635,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Walls" width="16" height="8">
+  <data encoding="csv">
+70462,70213,70213,70713,70713,70713,70713,70213,70213,70483,70484,70484,70485,70213,70213,70466,
+70487,70238,70238,70738,70738,70738,70738,70238,70238,70508,70509,70509,70510,70238,70238,70491,
+70487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70616,
+70487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70616,
+70487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70616,
+70612,70613,0,0,0,0,0,0,0,0,0,0,0,0,70615,70616,
+70887,70888,70888,70888,70888,70888,70888,70888,70888,70888,70724,70888,70888,70888,70888,70891,
+70912,70913,70913,70913,70913,70913,70913,70913,70913,70913,70749,70913,70913,70913,70913,70916
+</data>
+ </layer>
+ <layer id="4" name="Grafiti" width="16" height="8">
+  <data encoding="csv">
+0,0,0,89889,0,0,89889,0,0,0,0,0,0,0,0,0,
+0,0,0,89919,0,0,89919,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Raisin Offset" width="16" height="8" offsetx="8" offsety="16">
+  <data encoding="csv">
+0,0,0,0,89917,89918,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,89947,89948,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="9 Offset" width="16" height="8" offsetx="0" offsety="18">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,76578,0,76578,0,0,0,0,
+0,0,0,0,0,0,0,0,0,76618,0,76618,0,0,0,0
+</data>
+ </layer>
+</map>
