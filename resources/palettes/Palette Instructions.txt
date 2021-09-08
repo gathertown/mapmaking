@@ -1,0 +1,13 @@
+To save the GatherPalette as Preset in Aseprite:
+
+- Open "gather 45(With arranged Palette).aseprite"
+- Palette Menu (button with 3 lines) > Save Palette as Preset > Name it
+- Optional Step: Palette Menu (button with 3 lines) > Save Palette as Default
+
+In case you don't want it as a default, but you want to access it (or to other palettes):
+
+Paint Palette Icon > Look for the name you gave to the palette > Double click it or click "Load"
+
+In case the swatches are misaligned:
+Select a black swatch > Ctrl + Click the surrounding edge to duplicate it and drag it.
+The swatches will rearrange as you move it. Repeat the process for the palette to fit your window size :D
