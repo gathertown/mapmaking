@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.0" name="Gather Floors 1.x" tilewidth="32" tileheight="32" tilecount="3200" columns="40">
+<tileset version="1.5" tiledversion="1.7.0" name="Gather Floors 1.x" tilewidth="32" tileheight="32" tilecount="5440" columns="40">
  <transformations hflip="1" vflip="1" rotate="1" preferuntransformed="1"/>
- <image source="gather_floors_1.5.png" width="1280" height="2560"/>
+ <image source="gather_floors_1.5.png" width="1280" height="4352"/>
  <wangsets>
   <wangset name="Outdoor terrain" type="corner" tile="2629">
    <wangcolor name="Sand Ripples" color="#00e9ff" tile="1051" probability="1"/>
@@ -109,28 +109,6 @@
    <wangtile tileid="1742" wangid="0,8,0,0,0,0,0,0"/>
    <wangtile tileid="1743" wangid="0,8,0,0,0,0,0,8"/>
    <wangtile tileid="1744" wangid="0,0,0,0,0,0,0,8"/>
-   <wangtile tileid="2600" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2601" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2602" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2603" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2604" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2605" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2606" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2607" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2608" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2609" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2610" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2611" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2612" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2613" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2614" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2615" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2616" wangid="0,0,0,9,0,0,0,0"/>
-   <wangtile tileid="2617" wangid="0,0,0,9,0,9,0,0"/>
-   <wangtile tileid="2618" wangid="0,0,0,0,0,9,0,0"/>
-   <wangtile tileid="2619" wangid="0,9,0,0,0,9,0,9"/>
-   <wangtile tileid="2620" wangid="0,9,0,0,0,0,0,9"/>
-   <wangtile tileid="2621" wangid="0,9,0,9,0,0,0,9"/>
    <wangtile tileid="2622" wangid="0,0,0,10,0,0,0,0"/>
    <wangtile tileid="2623" wangid="0,0,0,10,0,10,0,0"/>
    <wangtile tileid="2624" wangid="0,0,0,0,0,10,0,0"/>
@@ -159,11 +137,6 @@
    <wangtile tileid="2653" wangid="0,10,0,10,0,10,0,10"/>
    <wangtile tileid="2654" wangid="0,10,0,10,0,10,0,10"/>
    <wangtile tileid="2655" wangid="0,10,0,10,0,10,0,10"/>
-   <wangtile tileid="2656" wangid="0,9,0,9,0,0,0,0"/>
-   <wangtile tileid="2657" wangid="0,9,0,9,0,9,0,9"/>
-   <wangtile tileid="2658" wangid="0,0,0,0,0,9,0,9"/>
-   <wangtile tileid="2659" wangid="0,0,0,0,0,9,0,9"/>
-   <wangtile tileid="2661" wangid="0,9,0,9,0,0,0,0"/>
    <wangtile tileid="2662" wangid="0,10,0,10,0,0,0,0"/>
    <wangtile tileid="2663" wangid="0,10,0,10,0,10,0,10"/>
    <wangtile tileid="2664" wangid="0,0,0,0,0,10,0,10"/>
@@ -190,12 +163,6 @@
    <wangtile tileid="2693" wangid="0,11,0,11,0,11,0,11"/>
    <wangtile tileid="2694" wangid="0,11,0,11,0,11,0,11"/>
    <wangtile tileid="2695" wangid="0,11,0,11,0,11,0,11"/>
-   <wangtile tileid="2696" wangid="0,9,0,0,0,0,0,0"/>
-   <wangtile tileid="2697" wangid="0,9,0,0,0,0,0,9"/>
-   <wangtile tileid="2698" wangid="0,0,0,0,0,0,0,9"/>
-   <wangtile tileid="2699" wangid="0,0,0,9,0,9,0,9"/>
-   <wangtile tileid="2700" wangid="0,0,0,9,0,9,0,0"/>
-   <wangtile tileid="2701" wangid="0,9,0,9,0,9,0,0"/>
    <wangtile tileid="2702" wangid="0,10,0,0,0,0,0,0"/>
    <wangtile tileid="2703" wangid="0,10,0,0,0,0,0,10"/>
    <wangtile tileid="2704" wangid="0,0,0,0,0,0,0,10"/>
@@ -208,6 +175,19 @@
    <wangtile tileid="2711" wangid="0,0,0,11,0,11,0,11"/>
    <wangtile tileid="2712" wangid="0,0,0,11,0,11,0,0"/>
    <wangtile tileid="2713" wangid="0,11,0,11,0,11,0,0"/>
+   <wangtile tileid="3363" wangid="0,0,0,9,0,0,0,0"/>
+   <wangtile tileid="3364" wangid="0,0,0,9,0,9,0,0"/>
+   <wangtile tileid="3365" wangid="0,0,0,0,0,9,0,0"/>
+   <wangtile tileid="3366" wangid="0,9,0,0,0,9,0,9"/>
+   <wangtile tileid="3367" wangid="0,9,0,9,0,0,0,9"/>
+   <wangtile tileid="3403" wangid="0,9,0,9,0,0,0,0"/>
+   <wangtile tileid="3404" wangid="0,9,0,9,0,9,0,9"/>
+   <wangtile tileid="3405" wangid="0,0,0,0,0,9,0,9"/>
+   <wangtile tileid="3406" wangid="0,0,0,9,0,9,0,9"/>
+   <wangtile tileid="3407" wangid="0,9,0,9,0,9,0,0"/>
+   <wangtile tileid="3443" wangid="0,9,0,0,0,0,0,0"/>
+   <wangtile tileid="3444" wangid="0,9,0,0,0,0,0,9"/>
+   <wangtile tileid="3445" wangid="0,0,0,0,0,0,0,9"/>
   </wangset>
   <wangset name="Wood Platforms" type="corner" tile="201">
    <wangcolor name="Dark (legs)" color="#ff0000" tile="161" probability="1"/>
