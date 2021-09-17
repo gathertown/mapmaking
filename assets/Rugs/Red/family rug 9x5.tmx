@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="9" height="5" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
- <layer id="1" name="Tile Layer 1" width="9" height="5">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="9" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="../../../tilesets/gather_floors_1.x.tsx"/>
+ <tileset firstgid="4641" source="../../../tilesets/gather_islands_1.x.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="9" height="7">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0
+3221226070,1610613294,1610613294,1610613294,1610613294,1610613294,1610613294,1610613294,1610613334,
+3221226030,4648,3221226315,3221226314,3221226313,3221226315,3221226314,4649,558,
+3221226030,4667,3221226275,3221226274,3221226273,3221226275,3221226274,4665,558,
+3221226030,4667,762,763,761,762,763,4665,558,
+3221226030,4667,802,803,801,802,803,4665,558,
+3221226030,4668,842,843,841,842,843,4669,558,
+2684355158,2684355118,2684355118,2684355118,2684355118,2684355118,2684355118,2684355118,598
 </data>
  </layer>
 </map>
