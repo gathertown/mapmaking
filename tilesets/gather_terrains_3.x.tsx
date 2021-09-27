@@ -319,7 +319,7 @@
  <wangsets>
   <wangset name="Terrains 3.x" type="corner" tile="79">
    <wangcolor name="Grass: Green (Light)" color="#5f9234" tile="246" probability="1"/>
-   <wangcolor name="Grass: Green (Medium)" color="#4b692f" tile="486" probability="1"/>
+   <wangcolor name="Grass: Green (Medium)" color="#0edfff" tile="486" probability="1"/>
    <wangcolor name="Grass: Green (Dark)" color="#323c39" tile="726" probability="1"/>
    <wangcolor name="Grass: Blue (Light)" color="#37946e" tile="966" probability="1"/>
    <wangcolor name="Grass Blue (Dark)" color="#006c57" tile="1206" probability="1"/>
@@ -532,8 +532,8 @@
    <wangtile tileid="504" wangid="0,2,0,5,0,2,0,2"/>
    <wangtile tileid="505" wangid="0,2,0,5,0,5,0,2"/>
    <wangtile tileid="506" wangid="0,2,0,2,0,5,0,2"/>
-   <wangtile tileid="507" wangid="0,0,0,2,0,0,0,0"/>
-   <wangtile tileid="508" wangid="0,0,0,0,0,2,0,0"/>
+   <wangtile tileid="507" wangid="0,5,0,2,0,5,0,5"/>
+   <wangtile tileid="508" wangid="0,5,0,5,0,2,0,5"/>
    <wangtile tileid="509" wangid="0,5,0,5,0,2,0,2"/>
    <wangtile tileid="510" wangid="0,2,0,2,0,5,0,5"/>
    <wangtile tileid="511" wangid="0,2,0,4,0,2,0,2"/>
@@ -588,8 +588,8 @@
    <wangtile tileid="571" wangid="0,2,0,0,0,0,0,2"/>
    <wangtile tileid="584" wangid="0,5,0,5,0,2,0,2"/>
    <wangtile tileid="586" wangid="0,2,0,2,0,5,0,5"/>
-   <wangtile tileid="587" wangid="0,2,0,0,0,0,0,0"/>
-   <wangtile tileid="588" wangid="0,0,0,0,0,0,0,2"/>
+   <wangtile tileid="587" wangid="0,2,0,5,0,5,0,5"/>
+   <wangtile tileid="588" wangid="0,5,0,5,0,5,0,2"/>
    <wangtile tileid="589" wangid="0,5,0,5,0,2,0,2"/>
    <wangtile tileid="590" wangid="0,2,0,2,0,5,0,5"/>
    <wangtile tileid="591" wangid="0,4,0,4,0,2,0,2"/>
@@ -641,8 +641,8 @@
    <wangtile tileid="664" wangid="0,5,0,2,0,2,0,2"/>
    <wangtile tileid="665" wangid="0,5,0,2,0,2,0,5"/>
    <wangtile tileid="666" wangid="0,2,0,2,0,2,0,5"/>
-   <wangtile tileid="667" wangid="0,0,0,2,0,2,0,0"/>
-   <wangtile tileid="668" wangid="0,0,0,2,0,2,0,0"/>
+   <wangtile tileid="667" wangid="0,5,0,2,0,2,0,5"/>
+   <wangtile tileid="668" wangid="0,5,0,2,0,2,0,5"/>
    <wangtile tileid="669" wangid="0,2,0,5,0,5,0,2"/>
    <wangtile tileid="670" wangid="0,2,0,5,0,5,0,2"/>
    <wangtile tileid="671" wangid="0,4,0,2,0,2,0,2"/>
