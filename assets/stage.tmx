@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="12" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="12" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="../tilesets/gather_floors_1.x.tsx"/>
  <layer id="1" name="Tile Layer 1" width="12" height="6">
+  <data encoding="csv">
+0,81,82,82,82,82,82,82,82,82,83,0,
+0,121,122,122,122,122,122,122,122,122,123,0,
+0,121,122,122,122,122,122,122,122,122,123,0,
+0,121,122,122,122,122,122,122,122,122,123,0,
+0,161,165,165,162,165,165,162,165,165,163,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="12" height="6">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
+0,2147483896,0,0,0,0,0,0,0,0,248,0,
+0,2147483936,0,0,0,0,0,0,0,0,288,0,
+0,2147483976,0,0,0,0,0,0,0,0,328,0,
 0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
