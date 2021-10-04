@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../tilesets/gather_terrains_3.x.tsx"/>
+ <layer id="1" name="Terrain" width="100" height="100">
+  <data encoding="csv"/>
+ </layer>
+</map>
