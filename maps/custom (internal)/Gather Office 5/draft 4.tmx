@@ -20,7 +20,6 @@
  <tileset firstgid="50919" source="../Gather Office 4/Rugs too.tsx"/>
  <tileset firstgid="53439" source="Curtains.tsx"/>
  <tileset firstgid="53864" source="../../../tilesets/Wall Maker/Interior Wall Maker/WallsetCyberpunk.tsx"/>
- <tileset firstgid="54089" source="../../../tilesets/temp.tsx"/>
  <tileset firstgid="54089" source="../../../objects/WIP/13/Old Themes/gather_signage_0.x.tsx"/>
  <tileset firstgid="57249" source="../Gather Office 4/Rugs too cont.tsx"/>
  <tileset firstgid="71265" source="../../../tilesets/gather_exterior_decoration_1.x.tsx"/>
