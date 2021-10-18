@@ -2004,6 +2004,26 @@
   </wangset>
   <wangset name="Standalone Terrains: Cliffs" type="corner" tile="78">
    <wangcolor name="Ice" color="#ff0000" tile="2174" probability="1"/>
+   <wangcolor name="Grass" color="#00ff00" tile="254" probability="1"/>
+   <wangtile tileid="251" wangid="0,0,0,2,0,0,0,0"/>
+   <wangtile tileid="252" wangid="0,0,0,2,0,2,0,0"/>
+   <wangtile tileid="253" wangid="0,0,0,0,0,2,0,0"/>
+   <wangtile tileid="254" wangid="0,2,0,0,0,2,0,2"/>
+   <wangtile tileid="255" wangid="0,2,0,2,0,0,0,2"/>
+   <wangtile tileid="256" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="257" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="258" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="259" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="260" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="261" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="321" wangid="0,2,0,2,0,2,0,2"/>
+   <wangtile tileid="331" wangid="0,2,0,2,0,0,0,0"/>
+   <wangtile tileid="333" wangid="0,0,0,0,0,2,0,2"/>
+   <wangtile tileid="334" wangid="0,0,0,2,0,2,0,2"/>
+   <wangtile tileid="335" wangid="0,2,0,2,0,2,0,0"/>
+   <wangtile tileid="411" wangid="0,2,0,0,0,0,0,0"/>
+   <wangtile tileid="412" wangid="0,2,0,0,0,0,0,2"/>
+   <wangtile tileid="413" wangid="0,0,0,0,0,0,0,2"/>
    <wangtile tileid="2171" wangid="0,0,0,1,0,0,0,0"/>
    <wangtile tileid="2172" wangid="0,0,0,1,0,1,0,0"/>
    <wangtile tileid="2173" wangid="0,0,0,0,0,1,0,0"/>
