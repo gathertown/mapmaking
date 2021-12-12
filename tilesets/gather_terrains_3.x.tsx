@@ -660,6 +660,11 @@
  <tile id="6021" probability="0.01"/>
  <tile id="6022" probability="0.01"/>
  <tile id="6023" probability="0.01"/>
+ <tile id="6080" probability="0.1"/>
+ <tile id="6081" probability="0.1"/>
+ <tile id="6082" probability="0.1"/>
+ <tile id="6086" probability="0.1"/>
+ <tile id="6087" probability="0.1"/>
  <tile id="6096" probability="0.01"/>
  <tile id="6097" probability="0.01"/>
  <tile id="6098" probability="0.01"/>
@@ -668,6 +673,10 @@
  <tile id="6101" probability="0.01"/>
  <tile id="6102" probability="0.01"/>
  <tile id="6103" probability="0.01"/>
+ <tile id="6160" probability="0.1"/>
+ <tile id="6162" probability="0.1"/>
+ <tile id="6166" probability="0.1"/>
+ <tile id="6167" probability="0.1"/>
  <tile id="6176" probability="0.01"/>
  <tile id="6177" probability="0.01"/>
  <tile id="6178" probability="0.01"/>
@@ -676,6 +685,9 @@
  <tile id="6181" probability="0.01"/>
  <tile id="6182" probability="0.01"/>
  <tile id="6183" probability="0.01"/>
+ <tile id="6240" probability="0.1"/>
+ <tile id="6241" probability="0.1"/>
+ <tile id="6242" probability="0.1"/>
  <tile id="6256" probability="0.01"/>
  <tile id="6257" probability="0.01"/>
  <tile id="6258" probability="0.01"/>
@@ -1662,7 +1674,7 @@
    <wangcolor name="Ice" color="#00ffa1" tile="2163" probability="1"/>
    <wangcolor name="Stone" color="#ffa8a8" tile="2403" probability="1"/>
    <wangcolor name="Stone Dark" color="#b4a8ff" tile="2643" probability="1"/>
-   <wangcolor name="Cliff: Ice" color="#96ffa7" tile="2174" probability="1"/>
+   <wangcolor name="Snow" color="#8e7848" tile="-1" probability="1"/>
    <wangtile tileid="240" wangid="0,0,0,1,0,0,0,0"/>
    <wangtile tileid="241" wangid="0,0,0,1,0,1,0,0"/>
    <wangtile tileid="242" wangid="0,0,0,0,0,1,0,0"/>
@@ -2001,6 +2013,43 @@
    <wangtile tileid="2817" wangid="0,11,0,11,0,11,0,11"/>
    <wangtile tileid="2818" wangid="0,11,0,11,0,11,0,11"/>
    <wangtile tileid="2819" wangid="0,11,0,11,0,11,0,11"/>
+   <wangtile tileid="6080" wangid="0,0,0,12,0,0,0,0"/>
+   <wangtile tileid="6081" wangid="0,0,0,12,0,12,0,0"/>
+   <wangtile tileid="6082" wangid="0,0,0,0,0,12,0,0"/>
+   <wangtile tileid="6083" wangid="0,0,0,12,0,0,0,0"/>
+   <wangtile tileid="6084" wangid="0,0,0,12,0,12,0,0"/>
+   <wangtile tileid="6085" wangid="0,0,0,0,0,12,0,0"/>
+   <wangtile tileid="6086" wangid="0,12,0,0,0,12,0,12"/>
+   <wangtile tileid="6087" wangid="0,12,0,12,0,0,0,12"/>
+   <wangtile tileid="6096" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6097" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6098" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6099" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6100" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6101" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6160" wangid="0,12,0,12,0,0,0,0"/>
+   <wangtile tileid="6161" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6162" wangid="0,0,0,0,0,12,0,12"/>
+   <wangtile tileid="6163" wangid="0,12,0,12,0,0,0,0"/>
+   <wangtile tileid="6165" wangid="0,0,0,0,0,12,0,12"/>
+   <wangtile tileid="6166" wangid="0,0,0,12,0,12,0,12"/>
+   <wangtile tileid="6167" wangid="0,12,0,12,0,12,0,0"/>
+   <wangtile tileid="6176" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6177" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6178" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6179" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6180" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6181" wangid="0,12,0,12,0,12,0,12"/>
+   <wangtile tileid="6240" wangid="0,12,0,0,0,0,0,0"/>
+   <wangtile tileid="6241" wangid="0,12,0,0,0,0,0,12"/>
+   <wangtile tileid="6242" wangid="0,0,0,0,0,0,0,12"/>
+   <wangtile tileid="6243" wangid="0,12,0,0,0,0,0,0"/>
+   <wangtile tileid="6244" wangid="0,12,0,0,0,0,0,12"/>
+   <wangtile tileid="6245" wangid="0,0,0,0,0,0,0,12"/>
+   <wangtile tileid="6246" wangid="0,12,0,0,0,12,0,12"/>
+   <wangtile tileid="6247" wangid="0,12,0,12,0,0,0,12"/>
+   <wangtile tileid="6326" wangid="0,0,0,12,0,12,0,12"/>
+   <wangtile tileid="6327" wangid="0,12,0,12,0,12,0,0"/>
   </wangset>
   <wangset name="Standalone Terrains: Cliffs" type="corner" tile="78">
    <wangcolor name="Ice" color="#ff0000" tile="2174" probability="1"/>
