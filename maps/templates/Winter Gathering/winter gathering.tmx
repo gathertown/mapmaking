@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="69" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="36" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="69" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="36" nextobjectid="1">
  <tileset firstgid="1" source="../../../tilesets/gather_terrains_3.x.tsx"/>
- <tileset firstgid="7841" source="../../../../scratch/Maker Week/temp sheet.tsx"/>
+ <tileset firstgid="7841" source="temp sheet.tsx"/>
  <tileset firstgid="8241" source="../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
  <tileset firstgid="13281" source="../../../tilesets/gather_exterior_walls_2.x.tsx"/>
  <tileset firstgid="44481" source="../../../tilesets/gather_exterior_roofs_2.x.tsx"/>
