@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.0" name="Gather Plants Outdoor 2.x" tilewidth="32" tileheight="32" tilecount="4760" columns="40">
- <image source="gather_plants_outdoor_2.1.png" width="1280" height="3808"/>
+<tileset version="1.5" tiledversion="1.7.2" name="Gather Plants Outdoor 2.x" tilewidth="32" tileheight="32" tilecount="5040" columns="40">
+ <image source="gather_plants_outdoor_2.1.png" width="1280" height="4032"/>
  <wangsets>
   <wangset name="Terrains" type="corner" tile="-1">
    <wangcolor name="Hedge (Round, outline only)" color="#ff0000" tile="1209" probability="1"/>
