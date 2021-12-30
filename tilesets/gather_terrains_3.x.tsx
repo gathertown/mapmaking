@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.0" name="Gather Terrains 3.x" tilewidth="32" tileheight="32" tilecount="7840" columns="80">
+<tileset version="1.5" tiledversion="1.7.2" name="Gather Terrains 3.x" tilewidth="32" tileheight="32" tilecount="7840" columns="80">
  <image source="gather_terrains_3.a.png" width="2560" height="3136"/>
  <tile id="240" probability="0.1"/>
  <tile id="241" probability="0.1"/>
@@ -516,9 +516,9 @@
  <tile id="4581" probability="0.01"/>
  <tile id="4582" probability="0.01"/>
  <tile id="4583" probability="0.01"/>
- <tile id="4656" probability="0.01"/>
- <tile id="4657" probability="0.01"/>
- <tile id="4658" probability="0.01"/>
+ <tile id="4656" probability="0.005"/>
+ <tile id="4657" probability="0.005"/>
+ <tile id="4658" probability="0.005"/>
  <tile id="4659" probability="0.01"/>
  <tile id="4660" probability="0.01"/>
  <tile id="4661" probability="0.01"/>
@@ -540,9 +540,9 @@
  <tile id="4821" probability="0.01"/>
  <tile id="4822" probability="0.01"/>
  <tile id="4823" probability="0.01"/>
- <tile id="4896" probability="0.01"/>
- <tile id="4897" probability="0.01"/>
- <tile id="4898" probability="0.01"/>
+ <tile id="4896" probability="0.005"/>
+ <tile id="4897" probability="0.005"/>
+ <tile id="4898" probability="0.005"/>
  <tile id="4899" probability="0.01"/>
  <tile id="4900" probability="0.01"/>
  <tile id="4901" probability="0.01"/>
@@ -737,7 +737,7 @@
  <tile id="6662" probability="0.01"/>
  <tile id="6663" probability="0.01"/>
  <wangsets>
-  <wangset name="Terrains 3.x" type="corner" tile="79">
+  <wangset name="Terrains 3.x" type="corner" tile="4897">
    <wangcolor name="Grass: Green MAIN" color="#5f9234" tile="246" probability="1"/>
    <wangcolor name="Grass: Green Medium" color="#4b692f" tile="486" probability="1"/>
    <wangcolor name="Grass Green: Light" color="#6abe30" tile="274" probability="1"/>
