@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="80" height="80" tilewidth="32" tileheight="32" infinite="0" nextlayerid="21" nextobjectid="1">
- <tileset firstgid="1" source="../../../tilesets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="1" source="../../../../tilesets/gather_terrains_3.x.tsx"/>
  <tileset firstgid="7841" source="Maze Tiles.tsx"/>
- <tileset firstgid="8001" source="../../../tilesets/gather_swatches_1.x.tsx"/>
- <tileset firstgid="8236" source="../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
- <tileset firstgid="13276" source="../../../tilesets/gather_floors_1.x.tsx"/>
- <tileset firstgid="18716" source="../../../tilesets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="8001" source="../../../../tilesets/gather_swatches_1.x.tsx"/>
+ <tileset firstgid="8236" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="13276" source="../../../../tilesets/gather_floors_1.x.tsx"/>
+ <tileset firstgid="18716" source="../../../../tilesets/gather_shadows_1.x.tsx"/>
  <group id="10" name="bg">
   <layer id="1" name="grond" width="80" height="80">
    <data encoding="csv">
