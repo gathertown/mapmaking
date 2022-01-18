@@ -5,7 +5,7 @@
  <tileset firstgid="13466" source="../../../../tilesets/gather_swatches_1.x.tsx"/>
  <tileset firstgid="13701" source="_lab.tsx"/>
  <tileset firstgid="13941" source="../../../../tilesets/gather_decoration_1.x.tsx"/>
- <tileset firstgid="21897" source="../Jungle/Maze Tiles.tsx"/>
+ <tileset firstgid="21897" source="../Jungle Maze/Maze Tiles.tsx"/>
  <tileset firstgid="22057" source="../Factory/_factory.tsx"/>
  <group id="21" name="bg">
   <layer id="5" name="floor" width="33" height="40">
