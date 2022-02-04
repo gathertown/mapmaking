@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="61" height="38" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="61" height="38" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="1">
  <tileset firstgid="1" source="../../../../tilesets/gather_terrains_3.x.tsx"/>
  <tileset firstgid="7841" source="../../../../tilesets/gather_floors_1.x.tsx"/>
  <tileset firstgid="13281" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
@@ -258,6 +258,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
   </layer>
+  <imagelayer id="14" name="boat" offsetx="832" offsety="288">
+   <image source="../boat bg.png" width="640" height="288"/>
+  </imagelayer>
  </group>
  <group id="11" name="fg" visible="0">
   <layer id="6" name="trees 0" width="61" height="38">
@@ -428,6 +431,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
   </layer>
+  <imagelayer id="15" name="boat fg" offsetx="832" offsety="288">
+   <image source="../boat fg.png" width="640" height="288"/>
+  </imagelayer>
   <layer id="7" name="umbrellas" width="61" height="38">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
