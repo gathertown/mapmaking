@@ -7,7 +7,7 @@
  </layer>
  <objectgroup id="2" name="Text" offsetx="-14.5455" offsety="-12.5455">
   <object id="1" x="15.0097" y="7.96663" width="451.5" height="200">
-   <text fontfamily="Amatic" pixelsize="32" wrap="1" color="#222034" bold="1">Press [x] to interact with objects</text>
+   <text fontfamily="Amatic" pixelsize="32" wrap="1" color="#cbdbfc" bold="1">Create your own space here</text>
   </object>
  </objectgroup>
 </map>
