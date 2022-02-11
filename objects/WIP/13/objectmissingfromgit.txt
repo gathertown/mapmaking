@@ -1,0 +1,75 @@
+can we please change the dashboard for edit object to have clickable selection of tags, and/or a larger tags field 
+Acoustic Guitar
+Acoustic Guitar on Stand
+Electric Guitar
+Electric Guitar on Stand
+ADD TAG appliance/lighting/floor to Floor Lamp
+ADD TAG appliance/lighting/floor to tiki torches
+Christmas Tree
+REMAKE Palm Tree (old)
+Palm Tree (skinny)
+RENAME potted plant (small banana leaf) to potted plant (banana leaf small)
+RENAME potted plant (small monstera) to potted plant (monstera small)
+RE MAKE OLD POTTED PLANT ASSETS: skinny, banana leaf, monstera, spikey, floofy
+Pumpkin, all sizes, and pumpkin patch 
+Venus Flytrap
+RENAME window planter box to planter box (window)
+Appliances as a category is borked, machine, work, entertainment, and computer as a category all intersect in a broken way. 
+REMOVE TAG appliance from Diya (single)
+ADD TAG appliance/lighting/table to ALL CANDLE OBJECTS
+decoration/lighting and appliance/lighting/table are in conflict
+RENAME wall sconce to Torch and add appliance/lighting/wall to the tags
+Add torch/wall sconce to object picker
+added dreidel to games tag (maybe, need to check with mark)
+piano is in conflict with game tag and appliances/entertainment/music
+covidopoly is no longer in OP
+add appliance/food to piragua
+remove appliance/food from poi taro and timer pomodoro
+appliances....... need work..... 
+food cart
+gas tank storage not in git, station 13 objects are anomalies- talk to Daud
+ADD TAG decoration/eating/food to apple
+ADD TAG decoration/eating to pastry case
+ADD TAG decoration/eating to cooler
+ADD TAG decoration/eating to coffee maker
+ADD TAG decoration/eating to hanging garlic budle
+ADD TAG decoration/eating to ham 
+ADD TAG decoration/eating to mugs 
+ADD TAG decoration/eating to stove
+ADD TAG decoration/eating to tokishobi soba
+ADD TABLE SET TAG
+ADD BUNTING TAG
+REMOVE TAG decoration/eating from table wreath
+REMOVE TAG decoration/eating from witch table set
+Pots & Pans (hanging) seems BROKEN on OP. reupload
+Round Challah seems BROKEN on OP reupload
+BROKEN ON OP round grill . add decoration/eating tag to round grill 
+BROKEN ON OP refrigerator retro
+decoration/tabletop/food is in conflict decoration/eating
+ADD TAG decoration/eating/drink to bar taps
+TABLEWARE is borked
+I think all food/drink/tableware should be simplified into one tag
+or rename tableware to kitchen
+add tableware tag to food related but non-food objects like cooler and pastry case
+ALL THINGS TAGGED decorations/eating/food IS NOT SHOWING UP DUE TO TYPO (plural form of deoration)
+Champagne Bottle (both sizes) not in uploaded folder
+decoration/tabletop/food and decoration/eating/food are in conflict
+SUGGESTIONS
+decoration/wall/window
+decoration/wall/painting 
+decoraton/wall/bunting
+decoration/wall/flag
+decoration/wall/tapestry
+
+jaide needs to move holly bunting from scraps to bunting folder in /uploaded
+zachary needs to move banner (tiger) to decoration/wall
+
+
+REMOVE TAG decoration/wall from gold dubloons and toshikoshi soba
+ decoration/wall needs work 
+
+exit signs not uploaded to OP
+ADD TAG decorations/wall to spiderwebs
+
+boulders and other non plant outdoor things suffer from not having a tag that makes sense
+maybe scenery should be a tag for plants, nature, rivers, and things
