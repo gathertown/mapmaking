@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="7" height="2" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" source="Temp Coworking Quiet.tsx"/>
+ <group id="3" name="Background" visible="0">
+  <layer id="1" name="floor" width="7" height="2">
+   <data encoding="csv">
+0,0,0,0,0,0,0,
+1,2,1,2,3,4,5
+</data>
+  </layer>
+  <layer id="2" name="bookshelf" width="7" height="2">
+   <data encoding="csv">
+61,62,63,64,65,66,67,
+71,72,73,74,75,76,77
+</data>
+  </layer>
+  <layer id="6" name="fireplace" width="7" height="2">
+   <data encoding="csv">
+68,69,70,0,68,69,70,
+78,79,80,0,78,79,80
+</data>
+  </layer>
+ </group>
+ <group id="7" name="Foreground">
+  <layer id="5" name="bookshelf to" width="7" height="2">
+   <data encoding="csv">
+61,62,63,64,65,66,67,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="4" name="fireplace top" width="7" height="2">
+   <data encoding="csv">
+68,69,70,0,68,69,70,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+ </group>
+</map>
