@@ -5,7 +5,7 @@
  <tileset firstgid="21341" source="../../../tilesets/gather_exterior_walls_2.x.tsx"/>
  <tileset firstgid="52541" source="../../../tilesets/gather_floors_1.x.tsx"/>
  <tileset firstgid="57981" source="../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
- <tileset firstgid="62741" source="../../../tilesets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="63021" source="../../../tilesets/gather_shadows_1.x.tsx"/>
  <imagelayer id="2" name="Image Layer 1" offsetx="0" offsety="-223">
   <image source="../../../objects/WIP/13/Gather-Skyline-Daytime.png" width="1312" height="543"/>
  </imagelayer>
