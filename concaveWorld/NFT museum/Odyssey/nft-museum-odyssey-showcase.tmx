@@ -172,7 +172,7 @@
    <image source="assets/mush-4.png" width="64" height="64"/>
   </imagelayer>
  </group>
- <group id="4" name="foreground" visible="0">
+ <group id="4" name="foreground">
   <group id="11" name="mushrooms">
    <imagelayer id="9" name="mush" offsetx="10.2905" offsety="593.761">
     <image source="assets/mush-1.png" width="64" height="64"/>

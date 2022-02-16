@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="33" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
- <tileset firstgid="1" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_floors_1.x.tsx"/>
- <tileset firstgid="5441" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_terrains_3.x.tsx"/>
- <tileset firstgid="13281" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_floors_2_exploration.tsx"/>
- <tileset firstgid="21441" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_islands_1.x.tsx"/>
- <tileset firstgid="21921" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_signage_1.x.tsx"/>
- <tileset firstgid="25081" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_shadows_1.x.tsx"/>
- <tileset firstgid="25521" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_facades.tsx"/>
- <tileset firstgid="30777" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_exterior_decoration_1.x.tsx"/>
- <tileset firstgid="37097" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_chairs_1.x.tsx"/>
- <tileset firstgid="37897" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/counters.tsx"/>
- <tileset firstgid="43397" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_avatars_1.x.tsx"/>
- <tileset firstgid="43461" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_decoration_1.x.tsx"/>
- <tileset firstgid="51417" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_exterior_roofs_2.x.tsx"/>
- <tileset firstgid="64917" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_exterior_walls_1.x.tsx"/>
- <tileset firstgid="67067" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_exterior_walls_2.x.tsx"/>
- <tileset firstgid="98267" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_games_1.x.tsx"/>
- <tileset firstgid="98867" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_grass_tufts.tsx"/>
- <tileset firstgid="98867" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_interior_walls_1.x.tsx"/>
- <tileset firstgid="106892" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_logos_1.x.tsx"/>
- <tileset firstgid="107356" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_plants_1.x.tsx"/>
- <tileset firstgid="108276" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_plants_outdoor_2.x.tsx"/>
- <tileset firstgid="113316" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_swatches_1.x.tsx"/>
- <tileset firstgid="113551" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_tables_1.x.tsx"/>
- <tileset firstgid="122551" source="../../../../../../../Documents/GitHub/mapmaking/tilesets/gather_tables_2.x.tsx"/>
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="right-down" width="33" height="33" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/gather_floors_1.x.tsx"/>
+ <tileset firstgid="5441" source="../../tilesets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="13281" source="../../tilesets/gather_floors_2_exploration.tsx"/>
+ <tileset firstgid="21441" source="../../tilesets/gather_islands_1.x.tsx"/>
+ <tileset firstgid="21921" source="../../tilesets/gather_signage_1.x.tsx"/>
+ <tileset firstgid="25081" source="../../tilesets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="25521" source="../../tilesets/gather_facades.tsx"/>
+ <tileset firstgid="30777" source="../../tilesets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="37097" source="../../tilesets/gather_chairs_1.x.tsx"/>
+ <tileset firstgid="37897" source="../../tilesets/counters.tsx"/>
+ <tileset firstgid="43397" source="../../tilesets/gather_avatars_1.x.tsx"/>
+ <tileset firstgid="43461" source="../../tilesets/gather_decoration_1.x.tsx"/>
+ <tileset firstgid="51417" source="../../tilesets/gather_exterior_roofs_2.x.tsx"/>
+ <tileset firstgid="64917" source="../../tilesets/gather_exterior_walls_1.x.tsx"/>
+ <tileset firstgid="67067" source="../../tilesets/gather_exterior_walls_2.x.tsx"/>
+ <tileset firstgid="98267" source="../../tilesets/gather_games_1.x.tsx"/>
+ <tileset firstgid="98867" source="../../tilesets/gather_grass_tufts.tsx"/>
+ <tileset firstgid="98867" source="../../tilesets/gather_interior_walls_1.x.tsx"/>
+ <tileset firstgid="106892" source="../../tilesets/gather_logos_1.x.tsx"/>
+ <tileset firstgid="107356" source="../../tilesets/gather_plants_1.x.tsx"/>
+ <tileset firstgid="108276" source="../../tilesets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="113316" source="../../tilesets/gather_swatches_1.x.tsx"/>
+ <tileset firstgid="113551" source="../../tilesets/gather_tables_1.x.tsx"/>
+ <tileset firstgid="122551" source="../../tilesets/gather_tables_2.x.tsx"/>
  <group id="3" name="Background">
   <layer id="1" name="Lava" width="33" height="33">
    <data encoding="csv">
@@ -113,9 +113,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,1353,1354,1354,1355,0,1353,1354,1354,1355,0,1353,1354,1354,1355,0,1353,1354,1354,1355,0,1353,1354,1354,1355,0,1353,1354,1354,1355,0,0,
 0,0,1393,1394,1394,1395,0,1393,1394,1394,1395,0,1393,1394,1394,1395,0,1393,1394,1394,1395,0,1393,1394,1394,1395,0,1393,1394,1394,1395,0,0,
-0,0,1433,1434,1434,1435,0,1433,1434,1434,1435,0,1433,1434,1434,1435,0,1433,1434,1434,1435,0,1433,1434,1434,1435,0,1433,1434,1434,1435,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1433,1394,1394,1435,0,1433,1394,1394,1435,0,1433,1394,1394,1435,0,1433,1394,1394,1435,0,1433,1394,1394,1435,0,1433,1394,1394,1435,0,0,
+0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,
+0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,1394,1394,0,0,0,
 0,0,0,0,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,0,0,0,
 0,0,0,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,0,0,0,
 0,0,0,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,1394,0,0,0,
@@ -359,7 +359,7 @@
 </data>
   </layer>
  </group>
- <group id="15" name="Floor 2">
+ <group id="15" name="Floor 2" visible="0">
   <layer id="16" name="Lava" width="33" height="33" visible="0">
    <data encoding="csv">
 16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,16507,
@@ -731,7 +731,7 @@
 </data>
   </layer>
  </group>
- <group id="4" name="Foreground">
+ <group id="4" name="Foreground" visible="0">
   <layer id="5" name="foreground" width="33" height="33">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
