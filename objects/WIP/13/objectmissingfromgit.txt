@@ -73,3 +73,12 @@ ADD TAG decorations/wall to spiderwebs
 
 boulders and other non plant outdoor things suffer from not having a tag that makes sense
 maybe scenery should be a tag for plants, nature, rivers, and things
+
+eating turns into tabletop
+food and drink stay the same
+appliances goes inside of decoration
+add subfolder industrial 
+move lighting to decoration/____
+decoration/oversize for all focal point and unusual (big) objects
+decoration/nature
+top level category rugs
