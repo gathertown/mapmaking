@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="right-down" width="33" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="42" nextobjectid="1">
- <tileset firstgid="1" source="../../../tilesets/gather_floors_1.x.tsx"/>
- <tileset firstgid="5441" source="../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
- <tileset firstgid="10481" source="../../../tilesets/gather_exterior_walls_2.x.tsx"/>
+<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="right-down" width="33" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="44" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../tilesets/gather_floors_1.x.tsx"/>
+ <tileset firstgid="5441" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="10481" source="../../../../tilesets/gather_exterior_walls_2.x.tsx"/>
  <group id="3" name="Background">
   <layer id="4" name="dirt" width="33" height="20">
    <data encoding="csv">
@@ -248,7 +248,13 @@
 </data>
   </layer>
   <imagelayer id="41" name="Image Layer 2" offsetx="510.667" offsety="36.3333">
-   <image source="../../NPC/walk-1_21_21_191.png" width="32" height="32"/>
+   <image source="../../NPC/walk-1_21_21_191.png"/>
+  </imagelayer>
+  <imagelayer id="42" name="npc" offsetx="551.333" offsety="94">
+   <image source="../../../Assets/NPC/walk-1_21_21_191.png" width="32" height="32"/>
+  </imagelayer>
+  <imagelayer id="43" name="door" offsetx="478.182" offsety="-28.947">
+   <image source="assets/olympus-door-pixel.png" width="100" height="94"/>
   </imagelayer>
  </group>
  <group id="5" name="Foreground" visible="0">
