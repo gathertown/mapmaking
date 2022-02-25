@@ -28,13 +28,17 @@ Because all the tiled files (TMX / TSX) use relative paths, we're golden. Everyt
 
 ## File Structure
 ### mapmaking
+#### 📁 avatars
+wearable directories divided by type containing actual wearable files (.png)
 #### 📁 maps
 map files (.tmx) / background files (.png) / foreground files (.png) / photoshop files (.psd)
 divided into project-based directories
+#### 📁 objects
+object files (.png) sorted in various directories (categories)
+#### 📁 sounds
+various sounds (.mp3)
 #### 📁 tilesets
 tileset files (.tml) and source files (.png)
-#### 📁 assets
-individual asset files (.png) and photoshop source files (.psd)
 
 ## Tileset Naming Convention
 ### for tilesets (.tsx)
