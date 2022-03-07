@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="4" height="2" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../objects/WIP/Roz/Walls - Trims and Doors.tsx"/>
+ <tileset firstgid="751" source="../../../../objects/WIP/Roz/Walls - Tops.tsx"/>
+ <tileset firstgid="1363" source="WallpaperExploration.tsx"/>
+ <tileset firstgid="25363" source="../../../../tilesets/gather_floors_2_exploration.tsx"/>
+ <tileset firstgid="33523" source="../../../../tilesets/gather_shadows_1.x.tsx"/>
+ <layer id="4" name="Floor" width="4" height="2">
+  <data encoding="csv">
+27103,27104,27105,0,
+27103,27104,27105,0
+</data>
+ </layer>
+ <layer id="5" name="Shadow" width="4" height="2">
+  <data encoding="csv">
+0,33524,33524,0,
+0,33534,33534,0
+</data>
+ </layer>
+ <layer id="2" name="Wall" width="4" height="2">
+  <data encoding="csv">
+3565,0,0,3565,
+3765,0,0,3765
+</data>
+ </layer>
+ <layer id="3" name="top" width="4" height="2">
+  <data encoding="csv">
+752,752,752,752,
+0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="trim" width="4" height="2">
+  <data encoding="csv">
+412,413,413,414,
+427,428,428,429
+</data>
+ </layer>
+</map>
