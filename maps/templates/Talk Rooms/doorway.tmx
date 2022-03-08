@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="4" height="2" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="../../../objects/WIP/Roz/Walls - Base.tsx"/>
+ <tileset firstgid="1921" source="../../../objects/WIP/Roz/Walls - Trims and Doors.tsx"/>
+ <tileset firstgid="2671" source="../../../objects/WIP/Roz/Walls - Tops.tsx"/>
+ <layer id="1" name="wall base" width="4" height="2">
+  <data encoding="csv">
+118,0,0,118,
+142,0,0,142
+</data>
+ </layer>
+ <layer id="2" name="wall detail" width="4" height="2">
+  <data encoding="csv">
+2332,2333,2333,2334,
+2347,2348,2348,2349
+</data>
+ </layer>
+ <layer id="3" name="walltop" width="4" height="2">
+  <data encoding="csv">
+2672,2672,2672,2672,
+0,0,0,0
+</data>
+ </layer>
+</map>
