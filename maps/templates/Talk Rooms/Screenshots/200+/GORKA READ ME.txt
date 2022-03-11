@@ -1,0 +1,5 @@
+The 200+ space is using a foyer [event-entrance-foyer] that includes a separate spawn room [event-entrance-main]
+this is intentional and was carefully designed by the clients team to prevent spawn in overloads
+
+let me know if having that extra room is going to break things
+-rose
