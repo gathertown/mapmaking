@@ -7,6 +7,8 @@
    <wangcolor name="Stone Purple (Flush)" color="#00ff00" tile="1982" probability="1"/>
    <wangcolor name="Stone Grey (Raised)" color="#0000ff" tile="2003" probability="1"/>
    <wangcolor name="Stone Grey (Flush)" color="#ff7700" tile="2057" probability="1"/>
+   <wangcolor name="Stone White (Raised)" color="#00e9ff" tile="2328" probability="1"/>
+   <wangcolor name="Stone White (Flush)" color="#ff00d8" tile="2333" probability="1"/>
    <wangtile tileid="1925" wangid="0,0,0,1,0,0,0,0"/>
    <wangtile tileid="1926" wangid="0,0,0,1,0,1,0,0"/>
    <wangtile tileid="1927" wangid="0,0,0,0,0,1,0,0"/>
@@ -59,6 +61,32 @@
    <wangtile tileid="2055" wangid="0,4,0,0,0,0,0,0"/>
    <wangtile tileid="2056" wangid="0,4,0,0,0,0,0,4"/>
    <wangtile tileid="2057" wangid="0,0,0,0,0,0,0,4"/>
+   <wangtile tileid="2325" wangid="0,0,0,5,0,0,0,0"/>
+   <wangtile tileid="2326" wangid="0,0,0,5,0,5,0,0"/>
+   <wangtile tileid="2327" wangid="0,0,0,0,0,5,0,0"/>
+   <wangtile tileid="2328" wangid="0,5,0,0,0,5,0,5"/>
+   <wangtile tileid="2329" wangid="0,5,0,5,0,0,0,5"/>
+   <wangtile tileid="2330" wangid="0,0,0,6,0,0,0,0"/>
+   <wangtile tileid="2331" wangid="0,0,0,6,0,6,0,0"/>
+   <wangtile tileid="2332" wangid="0,0,0,0,0,6,0,0"/>
+   <wangtile tileid="2333" wangid="0,6,0,0,0,6,0,6"/>
+   <wangtile tileid="2334" wangid="0,6,0,6,0,0,0,6"/>
+   <wangtile tileid="2350" wangid="0,5,0,5,0,0,0,0"/>
+   <wangtile tileid="2351" wangid="0,5,0,5,0,5,0,5"/>
+   <wangtile tileid="2352" wangid="0,0,0,0,0,5,0,5"/>
+   <wangtile tileid="2353" wangid="0,0,0,5,0,5,0,5"/>
+   <wangtile tileid="2354" wangid="0,5,0,5,0,5,0,0"/>
+   <wangtile tileid="2355" wangid="0,6,0,6,0,0,0,0"/>
+   <wangtile tileid="2356" wangid="0,6,0,6,0,6,0,6"/>
+   <wangtile tileid="2357" wangid="0,0,0,0,0,6,0,6"/>
+   <wangtile tileid="2358" wangid="0,0,0,6,0,6,0,6"/>
+   <wangtile tileid="2359" wangid="0,6,0,6,0,6,0,0"/>
+   <wangtile tileid="2375" wangid="0,5,0,0,0,0,0,0"/>
+   <wangtile tileid="2376" wangid="0,5,0,0,0,0,0,5"/>
+   <wangtile tileid="2377" wangid="0,0,0,0,0,0,0,5"/>
+   <wangtile tileid="2380" wangid="0,6,0,0,0,0,0,0"/>
+   <wangtile tileid="2381" wangid="0,6,0,0,0,0,0,6"/>
+   <wangtile tileid="2382" wangid="0,0,0,0,0,0,0,6"/>
   </wangset>
  </wangsets>
 </tileset>
