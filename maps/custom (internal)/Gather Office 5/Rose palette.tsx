@@ -9,6 +9,7 @@
    <wangcolor name="Stone Grey (Flush)" color="#ff7700" tile="2057" probability="1"/>
    <wangcolor name="Stone White (Raised)" color="#00e9ff" tile="2328" probability="1"/>
    <wangcolor name="Stone White (Flush)" color="#ff00d8" tile="2333" probability="1"/>
+   <wangcolor name="Green Carpet" color="#ffff00" tile="2553" probability="1"/>
    <wangtile tileid="1925" wangid="0,0,0,1,0,0,0,0"/>
    <wangtile tileid="1926" wangid="0,0,0,1,0,1,0,0"/>
    <wangtile tileid="1927" wangid="0,0,0,0,0,1,0,0"/>
@@ -87,6 +88,19 @@
    <wangtile tileid="2380" wangid="0,6,0,0,0,0,0,0"/>
    <wangtile tileid="2381" wangid="0,6,0,0,0,0,0,6"/>
    <wangtile tileid="2382" wangid="0,0,0,0,0,0,0,6"/>
+   <wangtile tileid="2550" wangid="0,0,0,7,0,0,0,0"/>
+   <wangtile tileid="2551" wangid="0,0,0,7,0,7,0,0"/>
+   <wangtile tileid="2552" wangid="0,0,0,0,0,7,0,0"/>
+   <wangtile tileid="2553" wangid="0,7,0,0,0,7,0,7"/>
+   <wangtile tileid="2554" wangid="0,7,0,7,0,0,0,7"/>
+   <wangtile tileid="2575" wangid="0,7,0,7,0,0,0,0"/>
+   <wangtile tileid="2576" wangid="0,7,0,7,0,7,0,7"/>
+   <wangtile tileid="2577" wangid="0,0,0,0,0,7,0,7"/>
+   <wangtile tileid="2578" wangid="0,0,0,7,0,7,0,7"/>
+   <wangtile tileid="2579" wangid="0,7,0,7,0,7,0,0"/>
+   <wangtile tileid="2600" wangid="0,7,0,0,0,0,0,0"/>
+   <wangtile tileid="2601" wangid="0,7,0,0,0,0,0,7"/>
+   <wangtile tileid="2602" wangid="0,0,0,0,0,0,0,7"/>
   </wangset>
  </wangsets>
 </tileset>
