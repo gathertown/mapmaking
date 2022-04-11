@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="65" height="70" tilewidth="32" tileheight="32" infinite="0" nextlayerid="33" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="65" height="70" tilewidth="32" tileheight="32" infinite="0" nextlayerid="40" nextobjectid="1">
  <tileset firstgid="1" source="../../../../tilesets/gather_terrains_3.x.tsx"/>
  <tileset firstgid="7841" source="../../../../tilesets/gather_avatars_1.x.tsx"/>
  <tileset firstgid="7905" source="../../../../tilesets/gather_swatches_1.x.tsx"/>
@@ -9,7 +9,7 @@
  <tileset firstgid="21976" source="../../../../tilesets/gather_exterior_walls_2.x.tsx"/>
  <tileset firstgid="53176" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
  <tileset firstgid="58216" source="Beach Tiles.tsx"/>
- <group id="18" name="bg">
+ <group id="18" name="bg" visible="0">
   <layer id="1" name="Grond 1" width="65" height="70">
    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
