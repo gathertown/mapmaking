@@ -332,7 +332,7 @@
 </data>
   </layer>
  </group>
- <group id="17" name="FG" visible="0">
+ <group id="17" name="FG">
   <layer id="18" name="Plants 1" width="28" height="23">
    <data encoding="csv">
 0,13616,13617,13618,0,0,0,0,0,0,0,22927,22928,22929,0,13510,13511,0,0,0,13627,13628,13629,0,0,0,0,0,
