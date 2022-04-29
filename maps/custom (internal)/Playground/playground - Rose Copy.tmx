@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="60" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="60" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="28" nextobjectid="1">
  <tileset firstgid="1" source="../../../tilesets/gather_terrains_3.x.tsx"/>
  <tileset firstgid="7841" source="../../../tilesets/gather_exterior_decoration_1.x.tsx"/>
  <tileset firstgid="14161" source="../../../tilesets/gather_decoration_1.x.tsx"/>
