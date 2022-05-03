@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="120" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="58" nextobjectid="27">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="120" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="59" nextobjectid="27">
  <tileset firstgid="1" source="../../../tilesets/gather_terrains_3.x.tsx"/>
  <tileset firstgid="7841" source="../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
  <tileset firstgid="12881" source="../../../tilesets/gather_shadows_1.x.tsx"/>
  <tileset firstgid="13321" source="../../../tilesets/gather_decoration_1.x.tsx"/>
- <tileset firstgid="20881" source="../../../tilesets/gather_floors_1.x.tsx"/>
+ <tileset firstgid="21277" source="../../../tilesets/gather_floors_1.x.tsx"/>
  <layer id="1" name="Grass" width="120" height="100">
   <data encoding="csv">
 322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,265,430,430,267,322,322,265,431,266,266,430,431,431,267,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,265,266,266,430,431,266,267,322,265,431,267,322,322,322,322,322,265,430,266,431,430,266,266,349,505,670,506,506,589,802,588,670,670,670,507,562,505,670,671,671,589,588,506,507,348,431,430,266,431,266,267,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,322,
@@ -263,10 +263,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-22202,22202,22202,22202,22202,22202,22202,22203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-22242,22242,22242,22242,22242,22242,22242,22243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-22242,22242,22242,22242,22242,22242,22242,22243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-22282,22282,22282,22282,22282,22282,22282,22283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+22598,22598,22598,22598,22598,22598,22598,22599,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+22638,22638,22638,22638,22638,22638,22638,22639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+22638,22638,22638,22638,22638,22638,22638,22639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+22678,22678,22678,22678,22678,22678,22678,22679,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -421,7 +421,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="9" name="UNder Tree Bottoms" width="120" height="100">
+ <layer id="9" name="Tree Bottom 0" width="120" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -516,7 +516,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8162,8163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8162,8163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8162,8163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8645,8646,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8647,8648,8162,8163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8647,8648,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8647,8648,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8647,8648,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8162,8163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8647,8648,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8162,8163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8647,8648,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -525,7 +525,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8645,8646,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="2" name="Tree Bottoms" width="120" height="100">
+ <layer id="2" name="Tree Bottom 1" width="120" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -629,7 +629,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8041,8042,8043,0,0,0,0,0,0,8324,8325,8326,0,0,0,0,0,0,0,0,0,0,0,8321,8322,8323,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="5" name="Copy of Tree Bottoms" width="120" height="100">
+ <layer id="5" name="Tree Bottom 2" width="120" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -733,7 +733,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8170,8171,8172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8162,8163,0,0,0,8162,8163,0,0,0,0,0,8173,8174,8175,0,0,8170,8171,8172,0,0,0,0,0,0,0,0,0,0,8162,8163,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="7" name="Copy of Copy of Tree Bottoms" width="120" height="100">
+ <layer id="7" name="Tree Bottom 3" width="120" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -837,7 +837,7 @@
 8533,8534,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8324,8325,8326,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="8" name="Under Tree Tops" width="120" height="100">
+ <layer id="8" name="Tree Tops 0" width="120" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8565,8566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -930,18 +930,18 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8565,8566,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,8567,8568,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8605,8606,0,0,0,0,0,0,0,0,0,0,0,8567,8568,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8607,8608,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8607,8608,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,8567,8568,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8605,8606,0,0,0,0,0,0,0,0,0,0,0,8567,8568,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8607,8608,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8607,8608,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8567,8568,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8607,8608,0,0,0,0,8567,8568,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8607,8608,0,0,0,0,0,8565,8566,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8161,8162,8163,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8607,8608,0,0,0,0,0,8565,8566,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8081,8082,8083,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8605,8606,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8565,8566,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8121,8122,8123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8605,8606,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="Tree Tops" width="120" height="100">
+ <layer id="3" name="Tree Tops 1" width="120" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,8201,8202,8203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7927,7928,7929,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8207,8208,8209,0,0,0,0,0,0,7924,7925,7926,0,0,0,0,0,0,0,0,0,0,8207,8208,8209,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,8241,8242,8243,7927,7928,7929,0,0,0,0,0,0,0,0,7921,7922,7923,0,8204,8205,8206,0,0,7967,7968,7969,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7927,7928,7929,0,0,0,8204,8205,8206,0,0,0,0,0,0,8201,8202,8203,0,0,0,0,0,0,8247,8248,8249,0,0,0,0,0,0,7964,7965,7966,0,0,8201,8202,8203,0,0,0,0,0,8247,8248,8249,0,0,0,7921,7922,7923,0,0,0,0,0,0,0,
@@ -1045,7 +1045,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="Copy of Tree Tops" width="120" height="100">
+ <layer id="4" name="Tree Tops 2" width="120" height="100">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8093,8094,8095,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8090,8091,8092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8133,8134,8135,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8130,8131,8132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1149,7 +1149,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="6" name="Copy of Copy of Tree Tops" width="120" height="100">
+ <layer id="6" name="Tree Tops 3" width="120" height="100">
   <data encoding="csv">
 0,0,0,8443,8444,0,0,0,0,0,0,8443,8444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,8483,8484,0,0,0,0,0,0,8483,8484,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8453,8454,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8443,8444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1357,167 +1357,169 @@
 3221238385,3221238384,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,3221238364,2684367483,2684367473
 </data>
  </layer>
- <imagelayer id="15" name="Image Layer 1" offsetx="221.212" offsety="400">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="16" name="Copy of Image Layer 1" offsetx="1118.18" offsety="375.758">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="17" name="Copy of Copy of Image Layer 1" offsetx="1951.52" offsety="430.303">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="18" name="Copy of Copy of Copy of Image Layer 1" offsetx="2727.27" offsety="675.758">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="19" name="Copy of Copy of Copy of Copy of Image Layer 1" offsetx="3293.94" offsety="584.848">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="20" name="Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="3181.82" offsety="1203.03">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="21" name="Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2642.42" offsety="1530.3">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="22" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="3203.03" offsety="2090.91">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="23" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2354.55" offsety="2006.06">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="24" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2539.39" offsety="2703.03">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="25" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="1824.24" offsety="2769.7">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="26" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="875.758" offsety="2842.42">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="27" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="142.424" offsety="2821.21">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="28" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="233.333" offsety="2312.12">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="29" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="978.788" offsety="1818.18">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="30" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="1766.67" offsety="1460.61">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="31" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2090.91" offsety="1124.24">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="32" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="896.97" offsety="970.667">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <imagelayer id="39" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="52.9697" offsety="978.667">
-  <image source="spot.png" width="320" height="320"/>
- </imagelayer>
- <objectgroup id="33" name="Object Layer 1" tintcolor="#cbdbfc">
-  <object id="3" x="248.682" y="376.136" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">A</text>
-  </object>
- </objectgroup>
- <objectgroup id="35" name="Copy of Object Layer 1" tintcolor="#cbdbfc">
-  <object id="5" x="1166.86" y="360.985" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">B</text>
-  </object>
- </objectgroup>
- <objectgroup id="36" name="Copy of Copy of Object Layer 1" tintcolor="#cbdbfc">
-  <object id="6" x="1994.14" y="421.591" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">C</text>
-  </object>
- </objectgroup>
- <objectgroup id="37" name="Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc">
-  <object id="7" x="2769.89" y="670.076" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">D</text>
-  </object>
- </objectgroup>
- <objectgroup id="38" name="Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc">
-  <object id="8" x="3348.68" y="579.167" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">E</text>
-  </object>
- </objectgroup>
- <objectgroup id="40" name="Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="9" x="3504.68" y="1903.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">G</text>
-  </object>
- </objectgroup>
- <objectgroup id="41" name="Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="11" x="3448.68" y="2411.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">F</text>
-  </object>
- </objectgroup>
- <objectgroup id="42" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="12" x="4144.68" y="2439.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">H</text>
-  </object>
- </objectgroup>
- <objectgroup id="44" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="13" x="5164.68" y="2359.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">i</text>
-  </object>
- </objectgroup>
- <objectgroup id="45" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="14" x="5856.68" y="2295.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">J</text>
-  </object>
- </objectgroup>
- <objectgroup id="46" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="15" x="6468.68" y="1679.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">K</text>
-  </object>
- </objectgroup>
- <objectgroup id="47" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="16" x="3332.68" y="563.167" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">1</text>
-  </object>
- </objectgroup>
- <objectgroup id="48" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="17" x="4180.68" y="555.167" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">2</text>
-  </object>
- </objectgroup>
- <objectgroup id="49" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="18" x="4268.68" y="1411.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">3</text>
-  </object>
- </objectgroup>
- <objectgroup id="50" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="19" x="5636.68" y="1607.17" width="291.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">4</text>
-  </object>
- </objectgroup>
- <objectgroup id="51" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="20" x="5868.68" y="1183.17" width="627.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="160" wrap="1" color="#cbdbfc">1:1</text>
-  </object>
- </objectgroup>
- <objectgroup id="52" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="21" x="5016.68" y="1203.17" width="627.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Hams</text>
-  </object>
- </objectgroup>
- <objectgroup id="57" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="26" x="5072.68" y="1103.17" width="627.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">All-</text>
-  </object>
- </objectgroup>
- <objectgroup id="53" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="22" x="6432.68" y="907.167" width="627.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Karts</text>
-  </object>
- </objectgroup>
- <objectgroup id="54" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400"/>
- <objectgroup id="55" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="24" x="5360.68" y="787.167" width="627.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Baba</text>
-  </object>
- </objectgroup>
- <objectgroup id="56" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
-  <object id="25" x="5364.68" y="891.167" width="627.727" height="326.424">
-   <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Yaga</text>
-  </object>
- </objectgroup>
+ <group id="58" name="Labels">
+  <imagelayer id="15" name="Image Layer 1" offsetx="221.212" offsety="400">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="16" name="Copy of Image Layer 1" offsetx="1118.18" offsety="375.758">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="17" name="Copy of Copy of Image Layer 1" offsetx="1951.52" offsety="430.303">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="18" name="Copy of Copy of Copy of Image Layer 1" offsetx="2727.27" offsety="675.758">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="19" name="Copy of Copy of Copy of Copy of Image Layer 1" offsetx="3293.94" offsety="584.848">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="20" name="Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="3181.82" offsety="1203.03">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="21" name="Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2642.42" offsety="1530.3">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="22" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="3203.03" offsety="2090.91">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="23" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2354.55" offsety="2006.06">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="24" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2539.39" offsety="2703.03">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="25" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="1824.24" offsety="2769.7">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="26" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="875.758" offsety="2842.42">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="27" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="142.424" offsety="2821.21">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="28" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="233.333" offsety="2312.12">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="29" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="978.788" offsety="1818.18">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="30" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="1766.67" offsety="1460.61">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="31" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="2090.91" offsety="1124.24">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="32" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="896.97" offsety="970.667">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <imagelayer id="39" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Image Layer 1" offsetx="52.9697" offsety="978.667">
+   <image source="spot.png" width="320" height="320"/>
+  </imagelayer>
+  <objectgroup id="33" name="Object Layer 1" tintcolor="#cbdbfc">
+   <object id="3" x="248.682" y="376.136" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">A</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="35" name="Copy of Object Layer 1" tintcolor="#cbdbfc">
+   <object id="5" x="1166.86" y="360.985" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">B</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="36" name="Copy of Copy of Object Layer 1" tintcolor="#cbdbfc">
+   <object id="6" x="1994.14" y="421.591" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">C</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="37" name="Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc">
+   <object id="7" x="2769.89" y="670.076" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">D</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="38" name="Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc">
+   <object id="8" x="3348.68" y="579.167" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">E</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="40" name="Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="9" x="3504.68" y="1903.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">G</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="41" name="Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="11" x="3448.68" y="2411.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">F</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="42" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="12" x="4144.68" y="2439.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">H</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="44" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="13" x="5164.68" y="2359.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">i</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="45" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="14" x="5856.68" y="2295.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">J</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="46" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="15" x="6468.68" y="1679.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">K</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="47" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="16" x="3332.68" y="563.167" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">1</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="48" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="17" x="4180.68" y="555.167" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">2</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="49" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="18" x="4268.68" y="1411.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">3</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="50" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="19" x="5636.68" y="1607.17" width="291.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="267" wrap="1" color="#cbdbfc">4</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="51" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="20" x="5868.68" y="1183.17" width="627.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="160" wrap="1" color="#cbdbfc">1:1</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="52" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="21" x="5016.68" y="1203.17" width="627.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Hams</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="57" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="26" x="5072.68" y="1103.17" width="627.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">All-</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="53" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="22" x="6432.68" y="907.167" width="627.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Karts</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="54" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400"/>
+  <objectgroup id="55" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="24" x="5360.68" y="787.167" width="627.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Baba</text>
+   </object>
+  </objectgroup>
+  <objectgroup id="56" name="Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Object Layer 1" tintcolor="#cbdbfc" offsetx="-3236" offsety="400">
+   <object id="25" x="5364.68" y="891.167" width="627.727" height="326.424">
+    <text fontfamily="Gill Sans Ultra Bold" pixelsize="85" wrap="1" color="#cbdbfc">Yaga</text>
+   </object>
+  </objectgroup>
+ </group>
 </map>
