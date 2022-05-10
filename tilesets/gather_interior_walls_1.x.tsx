@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.0" name="Gather Walls Interior 1.x" tilewidth="32" tileheight="32" tilecount="6050" columns="25">
- <image source="gather_interior_walls_1.6.png" width="800" height="7744"/>
+<tileset version="1.5" tiledversion="1.7.2" name="Gather Walls Interior 1.x" tilewidth="32" tileheight="32" tilecount="8025" columns="25">
+ <image source="deprecated tilesheets/gather_interior_walls_1.6.png" width="800" height="10272"/>
  <wangsets>
   <wangset name="Terrains" type="corner" tile="-1">
    <wangcolor name="White wall top" color="#ff0000" tile="427" probability="1"/>
