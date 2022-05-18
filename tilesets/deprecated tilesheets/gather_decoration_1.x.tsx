@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.0" name="Gather Decoration 1.x" tilewidth="32" tileheight="32" tilecount="7560" columns="36">
- <image source="gather_decoration_1.21.png" width="1152" height="6720"/>
+<tileset version="1.5" tiledversion="1.7.2" name="Gather Decoration 1.x" tilewidth="32" tileheight="32" tilecount="7956" columns="36">
+ <image source="gather_decoration_1.21.png" width="1152" height="7072"/>
  <tile id="1660">
   <animation>
    <frame tileid="1660" duration="250"/>
