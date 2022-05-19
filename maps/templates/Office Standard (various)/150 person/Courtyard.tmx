@@ -2,13 +2,13 @@
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="56" height="75" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
  <tileset firstgid="1" source="../../../../tilesets/gather_interior_walls_1.x.tsx"/>
  <tileset firstgid="8026" source="../../../../tilesets/gather_terrains_3.x.tsx"/>
- <tileset firstgid="15866" source="../../../../tilesets/gather_exterior_walls_2.x.tsx"/>
+ <tileset firstgid="15866" source="../../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
  <tileset firstgid="47066" source="../../../../tilesets/gather_shadows_1.x.tsx"/>
  <tileset firstgid="47506" source="../../../../tilesets/gather_exterior_roofs_2.x.tsx"/>
  <tileset firstgid="61006" source="../../../../tilesets/gather_floors_1.x.tsx"/>
  <tileset firstgid="66446" source="../assets/gather_floors_2_exploration.tsx"/>
  <tileset firstgid="74606" source="../../../../tilesets/gather_swatches_1.x.tsx"/>
- <tileset firstgid="74841" source="../../../../tilesets/gather_decoration_1.x.tsx"/>
+ <tileset firstgid="74841" source="../../../../tilesets/deprecated tilesheets/gather_decoration_1.x.tsx"/>
  <tileset firstgid="82797" source="../../../../tilesets/gather_floors_2_exploration.tsx"/>
  <tileset firstgid="90957" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
  <group id="20" name="bg">

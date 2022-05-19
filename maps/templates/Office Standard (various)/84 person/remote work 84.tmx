@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="108" height="58" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
  <tileset firstgid="1" source="../../../../tilesets/gather_swatches_1.x.tsx"/>
- <tileset firstgid="236" source="../../../../tilesets/gather_avatars_1.x.tsx"/>
- <tileset firstgid="300" source="../../../../tilesets/gather_islands_1.x.tsx"/>
+ <tileset firstgid="236" source="../../../../tilesets/deprecated tilesheets/gather_avatars_1.x.tsx"/>
+ <tileset firstgid="300" source="../../../../tilesets/deprecated tilesheets/gather_islands_1.x.tsx"/>
  <tileset firstgid="780" source="../../../../tilesets/gather_floors_1.x.tsx"/>
- <tileset firstgid="6220" source="../../../../tilesets/gather_decoration_1.x.tsx"/>
+ <tileset firstgid="6220" source="../../../../tilesets/deprecated tilesheets/gather_decoration_1.x.tsx"/>
  <tileset firstgid="14176" source="../../../../tilesets/gather_interior_walls_1.x.tsx"/>
  <tileset firstgid="22201" source="../../../../tilesets/gather_exterior_decoration_1.x.tsx"/>
  <tileset firstgid="28521" source="../../../../tilesets/gather_shadows_1.x.tsx"/>
- <tileset firstgid="28961" source="../../../../tilesets/gather_exterior_walls_2.x.tsx"/>
+ <tileset firstgid="28961" source="../../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
  <tileset firstgid="60161" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
- <tileset firstgid="65201" source="../../../templates/Cyberpunk Detective Office (Tiny)/office.tsx"/>
- <tileset firstgid="65276" source="../../../../tilesets/gather_tables_2.x.tsx"/>
+ <tileset firstgid="65201" source="../../Cyberpunk Detective Office (Tiny)/office.tsx"/>
+ <tileset firstgid="65276" source="../../../../tilesets/deprecated tilesheets/gather_tables_2.x.tsx"/>
  <tileset firstgid="74276" source="../../../../tilesets/gather_terrains_3.x.tsx"/>
  <tileset firstgid="82116" source="../../../../tilesets/gather_floors_2_exploration.tsx"/>
  <tileset firstgid="90276" source="../assets/gather_floors_2_exploration.tsx"/>
