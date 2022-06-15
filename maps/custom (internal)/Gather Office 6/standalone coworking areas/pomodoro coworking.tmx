@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="7" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="1">
+ <tileset firstgid="1" source="Temp Coworking Pomodoro.tsx"/>
+ <layer id="1" name="floor" width="7" height="7">
+  <data encoding="csv">
+1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,
+1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="2" name="chairs" width="7" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,41,41,41,0,0,
+0,41,0,0,0,41,0,
+0,41,0,0,0,41,0,
+0,41,0,0,0,41,0,
+0,0,41,41,41,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="table" width="7" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,11,12,13,0,0,
+0,0,21,22,23,0,0,
+0,0,31,32,33,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <group id="5" name="inactive">
+  <layer id="4" name="cuckoo" width="7" height="7">
+   <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,51,52,53,0,0,
+0,0,61,62,63,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="8" name="signage" width="7" height="7">
+   <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,28,29,30,0,0,
+0,0,38,39,40,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+ </group>
+ <group id="6" name="active" visible="0">
+  <layer id="7" name="cuckoo" width="7" height="7">
+   <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,54,55,56,0,0,
+0,0,64,65,66,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="10" name="cuckoo glow" width="7" height="7">
+   <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,57,58,59,0,0,
+0,0,67,68,69,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+  <layer id="9" name="signage" width="7" height="7">
+   <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,28,29,30,0,0,
+0,0,38,39,40,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+  </layer>
+ </group>
+</map>
