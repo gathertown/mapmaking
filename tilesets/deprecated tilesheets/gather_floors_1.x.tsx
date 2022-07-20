@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.5" tiledversion="1.7.2" name="Gather Floors 1.x" tilewidth="32" tileheight="32" tilecount="5440" columns="40">
  <transformations hflip="1" vflip="1" rotate="1" preferuntransformed="1"/>
- <image source="deprecated tilesheets/gather_floors_1.5.png" width="1280" height="4352"/>
+ <image source="gather_floors_1.5.png" width="1280" height="4352"/>
  <wangsets>
   <wangset name="Outdoor terrain" type="corner" tile="2629">
    <wangcolor name="Sand Ripples" color="#00e9ff" tile="1051" probability="1"/>
