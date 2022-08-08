@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="6" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/Walls/Gather_Walls_unstable.tsx"/>
+ <tileset firstgid="13633" source="../../tilesets/gather_exterior_roofs_2.x.tsx"/>
+ <tileset firstgid="27133" source="../../tilesets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="36933" source="../../tilesets/gather_facades.tsx"/>
+ <tileset firstgid="42189" source="../../tilesets/gather_facade_elements_1.2.tsx"/>
+ <tileset firstgid="54645" source="../../tilesets/gather_signage_1.x.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+4808,4808,4808,4808,4808,4808,
+4808,4808,4808,4808,4808,4808,
+4808,4808,41186,41187,4808,4808,
+6444,6444,41258,41259,6444,6444,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="6" height="7">
+  <data encoding="csv">
+0,13980,13981,13981,13982,0,
+0,14280,14281,14281,14282,0,
+43351,0,0,0,0,43352,
+43351,0,40258,40258,0,43352,
+43351,0,0,0,0,43352,
+43351,0,0,0,0,43352,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Tile Layer 5" width="6" height="7">
+  <data encoding="csv">
+42357,0,0,0,0,42360,
+42429,0,0,0,0,42432,
+42501,42501,42502,42503,42503,42504,
+42393,42396,55168,55169,42393,42396,
+42465,42468,0,0,42465,42468,
+42537,42540,0,0,42537,42540,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="roof" width="6" height="7">
+  <data encoding="csv">
+20833,20834,20834,20834,20834,20835,
+20983,0,0,0,0,20985,
+21133,21134,21134,21134,21134,21135,
+0,0,0,0,0,0,
+44066,44067,0,0,44071,44072,
+44138,44139,0,0,44143,44144,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Tile Layer 7" width="6" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Tile Layer 4" width="6" height="7">
+  <data encoding="csv">
+0,46736,46737,0,0,0,
+0,46880,46881,0,0,0,
+0,0,0,0,0,0,
+54707,54708,54708,54708,54708,54709,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="sign" width="6" height="7">
+  <data encoding="csv">
+0,46806,0,0,0,0,
+0,46878,0,0,46887,0,
+0,0,0,0,0,0,
+55166,55167,55168,55169,55170,55171,
+52632,52633,0,0,0,52896,
+0,0,0,0,0,52902,
+0,0,0,0,0,0
+</data>
+ </layer>
+</map>
