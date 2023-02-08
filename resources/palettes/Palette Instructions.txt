@@ -1,6 +1,6 @@
 To save the GatherPalette as Preset in Aseprite:
 
-- Open "gather 45(With arranged Palette).aseprite"
+- Open "gather70.aseprite"
 - Palette Menu (button with 3 lines) > Save Palette as Preset > Name it
 - Optional Step: Palette Menu (button with 3 lines) > Save Palette as Default
 
