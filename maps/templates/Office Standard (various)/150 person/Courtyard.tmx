@@ -5,11 +5,11 @@
  <tileset firstgid="15866" source="../../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
  <tileset firstgid="47066" source="../../../../tilesets/gather_shadows_1.x.tsx"/>
  <tileset firstgid="47506" source="../../../../tilesets/gather_exterior_roofs_2.x.tsx"/>
- <tileset firstgid="61006" source="../../../../tilesets/gather_floors_1.x.tsx"/>
+ <tileset firstgid="61006" source="../../../../tilesets/deprecated tilesheets/gather_floors_1.x.tsx"/>
  <tileset firstgid="66446" source="../assets/gather_floors_2_exploration.tsx"/>
  <tileset firstgid="74606" source="../../../../tilesets/gather_swatches_1.x.tsx"/>
  <tileset firstgid="74841" source="../../../../tilesets/deprecated tilesheets/gather_decoration_1.x.tsx"/>
- <tileset firstgid="82797" source="../../../../tilesets/gather_floors_2_exploration.tsx"/>
+ <tileset firstgid="82797" source="../../../../tilesets/deprecated tilesheets/gather_floors_2_exploration.tsx"/>
  <tileset firstgid="90957" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
  <tileset firstgid="95997" source="../../../../tilesets/Walls/toppers.tsx"/>
  <group id="20" name="bg">
