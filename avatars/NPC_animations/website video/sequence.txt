@@ -1,0 +1,29 @@
+Dull bored people in a conversation
+One of them is _REALLY_ bored, so we focus on him.
+Person looks down and sees gather avatars in a conversation
+one of the avatars looks up and calls him over
+Person's video pixelatas (hard 8bit pixel and each pixel animates simultaneously
+pixels expand out of the video area for the boring call and converge on the side
+pixels converge into a gather avatar that looks like the person we took from the grid
+New avatar joins the other avatars as the grid dissolve
+Avatar group is moved to the middle of the screen so they're the main focus
+gather world builds around them: Floor appears from the middle and expands, several objects for decorations appear to plop into existence (daud's plopping animation as reference)
+New people videos with their respective avatar image appear on the bottom, they all look happy and laugh and talk enthusiastically
+
+Additional flare: Have the current map setting stay in place for a few seconds before being replaced by a new arrangement
+
+"Make the _________ that you've always wanted!"
+
+
+
+
+
+
+Less complex version
+
+People talking on the grid to the side. a lonely gatrher table sits beside it
+One person looks at the table and pops out, turning into an avatar, the video of the next person moves into their place as they keep talking or doing whatever they are doing
+Person walks to the table and sits on one of the chairs, then they wave, calling for the attention of the 2nd person in the grid.
+Person looks over and pops off, joining in, maybe share a few emotes
+Then they look to the grid, calling for a few more people to join in (we can exaggerate and make them  like 5 (more than the table has capacity for) and then they follow the first one (ask to lead/follow them) and they all leave the screen on the left side, leaving the grid to slowly dissolve away
+Video loops
