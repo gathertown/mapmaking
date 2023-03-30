@@ -10,7 +10,7 @@
  <tileset firstgid="76220" source="../../../../../tilesets/Walls/Gather_Walls_unstable.tsx"/>
  <tileset firstgid="89852" source="../../../../../tilesets/Walls/toppers.tsx"/>
  <tileset firstgid="91076" source="../../../../../objects/WIP/DZ/Palates/gather_terrains_colortest.tsx"/>
- <tileset firstgid="98916" source="../../Vanilla/10/floor test.tsx"/>
+ <tileset firstgid="98916" source="../../Assets/floor test.tsx"/>
  <layer id="1" name="floorplan" width="59" height="56">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
