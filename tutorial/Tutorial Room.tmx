@@ -5,7 +5,7 @@
  <tileset firstgid="8076" source="Tileset/Gather_Walls_unstable.tsx"/>
  <tileset firstgid="21708" source="Tileset/floors.tsx"/>
  <tileset firstgid="23692" source="Tileset/gather_shadows_1.x.tsx"/>
- <tileset firstgid="24132" source="Tileset/trimsanddoors.tsx"/>
+ <tileset firstgid="24132" source="Tileset/Gather_Trims&amp;Doors.tsx"/>
  <tileset firstgid="24882" source="Tileset/gather_plants_outdoor_2.x.tsx"/>
  <layer id="1" name="Terrain 1" width="60" height="60">
   <data encoding="csv">
@@ -455,7 +455,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="Blocking" width="60" height="60" opacity="0.4">
+ <layer id="3" name="Blocking" width="60" height="60" opacity="0.43">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
