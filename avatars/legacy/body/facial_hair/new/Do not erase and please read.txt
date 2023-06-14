@@ -1,0 +1,6 @@
+This file was created as an instruction and for the folder to not disappear
+
+
+When you have new items to upload to the Avatar Picker (AP), like costumes, clothing, hats, etc, place them here and load this folder in the dashboard, otherwise every single folder in the category will be reuploaded and it will take way too long to process.
+
+Once you've uploaded the folders of items, move the folder out of the "new" folder and *then* push to git to avoid conflicts.

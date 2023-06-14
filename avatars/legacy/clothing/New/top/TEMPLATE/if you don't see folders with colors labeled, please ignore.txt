@@ -1,0 +1,15 @@
+if you do see folders labeled as colors:
+
+- Copy the TEMPLATE folder into the category you want to add an item (There should be one in each category, but if not, any TEMPLATE folder works)
+- Place the copy into the "New" folder in said category (or make one if you don't see it) and name the folder as the name of the item (no caps)
+
+- Put every image corresponding to each color of the item in their respective color folder
+- The front layer of the item you want to add should be named "front"
+- The back layer of the item you want to add should be named "back"
+- The preview image of the item you want to add should be named "preview"
+- Load the "New" Folder in the Dashboard after setting up the Type
+
+- Wait until it's done uploading
+
+- move the folder out of New
+- you're done :3
