@@ -804,7 +804,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <imagelayer id="2" name="Floorplan" visible="0" opacity="0.53">
+ <imagelayer id="2" name="Floorplan" opacity="0.53">
   <image source="../Layouts/UFP3 size 70 .png" width="2720" height="2400"/>
  </imagelayer>
 </map>
