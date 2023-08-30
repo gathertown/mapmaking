@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="../../tilesets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="7841" source="../../tilesets/gather_terrains_4.x.tsx"/>
+ <layer id="2" name="Tile Layer 1" width="8" height="6">
+  <data encoding="csv">
+11764,11765,11762,11765,11762,11765,11762,11766,
+11844,11782,11842,11842,11842,11842,11842,11843,
+11844,11842,11842,11842,11842,11777,11860,11846,
+11844,11857,11842,11859,11842,11842,11842,11846,
+11844,11842,11842,11842,11842,11842,11779,11843,
+11924,11922,11925,11925,11925,11925,11925,11926
+</data>
+ </layer>
+</map>
