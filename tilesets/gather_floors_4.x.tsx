@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.10.1" name="Gather Floors 4.x" tilewidth="32" tileheight="32" tilecount="3760" columns="40">
- <image source="Floors/floors_4.1.png" width="1280" height="3008"/>
+ <image source="gather_floors_4.1.png" width="1280" height="3008"/>
  <wangsets>
   <wangset name="Wood Platforms" type="corner" tile="202">
    <wangcolor name="" color="#ff0000" tile="82" probability="1"/>
