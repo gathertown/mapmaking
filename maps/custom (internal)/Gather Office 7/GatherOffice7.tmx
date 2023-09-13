@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="66" height="96" tilewidth="32" tileheight="32" infinite="1" nextlayerid="16" nextobjectid="1">
- <tileset firstgid="1" source="../../../tilesets/floors_3_simple_S-20C-5.tsx"/>
- <tileset firstgid="6573" source="../../../tilesets/floors_3_complex_S-20C-5.tsx"/>
- <tileset firstgid="24429" source="../../../tilesets/gather_facade_elements_1.2.tsx"/>
- <tileset firstgid="36885" source="../../../tilesets/Walls/Gather_Walls_unstable.tsx"/>
- <tileset firstgid="50517" source="../../../tilesets/gather_terrains_3.x.tsx"/>
- <tileset firstgid="58357" source="../../../tilesets/gather_exterior_decoration_1.x.tsx"/>
- <tileset firstgid="68157" source="../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="66" height="96" tilewidth="32" tileheight="32" infinite="1" nextlayerid="16" nextobjectid="1">
+ <tileset firstgid="1" source="../../../tilesets/deprecated tilesheets/floors_3_simple_S-20C-5.tsx"/>
+ <tileset firstgid="6573" source="../../../tilesets/deprecated tilesheets/floors_3_complex_S-20C-5.tsx"/>
+ <tileset firstgid="24429" source="../../../tilesets/deprecated tilesheets/gather_facade_elements_1.2.tsx"/>
+ <tileset firstgid="36885" source="../../../tilesets/deprecated tilesheets/Walls/Gather_Walls_unstable.tsx"/>
+ <tileset firstgid="50517" source="../../../tilesets/deprecated tilesheets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="58357" source="../../../tilesets/deprecated tilesheets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="68157" source="../../../tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx"/>
  <tileset firstgid="73197" source="../../../tilesets/gather_signage_1.x.tsx"/>
- <tileset firstgid="76357" source="../../../tilesets/gather_facades.tsx"/>
+ <tileset firstgid="76357" source="../../../tilesets/deprecated tilesheets/gather_facades.tsx"/>
  <tileset firstgid="81613" source="../../../objects/WIP/13/a TEMP folder/Wall_unstable.tsx"/>
- <tileset firstgid="95245" source="../../../tilesets/Grafitti70.tsx"/>
- <tileset firstgid="97245" source="../../../tilesets/gather_exterior_roofs_2.x.tsx"/>
+ <tileset firstgid="95245" source="../../../tilesets/deprecated tilesheets/Grafitti70.tsx"/>
+ <tileset firstgid="97245" source="../../../tilesets/deprecated tilesheets/gather_exterior_roofs_2.x.tsx"/>
  <tileset firstgid="110745" source="../RtR/RtR_Master_Tilesheet.tsx"/>
  <layer id="8" name="sublevel" width="66" height="96">
   <data encoding="csv">
