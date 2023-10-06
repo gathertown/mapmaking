@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="80" height="78" tilewidth="32" tileheight="32" infinite="0" nextlayerid="37" nextobjectid="1">
- <tileset firstgid="1" source="../../../../tilesets/gather_swatches_1.x.tsx"/>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="80" height="78" tilewidth="32" tileheight="32" infinite="0" nextlayerid="37" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../tilesets/deprecated tilesheets/gather_swatches_1.x.tsx"/>
  <tileset firstgid="236" source="../../../../tilesets/deprecated tilesheets/gather_avatars_1.x.tsx"/>
  <tileset firstgid="300" source="../../../../tilesets/deprecated tilesheets/gather_islands_1.x.tsx"/>
  <tileset firstgid="780" source="../../../../tilesets/deprecated tilesheets/gather_decoration_1.x.tsx"/>
- <tileset firstgid="8736" source="../../../../tilesets/gather_interior_walls_1.x.tsx"/>
- <tileset firstgid="16761" source="../../../../tilesets/gather_exterior_decoration_1.x.tsx"/>
- <tileset firstgid="26561" source="../../../../tilesets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="8736" source="../../../../tilesets/deprecated tilesheets/gather_interior_walls_1.x.tsx"/>
+ <tileset firstgid="16761" source="../../../../tilesets/deprecated tilesheets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="26561" source="../../../../tilesets/deprecated tilesheets/gather_shadows_1.x.tsx"/>
  <tileset firstgid="27001" source="../../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
- <tileset firstgid="58201" source="../../../../tilesets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="58201" source="../../../../tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx"/>
  <tileset firstgid="63241" source="../../Cyberpunk Detective Office (Tiny)/office.tsx"/>
  <tileset firstgid="63292" source="../../../../tilesets/deprecated tilesheets/gather_tables_2.x.tsx"/>
- <tileset firstgid="72292" source="../../../../tilesets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="72292" source="../../../../tilesets/deprecated tilesheets/gather_terrains_3.x.tsx"/>
  <tileset firstgid="80132" source="../../../../tilesets/deprecated tilesheets/gather_floors_2_exploration.tsx"/>
  <tileset firstgid="88292" source="../assets/gather_floors_2_exploration.tsx"/>
- <tileset firstgid="96452" source="../../../../tilesets/Walls/walltexture.tsx"/>
+ <tileset firstgid="96452" source="../../../../tilesets/deprecated tilesheets/Walls/walltexture.tsx"/>
  <tileset firstgid="98372" source="../../../../tilesets/deprecated tilesheets/gather_floors_complex_3.tsx"/>
- <tileset firstgid="116228" source="../../../../tilesets/Walls/toppers.tsx"/>
+ <tileset firstgid="116228" source="../../../../tilesets/deprecated tilesheets/Walls/toppers.tsx"/>
  <tileset firstgid="117452" source="../../../../tilesets/deprecated tilesheets/gather_floors_simple_3.tsx"/>
  <tileset firstgid="124024" source="../../../../tilesets/deprecated tilesheets/gather_floors_1.x.tsx"/>
- <tileset firstgid="129464" source="../../../../tilesets/WindowsObjects.tsx"/>
+ <tileset firstgid="129464" source="../../../../tilesets/deprecated tilesheets/Walls/WindowsObjects.tsx"/>
  <group id="16" name="bg">
   <layer id="5" name="grond 1" width="80" height="78">
    <data encoding="csv">
