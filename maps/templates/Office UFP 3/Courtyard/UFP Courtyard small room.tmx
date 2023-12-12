@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="8" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../tilesets/deprecated tilesheets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="7841" source="../../UFP Offices/Assets/floor test.tsx"/>
+ <tileset firstgid="9185" source="../../../../tilesets/gather_walls_3.x.tsx"/>
+ <tileset firstgid="15569" source="../../../../tilesets/deprecated tilesheets/Walls/toppers.tsx"/>
+ <tileset firstgid="16793" source="../../../../tilesets/gather_floors_4.x.tsx"/>
+ <tileset firstgid="20553" source="../../../../tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="25593" source="../../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
+ <tileset firstgid="56793" source="../../../../tilesets/deprecated tilesheets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="66593" source="../../../../tilesets/deprecated tilesheets/gather_exterior_roofs_2.x.tsx"/>
+ <tileset firstgid="80093" source="../../UFP Offices/Assets/floors_3 complex colortest (grondpalate1).tsx"/>
+ <tileset firstgid="97949" source="../../../../tilesets/deprecated tilesheets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="98389" source="../../../../tilesets/gather_roofs_3.x.tsx"/>
+ <layer id="1" name="Terrain 1" width="8" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Terrain 2" width="8" height="12">
+  <data encoding="csv">
+0,0,0,14417,14417,0,0,0,
+0,0,0,14465,14465,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Walls and Floors 1" width="8" height="12">
+  <data encoding="csv">
+16284,9474,9474,9377,9379,9474,9474,16284,
+16284,9474,9474,9425,9427,9474,9474,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+16284,16859,16859,16859,16859,16859,16859,16284,
+0,0,0,16859,16859,0,0,0,
+0,0,0,16859,16859,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Walls and Floors 2" width="8" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,14567,14567,14567,14567,14567,14567,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="Ground Shadows" width="8" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,1610710726,97970,97970,97970,97970,97990,0,
+0,1610710706,0,0,0,0,2684452530,0,
+0,1610710706,0,0,0,0,2684452530,0,
+0,1610710706,0,0,0,0,2684452530,0,
+0,1610710706,0,0,0,0,2684452530,0,
+0,1610710706,0,0,0,0,2684452530,0,
+0,1610710706,0,0,0,0,2684452530,0,
+0,1610710706,0,0,0,0,2684452530,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="Toppers" width="8" height="12">
+  <data encoding="csv">
+0,9282,9282,9282,9282,9282,9282,9283,
+0,9330,9330,9330,9330,9330,9330,9331,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,9242,0,0,9241,0,0,
+0,0,9242,0,0,9241,0,0
+</data>
+ </layer>
+</map>

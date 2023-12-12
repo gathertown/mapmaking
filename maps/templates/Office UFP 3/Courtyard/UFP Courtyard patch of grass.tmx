@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="6" height="4" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../tilesets/deprecated tilesheets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="7841" source="../../UFP Offices/Assets/floor test.tsx"/>
+ <tileset firstgid="9185" source="../../../../tilesets/gather_walls_3.x.tsx"/>
+ <tileset firstgid="15569" source="../../../../tilesets/deprecated tilesheets/Walls/toppers.tsx"/>
+ <tileset firstgid="16793" source="../../../../tilesets/gather_floors_4.x.tsx"/>
+ <tileset firstgid="20553" source="../../../../tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="25593" source="../../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
+ <tileset firstgid="56793" source="../../../../tilesets/deprecated tilesheets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="66593" source="../../../../tilesets/deprecated tilesheets/gather_exterior_roofs_2.x.tsx"/>
+ <tileset firstgid="80093" source="../../UFP Offices/Assets/floors_3 complex colortest (grondpalate1).tsx"/>
+ <tileset firstgid="97949" source="../../../../tilesets/deprecated tilesheets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="98389" source="../../../../tilesets/gather_roofs_3.x.tsx"/>
+ <layer id="1" name="Terrain 1" width="6" height="4" visible="0">
+  <data encoding="csv">
+322,322,257,322,322,322,
+322,322,258,322,322,322,
+322,260,322,322,257,322,
+322,322,322,322,322,322
+</data>
+ </layer>
+ <layer id="4" name="Terrain 2" width="6" height="4" visible="0">
+  <data encoding="csv">
+487,570,645,645,571,488,
+650,0,0,0,0,653,
+647,0,0,0,0,561,
+567,492,485,490,485,568
+</data>
+ </layer>
+ <layer id="5" name="Walls and Floors 1" width="6" height="4" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="Road Lines (50%)" width="6" height="4" visible="0" opacity="0.49">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="Window Glass" width="6" height="4" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="16" name="Floor Highlight (50%)" width="6" height="4" visible="0" opacity="0.5">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Walls and Floors 2" width="6" height="4" visible="0">
+  <data encoding="csv">
+2684371463,2684371423,2684371423,2684371423,2684371423,3221242375,
+16863,0,0,0,0,3221242335,
+16863,0,0,0,0,3221242335,
+16903,1610629599,1610629599,1610629599,1610629599,1610629639
+</data>
+ </layer>
+ <layer id="12" name="Ground Shadows" width="6" height="4" visible="0">
+  <data encoding="csv">
+3221323484,3221323484,3221323484,3221323484,3221323484,3221323484,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="Plants" width="6" height="4" visible="0">
+  <data encoding="csv">
+16821,16899,16899,16899,16899,16822,
+16860,0,0,0,0,16858,
+16860,0,0,0,0,16858,
+16861,16819,16819,16819,16819,16862
+</data>
+ </layer>
+ <layer id="13" name="Toppers" width="6" height="4">
+  <data encoding="csv">
+16818,16819,16819,16819,16819,16820,
+16858,16859,16859,16859,16859,16860,
+16858,16859,16859,16859,16859,16860,
+16898,16899,16899,16899,16899,16900
+</data>
+ </layer>
+</map>
