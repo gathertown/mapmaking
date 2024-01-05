@@ -1,0 +1,1165 @@
+groundTextures: [
+// Questions: Do we need to define the vertical for every wall style? Can multiple wall styles be layered- eg, trim added as a different wall.
+    grass: {
+        main: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/6CpvvCsbagk1HtFjUXkNe1",
+        NE: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/5ZPeIr4vJm5jbTB8aZwcA4",
+        N: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/svjvv3cDanP1cf38aCLW6s",
+        NW: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/bjboFIxo0CjUd3Ifo7JPvU",
+        W: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/yM0YpdvVzp0P0UWrxp3rdU",
+        SW: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/h5eEv5ua5rMIpR9SKw6wlk",
+        S: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/3W64jcI06sr8l9OotgVw1w",
+        SE: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/kAGqjV4yPbEOF0clwnVjwv",
+        E: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/EbbZAJqy4hTvcynqM4np99"
+    },
+    rugBlue: {
+        main: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/Gbi5z1VczozQJe42LCyonC",
+        NE: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/OHYSQ6JEBM9cgHSkVJjiai",
+        N: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/LLQhzzvMPdD6DuVtamhSxW",
+        NW: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/xJ9aRRWduzJUk4BTYf9hjE",
+        W: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/joskxpaVTdEtlser5XKWnW",
+        SW: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/XuGkevgxK0IQe5nAe2KWWY",
+        S: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/7NGmwJWlmpeWTCTRyhZoey",
+        SE: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/XiFAa0YOgesEVPboQLpfGK",
+        E: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/f5KCAvBSonf7mI6JjY75ep",
+        Ndoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/1wVIaoDvwoCoXqgdPqltb1",
+        Edoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/VffFtoFbQEochT2elRH2Ej",
+        Sdoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/NqlJSCqxrj7FtyOG8ijXah",
+        Wdoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/NKGUjtTx5ygKw1ovQ1HKa6"
+    },
+    rugGreen: {
+        main: "",
+        NE: "",
+        N: "",
+        NW: "",
+        W: "",
+        SW: "",
+        S: "",
+        SE: "",
+        E: "",
+        Ndoorstep: "",
+        Edoorstep: "",
+        Sdoorstep: "",
+        Wdoorstep: ""
+    },
+    rugTeal: {
+        main: "",
+        NE: "",
+        N: "",
+        NW: "",
+        W: "",
+        SW: "",
+        S: "",
+        SE: "",
+        E: "",
+        Ndoorstep: "",
+        Edoorstep: "",
+        Sdoorstep: "",
+        Wdoorstep: ""
+    },
+    rugGrey: {
+        main: "",
+        NE: "",
+        N: "",
+        NW: "",
+        W: "",
+        SW: "",
+        S: "",
+        SE: "",
+        E: "",
+        Ndoorstep: "",
+        Edoorstep: "",
+        Sdoorstep: "",
+        Wdoorstep: ""
+    },
+    rugFancy: {
+        main: "",
+        NE: "",
+        N: "",
+        NW: "",
+        W: "",
+        SW: "",
+        S: "",
+        SE: "",
+        E: "",
+        Ndoorstep: "",
+        Edoorstep: "",
+        Sdoorstep: "",
+        Wdoorstep: ""
+    },
+    wood: {
+        main: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/9tFN2ZiNuRkRwHceuDpevv",
+        NE: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/OxkrnvFK8ixdJ72JRaCvQZ",
+        N: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/B8hIuV5eR0DomzuD0SrKzv",
+        NW: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/NyAg7j4X9QiTsbqS0lGJ8a",
+        W: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/uIm4xfTTSCsb0dHTSVzejn",
+        SW: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/eYK8u2HDG1hO7Cs4JiKIcy",
+        S: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/h8aoBMkNSHfnmK0pN19OVd",
+        SE: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/QPP9ZC1T9khlyiLacSXq0T",
+        E:"https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/LzneihVlH5w0vqLYd1CKdV",
+        Ndoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/XRR7AoM575eBMcJhWvbLXm",
+        Edoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/SoSEIRs0EijZAT8YrF3336",
+        Sdoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/xeIr7tMHCRgqF13EMn260a",
+        Wdoorstep: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/hzWMzUzPrJsD0cNObFk44T"
+    },
+    stone: {
+        main: "",
+        NE: "",
+        N: "",
+        NW: "",
+        W: "",
+        SW: "",
+        S: "",
+        SE: "",
+        E: "",
+        Ndoorstep: "",
+        Edoorstep: "",
+        Sdoorstep: "",
+        Wdoorstep: ""
+    },
+    courtyard: {
+        main: "",
+        NE: "",
+        N: "",
+        NW: "",
+        W: "",
+        SW: "",
+        S: "",
+        SE: ""
+        E: "",
+    },
+], 
+wallTextures:[ 
+    brick: {
+    horizontal: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/JiAuLVZ7wAuqs7s2aDdF2s",
+    vertical: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/VsShDtFV5maoIPbBoi43QS"
+    },
+    paneled: {
+        horizontal: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/JqrXh8EmtooxokEqAkFHYJ",
+        vertical: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/VsShDtFV5maoIPbBoi43QS"
+    },
+    stone: {
+        horizontal: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/roODAiRy0WXaa4HXsPokKI",
+        vertical: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/VsShDtFV5maoIPbBoi43QS"
+    },
+    wainscott: {
+        horizontal: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/hTJo52vhrHVSORbimBQ018",
+        vertical: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/72piMKENCnXWFs4L/VsShDtFV5maoIPbBoi43QS"
+    }
+],
+mainFloor : {
+    name: "Main Floor",
+    width: 51,
+    height: 54,
+    groundTexture: grass
+    children : [
+        outdoorArea1 : {
+            name: "Outdoor Zen Area",
+            type: genericArea,
+            x: 8, 
+            y: 3,
+            width: 9,
+            height: 6,
+            groundTexture: grass,
+        },
+        outdoorArea2 : {
+            name: "Outdoor Picnic Area",
+            type: meetingArea,
+            x: 31,
+            y: 47,
+            width: 9,
+            height: 4,
+            groundTexture: grass,
+        },
+        IndoorArea1 : {
+            name: "Main Room",
+            type: genericArea,
+            x: 14,
+            y: 15,
+            width: 26,
+            height: 17,
+            groundTexture: wood,
+            interiorWallTexture: wainscott,
+            exteriorWallTexture: brick,
+            children:[
+                meetingArea1: {
+                    name: "Left Meeting Area",
+                    type: meetingArea,
+                    x: 2,
+                    y: 3,
+                    width: 3,
+                    height: 3,
+                    groundTexture: rugTeal,
+                    children: [
+                        groupLeftMeetingFurn {
+                            name: "Meeting Table Group"
+                            x: 0,
+                            y: 0,
+                            width: 3,
+                            height: 3,
+                            children:[
+                                table1: {
+                                    name: "Table (round)",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/w9px3aAItfeWpwJS4udBs",
+                                    x: 1,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                },
+                                terrarium: {
+                                    name: "Terrarium (tabletop)",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/QZxS7K_zw7SX4N3mNk9bW",
+                                    x: 1,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                },
+                                chair1: {
+                                    name: "Armchair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/hVMPwuBBTPlGsbWESMUGE",
+                                    x: 0,
+                                    y: 0,
+                                    width: 3,
+                                    height: 1
+                                },
+                                chair2: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/ixl1pnjKghzoA2qpZ53WC",
+                                    x: 0,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                },
+                                chair3: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/WzF4LH6oMQICfUbMTRUN2",
+                                    x: 2,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                },
+                                chair4: {
+                                    name: "Armchair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/szyHr82iyUIriK3eVMTkT",
+                                    x: 0,
+                                    y: 2,
+                                    width: 3,
+                                    height: 1
+                                }
+                            ]
+
+                        }
+                    ]
+                },
+                meetingArea2: {
+                    name: "Right Meeting Area",
+                    type: meetingArea,
+                    x: 21,
+                    y: 3,
+                    width: 3,
+                    height: 3,
+                    groundTexture: rugTeal,
+                    children:[
+                        groupRightMeetingFurn {
+                            name: "Meeting Table Group"
+                            x: 21,
+                            y: 3,
+                            width: 3,
+                            height: 3,
+                            children:[
+                                table2: {
+                                    name: "Table (round)",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/DwsV5HOed7ntUTEztzeNS",
+                                    x: 1,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                },
+                                fern: {
+                                    name: "Fern",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/Grn8wFtXU3f7PiYOS4Yp4",
+                                    x: 1.0,
+                                    y: 0.5,
+                                    width: 1,
+                                    height: 1
+                                },
+                                chair5: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/hVMPwuBBTPlGsbWESMUGE",
+                                    x: 1,
+                                    y: -1,
+                                    width: 1,
+                                    height: 2
+                                },
+                                chair6: {
+                                    name: "Armchair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/ixl1pnjKghzoA2qpZ53WC",
+                                    x: 0.0,
+                                    y: 0.5,
+                                    width: 1,
+                                    height: 2
+                                },
+                                chair7: {
+                                    name: "Armchair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/WzF4LH6oMQICfUbMTRUN2",
+                                    x: 0.0,
+                                    y: 0.5,
+                                    width: 1,
+                                    height: 2
+                                },
+                                chair8: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/szyHr82iyUIriK3eVMTkT",
+                                    x: 0,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                teamArea1: {
+                    name: "Team Area",
+                    type: teamArea,
+                    x: 7,
+                    y: 2,
+                    width: 12,
+                    height: 5,
+                    groundTexture: rugBlue,
+                    children:[
+                        deskArea1: {
+                            x: 0,
+                            y: 0,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk1: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/lJxkp277q2r-4mmdQkCwn",
+                                    x: 0,
+                                    y: 1,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair1: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/B_W1J7W9s_2U_vdy-NDvp",
+                                    x: 1,
+                                    y: -1,
+                                    width: 1,
+                                    height: 2
+                                }
+                            ]
+                        },
+                        deskArea2: {
+                            x: 3,
+                            y: 0,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk2: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/lJxkp277q2r-4mmdQkCwn",
+                                    x: 0,
+                                    y: 1,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair2: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/B_W1J7W9s_2U_vdy-NDvp",
+                                    x: 1,
+                                    y: -1,
+                                    width: 1,
+                                    height: 2
+                                }
+                            ]
+                        },
+                        deskArea3: {
+                            x: 6,
+                            y: 0,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk3: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/lJxkp277q2r-4mmdQkCwn",
+                                    x: 0,
+                                    y: 1,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair3: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/B_W1J7W9s_2U_vdy-NDvp",
+                                    x: 1,
+                                    y: -1,
+                                    width: 1,
+                                    height: 2
+                                }
+                            ]
+                        },
+                        deskArea4: {
+                            x: 9,
+                            y: 0,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk4: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/lJxkp277q2r-4mmdQkCwn",
+                                    x: 0,
+                                    y: 1,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair4: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/B_W1J7W9s_2U_vdy-NDvp",
+                                    x: 1,
+                                    y: -1,
+                                    width: 1,
+                                    height: 2
+                                }
+                            ]
+                        },
+                        deskArea5: {
+                            x: 0,
+                            y: 3,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk5: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/Km_WJ4DmunFuV03UVuQ9K",
+                                    x: 0,
+                                    y: 0,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair5: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/nf2JuyNyl4LNsHRikxGL1",
+                                    x: 1,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                }
+                            ]
+                        },
+                        deskArea6: {
+                            x: 3,
+                            y: 3,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk6: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/Km_WJ4DmunFuV03UVuQ9K",
+                                    x: 0,
+                                    y: 0,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair6: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/nf2JuyNyl4LNsHRikxGL1",
+                                    x: 1,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                }
+                            ]
+                        },
+                        deskArea7: {
+                            x: 6,
+                            y: 3,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk7: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/Km_WJ4DmunFuV03UVuQ9K",
+                                    x: 0,
+                                    y: 0,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair7: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/nf2JuyNyl4LNsHRikxGL1",
+                                    x: 1,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                }
+                            ]
+                        },
+                        deskArea8: {
+                            x: 9,
+                            y: 3,
+                            width: 3,
+                            height: 2,
+                            children:[
+                                desk8: {
+                                    name: "Desk with drawers",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/Km_WJ4DmunFuV03UVuQ9K",
+                                    x: 0,
+                                    y: 0,
+                                    width: 3,
+                                    height: 2
+                                },
+                                deskchair8: {
+                                    name: "Antique parlor chair",
+                                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/nf2JuyNyl4LNsHRikxGL1",
+                                    x: 1,
+                                    y: 1,
+                                    width: 1,
+                                    height: 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                coworkingArea1: {
+                    name: "Coworking Area",
+                    type: coworkingArea,
+                    x: 10,
+                    y: 9,
+                    width: 6,
+                    height: 5,
+                    groundTexture: rugBlue,
+                    children:[
+                        couch1: {
+                            name: "Sofa (long)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/ttAfG9mjiuwDT2W9ADfgL",
+                            x: 1,
+                            y: -1,
+                            width: 3,
+                            height: 2
+                        },
+                        couch2: {
+                            name: "Sofa (long)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/_BDUkn7VdmKz7y4C7hnRx",
+                            x: 0,
+                            y: 0.5,
+                            width: 1,
+                            height: 4
+                        },
+                        couch3: {
+                            name: "Sofa (long)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/NgxWt86UYhHGlzN6nzrNu",
+                            x: 5,
+                            y: 0.5,
+                            width: 1,
+                            height: 4
+                        },
+                        couch4: {
+                            name: "Sofa (long)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/I-xLHE_Uy3RBkdieyaFoH",
+                            x: 2,
+                            y: 3,
+                            width: 3,
+                            height: 2
+                        },
+                        coffeetable: {
+                            name: "Coffee table (oval)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/oPEYE84RiFBvm0GqR6fhf",
+                            x: 3,
+                            y: 3,
+                            width: 2,
+                            height: 1
+                        },
+                        goldfish: {
+                            name: "Coffee table (oval)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/mfikEDmY8J_IR1qf1JBUv",
+                            x: 3.5,
+                            y: 3.0,
+                            width: 1,
+                            height: 1
+                        }
+                    ]
+                },
+                courtyard1: {
+                    name: "Courtyard",
+                    type: genericArea,
+                    x: 2,
+                    y: 9,
+                    width: 6,
+                    height: 5,
+                    groundTexture: courtyard,
+                    children:[
+                        pondWater{
+                            name: "Pond",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/zp4eGhcuU9wlRdyPefmMzk",
+                            x: 1,
+                            y: 1,
+                            width: 4,
+                            height: 3
+                        }
+                    ]
+                },
+                subArea1 {
+                    name: "1:1 Tables",
+                    type: genericArea
+                    x: 18,
+                    y: 9,
+                    width: 6,
+                    height: 5,
+                    groundTexture: rugGreen,
+                    children:[
+                        black1on1 {
+                            name: "Black 1:1 Table",
+                            type: meetingArea,
+                            x: 1,
+                            y: 1,
+                            width: 1,
+                            height: 3,
+                            groundTexture: rugGreen
+                            children:[
+                                black1on1MeetingFurn {
+                                    name: "1:1 Table Group"
+                                    x: 0,
+                                    y: 0,
+                                    width: 1,
+                                    height: 3,
+                                    children:[
+                                        table3: {
+                                            name: "Table (round)",
+                                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/w9px3aAItfeWpwJS4udBs",
+                                            x: 0,
+                                            y: 1,
+                                            width: 1,
+                                            height: 1
+                                        },
+                                        chair9: {
+                                            name: "Armchair",
+                                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/uG-LTEcPC9UX2nDab9JBM",
+                                            x: -1,
+                                            y: 0,
+                                            width: 3,
+                                            height: 1
+                                        },
+                                        chair10: {
+                                            name: "Armchair",
+                                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/viivUmRK0XhnyxE6jasbc",
+                                            x: -1,
+                                            y: 2,
+                                            width: 3,
+                                            height: 1
+                                        }
+                                    ]
+                    
+                                }
+                            ]
+                        }
+                        white1on1 {
+                            name: "White 1:1 Table",
+                            type: meetingArea,
+                            x: 1,
+                            y: 4,
+                            width: 1,
+                            height: 3,
+                            groundTexture: rugGreen
+                            children:[
+                                white1on1MeetingFurn {
+                                    name: "1:1 Table Group"
+                                    x: 0,
+                                    y: 0,
+                                    width: 1,
+                                    height: 3,
+                                    children:[
+                                        table4: {
+                                            name: "Table (round)",
+                                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/w9px3aAItfeWpwJS4udBs",
+                                            x: 0,
+                                            y: 1,
+                                            width: 1,
+                                            height: 1
+                                        },
+                                        chair11: {
+                                            name: "Armchair",
+                                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/jH_tzmVUkhB8h2rFaDx7h",
+                                            x: -1,
+                                            y: 0,
+                                            width: 3,
+                                            height: 1
+                                        },
+                                        chair12: {
+                                            name: "Armchair",
+                                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/BMoD_r1Ml4EhglLPNDGxx",
+                                            x: -1,
+                                            y: 2,
+                                            width: 3,
+                                            height: 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                plant1: {
+                    name: "Fan leaf plant",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/wYVI7u3MsX7zUj267Demd",
+                    x: 0.0,
+                    y: -1.5,
+                    width: 1,
+                    height: 2
+                },
+                trash: {
+                    name: "Outside trash can",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/YGCBRjHz1CewUwU6Pnxbd",
+                    x: 1.5,
+                    y: -1.5,
+                    width: 1,
+                    height: 1
+                },
+                waterCooler: {
+                    name: "Water cooler",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/CTfeVcCY5d69AqeR5J0Zp",
+                    x: 1.5,
+                    y: -1.5,
+                    width: 1,
+                    height: 2
+                },
+                printer: {
+                    name: "Commercial printer",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/RWZLydg31FWKTb_n5UQ9J",
+                    x: 3,
+                    y: -1.5,
+                    width: 2,
+                    height: 2
+                },
+                filecabinet: {
+                    name: "Filecabinet (tall narrow)",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/TWxagnj2VXLM8a1H1FEyg",
+                    x: 6.0,
+                    y: 1.0,
+                    width: 1,
+                    height: 2
+                },
+                vendingMachine: {
+                    name: "Vending machine",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/KIz92AQ8tXGSG4DrJ_GaF",
+                    x: 9.0,
+                    y: -1.3,
+                    width: 1,
+                    height: 2
+                },
+                picture: {
+                    name: "Framed butterflies",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/nS0dUxNCta_Q1j7IZ8v6E",
+                    x: 22.5,
+                    y: -2.0,
+                    width: 1,
+                    height: 2
+                }
+            ]
+        },
+        IndoorArea2 : {
+            name: "Stone Meeting Room",
+            type: meetingArea,
+            x: 14,
+            y: 33,
+            width: 6,
+            height: 10,
+            groundTexture: stone,
+            interiorWallTexture: stone,
+            exteriorWallTexture: brick,
+            children : [
+                statue: {
+                    name: "Statue",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/sKpWSzfbHS52JI0FaeDYS",
+                    x: 0,
+                    y: -1,
+                    width: 1,
+                    height: 2
+                },
+                stoneLantern: {
+                    name: "Stone lantern",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/lIh5CSw7ewvfu0M2kQKLg",
+                    x: 3,
+                    y: -1,
+                    width: 1,
+                    height: 2
+                },
+                obelisk: {
+                    name: "Cemetary obelisk (tall)",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/LbasU2jFZlEeNGT6s6lwy",
+                    x: 5.0,
+                    y: -1.5,
+                    width: 1,
+                    height: 2
+                },
+                urn1: {
+                    name: "Small urn",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/RlYhO8kzVoW9G8OLQ7Dzl",
+                    x: 4.0,
+                    y: -1.5,
+                    width: 1,
+                    height: 2
+                },
+                topiary: {
+                    name: "Topiary tree",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/zzxIU3O-XJlH9e5XGQjqf",
+                    x: 4.0,
+                    y: -1.25,
+                    width: 1,
+                    height: 2
+                },
+                groupStoneMeetingFurn { 
+                    name: "Meeting Table Group"
+                    x: 2,
+                    y: 2,
+                    width: 3,
+                    height: 6
+                    children:[
+                        stoneTable1: {
+                            name: "Stone Table,
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/uploads/ZOSlN8QIcAd00eCh/NnsMG26CubBTUih4rdpLqK",
+                            x: 0,
+                            y: 1,
+                            width: 3,
+                            height: 5
+                        },
+                        schair1: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/iF_45XTdlkG7uhnfPxX4H",
+                            x: 1,
+                            y: 0,
+                            width: 1,
+                            height: 1
+                        },
+                        schair2: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/cikH4_Lps1D60_4L36jVU",
+                            x: 0,
+                            y: 1,
+                            width: 1,
+                            height: 1
+                        },
+                        schair3: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/q7BZfAPI428dcEMbKhiLe",
+                            x: 2,
+                            y: 1,
+                            width: 1,
+                            height: 1
+                        },
+                        schair4: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/cikH4_Lps1D60_4L36jVU",
+                            x: 0,
+                            y: 2,
+                            width: 1,
+                            height: 1
+                        },
+                        schair5: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/q7BZfAPI428dcEMbKhiLe",
+                            x: 2,
+                            y: 2,
+                            width: 1,
+                            height: 1
+                        },
+                        schair6: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/cikH4_Lps1D60_4L36jVU",
+                            x: 0,
+                            y: 3,
+                            width: 1,
+                            height: 1
+                        },
+                        schair7: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/q7BZfAPI428dcEMbKhiLe",
+                            x: 2,
+                            y: 3,
+                            width: 1,
+                            height: 1
+                        },
+                        schair8: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/cikH4_Lps1D60_4L36jVU",
+                            x: 0,
+                            y: 4,
+                            width: 1,
+                            height: 1
+                        },
+                        schair9: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/q7BZfAPI428dcEMbKhiLe",
+                            x: 2,
+                            y: 4,
+                            width: 1,
+                            height: 1
+                        },
+                        schair10: {
+                            name: "Plastic chair",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/q7BZfAPI428dcEMbKhiLe",
+                            x: 1,
+                            y: 5,
+                            width: 1,
+                            height: 1
+                        }
+                    ]
+
+                }
+            ]
+        },
+        IndoorArea3 : {
+            name: "Lobby",
+            type: lobbyArea,
+            x: 21,
+            y: 33,
+            width: 12,
+            height: 10,
+            groundTexture: rugFancy,
+            interiorWallTexture: wainscott,
+            exteriorWallTexture: brick,
+            children : [
+
+                plant1: {
+                    name: "Fan leaf plant",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/wYVI7u3MsX7zUj267Demd",
+                    x: 0.0,
+                    y: -1.5,
+                    width: 1,
+                    height: 2
+                }
+
+                plant2: {
+                    name: "Fan leaf plant",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/wYVI7u3MsX7zUj267Demd",
+                    x: 12.0,
+                    y: -1.5,
+                    width: 1,
+                    height: 2
+                }
+            ]
+        },
+        IndoorArea4 : {
+            name: "Dining Room",
+            type: meeingArea,
+            x: 34,
+            y: 33,
+            width: 6,
+            height: 10,
+            groundTexture: rugFancy,
+            interiorWallTexture: wainscott,
+            exteriorWallTexture: brick,
+            children:[
+                bureau: {
+                    name: "Antique bureau",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/qdluToLG3oBDCFut9k3Wd",
+                    x: 0,
+                    y: -2,
+                    width: 2,
+                    height: 2
+                },
+                bouquet: {
+                    name: "Bouquet",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/SADViKSI3QQGFu8w2JQFH",
+                    x: 0.1,
+                    y: -1.9,
+                    width: 1,
+                    height: 2
+                },
+                dresser: {
+                    name: "Dresser (small drawers)",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/yLH5ESAdxKTUbOjEkckQe",
+                    x: 4,
+                    y: -1,
+                    width: 1,
+                    height: 2
+                },
+                basin: {
+                    name: "Basin and ewer",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/29Y9jOkyIo64DS1iAHyul",
+                    x: 4,
+                    y: -2,
+                    width: 1,
+                    height: 2
+                },
+                cafeTable: {
+                    name: "Cafe table",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/bPEZu15d-j2QUOwPvr7_G",
+                    x: 5.0,
+                    y: 32.5,
+                    width: 1,
+                    height: 2
+                },
+                plates 1: {
+                    name: "Plate stack (small)",
+                    image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/0rAc55fDYgWHG-KWHNdis",
+                    x: 5.0,
+                    y: -0.5,
+                    width: 1,
+                    height: 1
+                },
+                groupDiningRoomFurn {
+                    name: "Meeting Table Group"
+                    x: 1,
+                    y: 2,
+                    width: 4,
+                    height: 6
+                    children:[
+                        dtable1: {
+                            name: "Chippendale table (2x2)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/Et04IkZ502K64EGb8LUBI",
+                            x: 0,
+                            y: 1,
+                            width: 4,
+                            height: 3
+                        }
+
+                        dtable2: {
+                            name: "Chippendale table (2x2)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/Et04IkZ502K64EGb8LUBI",
+                            x: 0,
+                            y: 3,
+                            width: 4,
+                            height: 3
+                        }
+
+                        plates 2: {
+                            name: "Plate stack (small)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/0rAc55fDYgWHG-KWHNdis",
+                            x: 36.5,
+                            y: 36.5,
+                            width: 1,
+                            height: 1
+                        }
+
+                        platter: {
+                            name: "Harvest plating",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/M8ARzUiH8wXCnQj3oNWt1",
+                            x: 36.5,
+                            y: 38.5,
+                            width: 3,
+                            height: 1
+                        }
+
+                        plates 3: {
+                            name: "Plate stack (small)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/0rAc55fDYgWHG-KWHNdis",
+                            x: 36.5,
+                            y: 39.5,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair1: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/4DGaP_Y-9rYBjOwiyCwHp",
+                            x: 1,
+                            y: 0,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair2: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/4DGaP_Y-9rYBjOwiyCwHp",
+                            x: 2,
+                            y: 0,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair3: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/yhj2MRoC8VHJz8d9ewFx-",
+                            x: 0,
+                            y: 1,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair4: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/_L4jlcuOThnuvIK--lixI",
+                            x: 3,
+                            y: 1,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair5: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/yhj2MRoC8VHJz8d9ewFx-",
+                            x: 0,
+                            y: 2,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair6: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/_L4jlcuOThnuvIK--lixI",
+                            x: 3,
+                            y: 2,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair7: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/yhj2MRoC8VHJz8d9ewFx-",
+                            x: 0,
+                            y: 3,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair8: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/_L4jlcuOThnuvIK--lixI",
+                            x: 3,
+                            y: 3,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair9: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/yhj2MRoC8VHJz8d9ewFx-",
+                            x: 0,
+                            y: 4,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair10: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/_L4jlcuOThnuvIK--lixI",
+                            x: 3,
+                            y: 4,
+                            width: 1,
+                            height: 1
+                        }
+
+                        chair11: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/u7rzSont02cKmaIbAIQ8O",
+                            x: 1,
+                            y: 5,
+                            width: 1,
+                            height: 1
+                        }
+
+                        dchair12: {
+                            name: "Dining chair (square)",
+                            image: "https://cdn.gather.town/storage.googleapis.com/gather-town.appspot.com/internal-dashboard/images/u7rzSont02cKmaIbAIQ8O",
+                            x: 2,
+                            y: 5,
+                            width: 1,
+                            height: 1
+                        }
+                    ]
+                }
+            }
+        ]
+    ]
+}
