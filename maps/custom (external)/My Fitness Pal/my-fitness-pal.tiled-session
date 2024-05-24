@@ -1,0 +1,272 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "1st floor.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "/Users/alexsmith/Documents/gather_projects/Lobby.tmx": {
+            "scale": 0.7738541666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1201.1307039978462,
+                "y": 848.9971732400054
+            }
+        },
+        "/Users/alexsmith/Documents/gather_projects/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/gather_projects/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_shadows_1.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/gather_projects/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_terrains_3.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/gather_projects/sites/misc/mapmaking/tilesets/gather_floors_4.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/gather_projects/sites/misc/mapmaking/tilesets/gather_roofs_3.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/gather_projects/sites/misc/mapmaking/tilesets/gather_terrains_4.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/gather_projects/sites/misc/mapmaking/tilesets/gather_walls_3.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/custom (external)/Atomos/Cozy Roof Lg.tmx": {
+            "scale": 0.6122222222222222,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 899.1833030852996,
+                "y": 839.5644283121597
+            }
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/custom (external)/LHH/Floor 60.tmx": {
+            "scale": 0.581875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1360.2577873254565,
+                "y": 1201.2889366272825
+            }
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/custom (external)/LHH/Lobby.tmx": {
+            "scale": 0.7738541666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1201.1307039978462,
+                "y": 848.9971732400054
+            }
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/custom (internal)/Experiments/screenshot/gather_plants_outdoor_2.1.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/custom (internal)/Hekkaton/DA Maps/DA tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/templates/Office UFP 3/Clean/UFP 50 Clean.tmx": {
+            "scale": 0.9296,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1764.7375215146299,
+                "y": 1758.8209982788294
+            }
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/templates/UFP Offices/Assets/floor test.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/templates/UFP Offices/Assets/floors_3 complex colortest (grondpalate1).tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/templates/UFP Offices/Assets/gather_terrains_3.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/objects/WIP/13/a TEMP folder/Wall_unstable.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/objects/WIP/DZ/Palates/gather_terrains_colortest.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/Walls/Gather_Walls_unstable.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/Walls/WindowsObjects.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/Walls/toppers.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/decorations_mastersheet.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/floors_3_complex_S-20C-5.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/floors_3_simple_S-20C-5.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_decoration_1.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_exterior_decoration_1.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_exterior_roofs_2.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx": {
+            "scaleInDock": 0.0653
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_facades.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_floors_1.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_shadows_1.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_swatches_1.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_tables_2.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_terrains_3.x.tsx": {
+            "scaleInDock": 1.207,
+            "scaleInEditor": 1.37
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/mastersheet.tsx": {
+            "scaleInDock": 0.6739
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_architecture_features.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_floors_4.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_roofs_3.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_shadows_2.x.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_terrains_4.x.tsx": {
+            "scaleInDock": 1.3087,
+            "scaleInEditor": 1.37
+        },
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_walls_3.x.tsx": {
+            "scaleInDock": 0.9803
+        },
+        "1st floor.tmx": {
+            "scale": 0.6941,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 905.4891226048119,
+                "y": 322.72006915430046
+            }
+        },
+        "2nd floor.tmx": {
+            "scale": 0.8308,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 484.4727973038036,
+                "y": 187.7708233028406
+            }
+        },
+        "2nd floor.tmx#Gather Terrains 3.x": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "All Hands.tmx": {
+            "scale": 0.6122222222222222,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 900.8166969147005,
+                "y": 839.5644283121597
+            }
+        },
+        "Floor 60.tmx": {
+            "scale": 0.5608,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1265.1569186875895,
+                "y": 964.6932952924394
+            }
+        },
+        "Floor 70.tmx": {
+            "scale": 0.4653,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 1314.205888673974,
+                "y": 1381.904147861595
+            }
+        },
+        "Lobby.tmx": {
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 1170.5,
+                "y": 1072
+            }
+        },
+        "floor2.tmx": {
+            "scale": 0.5647,
+            "selectedLayer": 9,
+            "viewCenter": {
+                "x": 1045.6879759164158,
+                "y": 1009.385514432442
+            }
+        },
+        "my-fitness-pal.tmx": {
+            "scale": 0.581875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1200.4296455424274,
+                "y": 1201.2889366272825
+            }
+        },
+        "roof top.tmx": {
+            "scale": 0.5303,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 928.719592683387,
+                "y": 720.3469734112766
+            }
+        }
+    },
+    "last.externalTilesetPath": "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets",
+    "map.height": 75,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 75,
+    "openFiles": [
+        "Lobby.tmx",
+        "1st floor.tmx",
+        "2nd floor.tmx",
+        "roof top.tmx",
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_terrains_3.x.tsx",
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_terrains_4.x.tsx"
+    ],
+    "project": "my-fitness-pal.tiled-project",
+    "recentFiles": [
+        "Lobby.tmx",
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/gather_terrains_4.x.tsx",
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/tilesets/deprecated tilesheets/gather_terrains_3.x.tsx",
+        "roof top.tmx",
+        "2nd floor.tmx",
+        "1st floor.tmx",
+        "Floor 60.tmx",
+        "Floor 70.tmx",
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/templates/Office UFP 3/Clean/UFP 50 Clean.tmx",
+        "All Hands.tmx",
+        "/Users/alexsmith/Documents/sites/misc/mapmaking/maps/custom (external)/Atomos/Cozy Roof Lg.tmx",
+        "floor2.tmx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)"
+}
