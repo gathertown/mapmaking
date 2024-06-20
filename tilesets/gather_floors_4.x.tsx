@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.1" name="Gather Floors 4.x" tilewidth="32" tileheight="32" tilecount="3760" columns="40">
+<tileset version="1.10" tiledversion="1.10.2" name="Gather Floors 4.x" tilewidth="32" tileheight="32" tilecount="3760" columns="40">
  <image source="gather_floors_4.1.png" width="1280" height="3008"/>
+ <tile id="1166" probability="0.01"/>
+ <tile id="1168" probability="0.01"/>
+ <tile id="1170" probability="0.01"/>
+ <tile id="1205" probability="0.001"/>
+ <tile id="1206" probability="0.01"/>
+ <tile id="1207" probability="0.01"/>
+ <tile id="1208" probability="0.01"/>
+ <tile id="1209" probability="0.01"/>
+ <tile id="1210" probability="0.01"/>
+ <tile id="1245" probability="0.001"/>
+ <tile id="1246" probability="0.01"/>
+ <tile id="1247" probability="0.01"/>
+ <tile id="1248" probability="0.01"/>
+ <tile id="1249" probability="0.01"/>
+ <tile id="1250" probability="0.01"/>
  <wangsets>
   <wangset name="Wood Platforms" type="corner" tile="202">
    <wangcolor name="" color="#ff0000" tile="82" probability="1"/>
