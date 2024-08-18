@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="75" height="67" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="1">
- <tileset firstgid="1" source="../../../../tilesets/deprecated tilesheets/gather_terrains_3.x.tsx"/>
- <tileset firstgid="7841" source="../../UFP Offices/Assets/floor test.tsx"/>
- <tileset firstgid="9185" source="../../../../tilesets/gather_walls_3.x.tsx"/>
- <tileset firstgid="15569" source="../../../../tilesets/deprecated tilesheets/Walls/toppers.tsx"/>
- <tileset firstgid="16793" source="../../../../tilesets/gather_floors_4.x.tsx"/>
- <tileset firstgid="20553" source="../../../../tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx"/>
- <tileset firstgid="25593" source="../../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
- <tileset firstgid="56793" source="../../../../tilesets/deprecated tilesheets/gather_exterior_decoration_1.x.tsx"/>
- <tileset firstgid="66593" source="../../../../tilesets/deprecated tilesheets/gather_exterior_roofs_2.x.tsx"/>
- <tileset firstgid="80093" source="../../UFP Offices/Assets/floors_3 complex colortest (grondpalate1).tsx"/>
- <tileset firstgid="97949" source="../../../../tilesets/deprecated tilesheets/gather_shadows_1.x.tsx"/>
- <tileset firstgid="98389" source="../../../../tilesets/gather_roofs_3.x.tsx"/>
+ <tileset firstgid="1" source="../../../tilesets/deprecated tilesheets/gather_terrains_3.x.tsx"/>
+ <tileset firstgid="7841" source="../../templates/UFP Offices/Assets/floor test.tsx"/>
+ <tileset firstgid="9185" source="../../../tilesets/gather_walls_3.x.tsx"/>
+ <tileset firstgid="15569" source="../../../tilesets/deprecated tilesheets/Walls/toppers.tsx"/>
+ <tileset firstgid="16793" source="../../../tilesets/gather_floors_4.x.tsx"/>
+ <tileset firstgid="20553" source="../../../tilesets/deprecated tilesheets/gather_plants_outdoor_2.x.tsx"/>
+ <tileset firstgid="25593" source="../../../tilesets/deprecated tilesheets/gather_exterior_walls_2.x.tsx"/>
+ <tileset firstgid="56793" source="../../../tilesets/deprecated tilesheets/gather_exterior_decoration_1.x.tsx"/>
+ <tileset firstgid="66593" source="../../../tilesets/deprecated tilesheets/gather_exterior_roofs_2.x.tsx"/>
+ <tileset firstgid="80093" source="../../templates/UFP Offices/Assets/floors_3 complex colortest (grondpalate1).tsx"/>
+ <tileset firstgid="97949" source="../../../tilesets/deprecated tilesheets/gather_shadows_1.x.tsx"/>
+ <tileset firstgid="98389" source="../../../tilesets/gather_roofs_3.x.tsx"/>
  <layer id="1" name="Terrain 1" width="75" height="67">
   <data encoding="csv">
 2908,3066,3066,3066,3066,3066,3066,3066,3066,3066,3066,3066,3067,3001,425,429,428,426,428,426,428,426,428,426,429,426,428,429,428,428,426,426,429,428,426,429,428,429,429,426,428,429,428,429,429,429,428,429,426,426,429,428,428,429,428,428,429,429,426,428,269,268,428,428,426,428,429,428,429,428,429,428,429,429,428,
@@ -723,6 +723,6 @@
 </data>
  </layer>
  <imagelayer id="2" name="Floorplan" visible="0" opacity="0.53">
-  <image source="../Layouts/UFP3 size 30 .png" width="2400" height="2144"/>
+  <image source="../Layouts/UFP3 size 30 .png"/>
  </imagelayer>
 </map>
