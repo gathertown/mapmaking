@@ -1,0 +1,62 @@
+{
+    "maps": [
+        {
+            "fileName": "Core.tmx",
+            "height": 2400,
+            "width": 2720,
+            "x": -192,
+            "y": 224
+        },
+        {
+            "fileName": "Core_PI.tmx",
+            "height": 2400,
+            "width": 2720,
+            "x": 2528,
+            "y": 224
+        },
+        {
+            "fileName": "Apps.tmx",
+            "height": 2400,
+            "width": 2720,
+            "x": 5248,
+            "y": 224
+        },
+        {
+            "fileName": "DataAI.tmx",
+            "height": 2400,
+            "width": 2720,
+            "x": 7968,
+            "y": 224
+        },
+        {
+            "fileName": "Infra_Support.tmx",
+            "height": 2400,
+            "width": 2720,
+            "x": 10688,
+            "y": 224
+        },
+        {
+            "fileName": "Event Floor.tmx",
+            "height": 2112,
+            "width": 2144,
+            "x": 13408,
+            "y": 224
+        },
+        {
+            "fileName": "Lobby.tmx",
+            "height": 1568,
+            "width": 1632,
+            "x": -3360,
+            "y": 224
+        },
+        {
+            "fileName": "Game Room.tmx",
+            "height": 1568,
+            "width": 1536,
+            "x": -1728,
+            "y": 224
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
