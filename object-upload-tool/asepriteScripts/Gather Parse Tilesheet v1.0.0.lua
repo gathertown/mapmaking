@@ -65,6 +65,8 @@ function run()
   local spriteLayer = aseprite.findLayerByName(rootLayer, 'Sprite')
   local foldLayer = aseprite.findLayerByName(rootLayer, 'Fold')
   local originLayer = aseprite.findLayerByName(rootLayer, 'Origin')
+  local collisionLayer = aseprite.findLayerByName(rootLayer, 'Collision')
+  local sittableLayer = aseprite.findLayerByName(rootLayer, 'Sittable')
 
   -- Verify all required layers exist
   local layerErrors = {}
@@ -130,20 +132,48 @@ function run()
   end
 
   -- Ask user for information needed for task
-  local tileData =
-    Dialog()
-            :label{ label="Gather Config File:", text=configFilePath }
-            :label{ label="Output Path:", text=configData.outputDirectory}
-            :separator{}
-            :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth) }
-            :number{ id="height", label="Tile height:", text=tostring(defaultTileHeight) }
-            :check{ id="hasForeground",
-            label="Sprite foreground: ",
-            text="Has foreground",
-            selected=defaultHasForeground}
-            :button{ id="confirm", text="Confirm" }
-            :button{ id="cancel", text="Cancel" }
-            :show().data
+  local tileDataDialog = Dialog()
+    -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
+    :label{ label="Gather Config File:", text=configFilePath }
+    :label{ label="Output Path:", text=configData.outputDirectory}
+    :separator{}
+    :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth) }
+    :number{ id="height", label="Tile height:", text=tostring(defaultTileHeight) }
+    :check{ id="hasForeground",
+    label="Sprite foreground: ",
+    text="Has foreground",
+    selected=defaultHasForeground}
+
+  -- TODO:
+  -- add a row per variant here, for now, this is temp
+  -- this should sync with the information below too.
+  --
+  -- Should calcuate variants in a shared logical function
+  -- somehow in case we change this pattern in the future.
+  local variantCount = sprite.height / defaultTileHeight
+  if defaultHasForeground then
+    variantCount = math.floor(variantCount / 2)
+  end
+  tileDataDialog:separator{ text="Variants             Primary Color                      Secondary Color" }
+  for variant=0, variantCount - 1, 1 do 
+    tileDataDialog
+        -- :label{ label=string.format("Row %s", variant) }
+        :entry{ label=string.format("Row %s", variant) }
+        :entry{}
+  end
+
+  -- TODO:
+  -- When we parse colors, they should either be from a
+  -- set of pre-approved aliases or they should be a 
+  -- valid hex code.
+
+  -- Add final action buttons to dialogue
+  tileDataDialog
+    :separator{}
+    :button{ id="confirm", text="Confirm" }
+    :button{ id="cancel", text="Cancel" }
+
+  local tileData = tileDataDialog:show().data
 
   if not tileData.confirm then
     app.alert('Quitting!')
@@ -519,7 +549,7 @@ return module
 end)
 __bundle_register("deps/scriptVersion", function(require, _LOADED, __bundle_register, __bundle_modules)
 -- This file is generated.
--- It will be overwritten by bundleAsepriteScripts.js during
+-- It will be overwritten by bundleScripts.js during
 -- the lua bundle process.
 return "1.0.0"
 end)
