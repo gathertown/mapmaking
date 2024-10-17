@@ -5,14 +5,16 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "scripts:sync": "node src/devScripts/copyScriptsToAsepriteScriptsDirectory.js",
-    "scripts:watch": "node src/devScripts/watchSyncAsepriteScripts.js",
-    "scripts:clear": "node src/devScripts/clearGatherAsepriteScriptsDirectory.js",
+    "asesprite:sync": "node src/devScripts/copyScriptsToAsepriteScriptsDirectory.js",
+    "asesprite:sync:watch": "node src/devScripts/watchSyncAsepriteScripts.js",
+    "asesprite:clean": "node src/devScripts/clearGatherAsepriteScriptsDirectory.js",
+    "watch": "node src/devScripts/watchBuildSyncAsepritesSourceDirectory.js",
     "build": "node src/devScripts/bundleAsepriteScripts.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chokidar": "^4.0.1",
     "dotenv": "^16.4.5",
     "luabundle": "^1.7.0",
     "luabundler": "^1.2.3",
