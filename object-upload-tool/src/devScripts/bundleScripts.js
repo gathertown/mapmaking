@@ -14,7 +14,7 @@ async function bundleScripts() {
   const entrypoint = "parse_tilesheet.lua";
 
   const scriptVersionContents = `-- This file is generated.
--- It will be overwritten by bundleAsepriteScripts.js during
+-- It will be overwritten by bundleScripts.js during
 -- the lua bundle process.
 return "${packageInfo.version}"`;
 
