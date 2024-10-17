@@ -104,10 +104,15 @@ function run()
   local defaultTileHeight=32
   local defaultHasForeground=false
 
-  -- Manifest output path
+  if not sprite.selection.isEmpty then
+    defaultTileWidth = sprite.selection.bounds.width
+    defaultTileHeight = sprite.selection.bounds.height
+  end
+
+  -- Manifest data output path
   local manifestDataOutputPath = app.fs.joinPath(configData.outputDirectory, "manifest.json")
 
-  -- Try to se pre-existing manifest data as default if it exists
+  -- Try to use pre-existing manifest data as default if it exists
   if file.exists(manifestDataOutputPath) then
     local existingManifestData = file.readJson(manifestDataOutputPath)
 
@@ -121,14 +126,13 @@ function run()
     defaultTileWidth = existingManifestData.tileData.width
     defaultTileHeight = existingManifestData.tileData.height
     defaultHasForeground = existingManifestData.tileData.hasForeground
-
-    app.alert(json.encode(existingManifestData.tileData))
   end
 
   -- Ask user for information needed for task
   local tileData =
     Dialog()
             :label{ label="Gather Config File:", text=configFilePath }
+            :label{ label="Output Path:", text=configData.outputDirectory}
             :separator{}
             :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth) }
             :number{ id="height", label="Tile height:", text=tostring(defaultTileHeight) }
@@ -239,21 +243,23 @@ function findFold(image)
   local opaqueFoldPixels = aseprite.getAllOpaquePixels(image)
 
   -- TODO:
-  -- Do SOMETHING if there is no fold data
+  -- Do SOMETHING if there is no fold data?
 
   local yValues = array.map(opaqueFoldPixels, function(pixel) return pixel.y end)
   local uniqueYValues = array.getUniqueValueSet(yValues)
-  -- app.alert(uniqueYValues)
   local uniqueYValueCount = tableUtils.countEntries(uniqueYValues)
 
 
   if uniqueYValueCount ~= 1 then
+    -- TODO: 
+    -- We should alert if too many pixels
+
     -- There are too many or too few y values for fold,
     -- there should only be one
     return false
   end
 
-  -- Return only Y value
+  -- There should only be the one valid Y value at this point
   return tableUtils.getFirstKey(uniqueYValues)
 end
 
@@ -261,11 +267,14 @@ function findOrigin(image)
   local opaqueOriginPixels = aseprite.getAllOpaquePixels(image)
 
   -- TODO:
-  -- Do SOMETHING if there is no origin data
+  -- Do SOMETHING if there is no origin data?
 
   local originCount = #opaqueOriginPixels
 
   if originCount ~= 1 then
+    -- TODO: 
+    -- We should alert if too many pixels
+
     -- There are too many or too few y values for origin,
     -- there should only be one
     return false
