@@ -105,6 +105,19 @@ function run()
   local defaultTileWidth=32
   local defaultTileHeight=32
   local defaultHasForeground=false
+  -- See reference/palette_naming_reference.png for more info here.
+  -- This is an agreed upon set of default colors for variant rows.
+  local defaultOrderedColors={
+    "brown",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple"
+  }
+  local defaultVariantPrimaryColors={}
+  local defaultVariantSecondaryColors={}
 
   -- Use active sprite selection as default height/width
   if not sprite.selection.isEmpty then
@@ -129,15 +142,20 @@ function run()
     defaultTileWidth = existingManifestData.tileData.width
     defaultTileHeight = existingManifestData.tileData.height
     defaultHasForeground = existingManifestData.tileData.hasForeground
+
+    defaultVariantPrimaryColors = array.map(existingManifestData.variants, function(variant) return variant.color.primary end)
+    defaultVariantSecondaryColors = array.map(existingManifestData.variants, function(variant) return variant.color.secondary end)
   end
 
   -- Ask user for information needed for task
   local tileDataDialog = Dialog()
+
+  tileDataDialog
     -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
     :label{ label="Gather Config File:", text=configFilePath }
     :label{ label="Output Path:", text=configData.outputDirectory}
     :separator{}
-    :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth) }
+    :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth), onchange=function(value) app.alert(tileDataDialog.data.width) end }
     :number{ id="height", label="Tile height:", text=tostring(defaultTileHeight) }
     :check{ id="hasForeground",
     label="Sprite foreground: ",
@@ -156,16 +174,33 @@ function run()
   end
   tileDataDialog:separator{ text="Variants             Primary Color                      Secondary Color" }
   for variant=0, variantCount - 1, 1 do 
+    local primaryColor = defaultOrderedColors[variant + 1]
+    local secondaryColor = ""
+
+    if defaultVariantPrimaryColors[variant + 1] ~= nil then
+        primaryColor = defaultVariantPrimaryColors[variant + 1]
+    end
+    if defaultVariantSecondaryColors[variant + 1] ~= nil then
+        secondaryColor = defaultVariantSecondaryColors[variant + 1]
+    end
+
     tileDataDialog
         -- :label{ label=string.format("Row %s", variant) }
-        :entry{ label=string.format("Row %s", variant) }
-        :entry{}
+        :entry{ id=string.format("variantColorPrimary-%d", variant), label=string.format("Row %s", variant), text=primaryColor }
+        :entry{ id=string.format("variantColorSecondary-%d", variant), text=secondaryColor }
   end
 
   -- TODO:
   -- When we parse colors, they should either be from a
   -- set of pre-approved aliases or they should be a 
-  -- valid hex code.
+  -- valid hex code. 
+
+  -- TODO:
+  -- We need to add change handlers to data
+  -- and recompute the rows and modify them 
+  -- as the data changes. Really redo the
+  -- entire bottom half of the Dialog? We
+  -- may need to add or remove rows.
 
   -- Add final action buttons to dialogue
   tileDataDialog
@@ -216,7 +251,11 @@ function run()
     end
     if not array.contains(manifestData.variants, function (manifestVariant) return manifestVariant.id == variant end) then
         table.insert(manifestData.variants, {
-            id=variant
+            id=variant,
+            color={
+                primary=tileData[string.format("variantColorPrimary-%d", variant)],
+                secondary=tileData[string.format("variantColorSecondary-%d", variant)],
+            }
         })
     end
     
