@@ -42,7 +42,7 @@ local __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (
 	return require, loaded, register, modules
 end)(require)
 __bundle_register("__root", function(require, _LOADED, __bundle_register, __bundle_modules)
-local scriptVersion = "1.0.0"
+local scriptVersion = require("deps/scriptVersion")
 local configFileName = ".gather_config.json"
 
 local array = require("deps/array")
@@ -104,6 +104,7 @@ function run()
   local defaultTileHeight=32
   local defaultHasForeground=false
 
+  -- Use active sprite selection as default height/width
   if not sprite.selection.isEmpty then
     defaultTileWidth = sprite.selection.bounds.width
     defaultTileHeight = sprite.selection.bounds.height
@@ -515,5 +516,11 @@ function module.contains(array, callback)
 end
 
 return module
+end)
+__bundle_register("deps/scriptVersion", function(require, _LOADED, __bundle_register, __bundle_modules)
+-- This file is generated.
+-- It will be overwritten by bundleAsepriteScripts.js during
+-- the lua bundle process.
+return "1.0.0"
 end)
 return __bundle_require("__root")

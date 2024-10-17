@@ -12,6 +12,18 @@ const packageInfo = JSON.parse(packageInfoRaw);
 
 const entrypoint = "parse_tilesheet.lua";
 
+const scriptVersionContents = `-- This file is generated.
+-- It will be overwritten by bundleAsepriteScripts.js during
+-- the lua bundle process.
+return "${packageInfo.version}"`;
+
+const scriptVersionPath = path.join(
+  localAsepriteScriptsSrcDir,
+  "deps",
+  "scriptVersion.lua"
+);
+await writeFile(scriptVersionPath, scriptVersionContents);
+
 const entrypointPath = path.join(localAsepriteScriptsSrcDir, entrypoint);
 const bundledLua = bundle(entrypointPath, {
   paths: [

@@ -1,4 +1,4 @@
-local scriptVersion = "1.0.0"
+local scriptVersion = require('deps/scriptVersion')
 local configFileName = ".gather_config.json"
 
 local array = require('deps/array')
