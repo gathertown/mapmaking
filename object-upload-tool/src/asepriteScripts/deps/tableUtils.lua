@@ -1,3 +1,5 @@
+-- table is a base library namespace already, using tableUtils instead
+
 local module = {}
 
 -- Count number of entries in a table

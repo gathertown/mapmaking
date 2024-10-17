@@ -51,14 +51,24 @@ function module.filter(array, callback)
 end
 
   -- Create a "set" of unique values from an array
-function module.getUniqueValueSet(values) 
+function module.getUniqueValueSet(array) 
   local uniqueSet = {}
 
-  for _, item in ipairs(values) do 
+  for _, item in ipairs(array) do 
     uniqueSet[item] = true
   end
 
   return uniqueSet
+end
+
+function module.contains(array, callback)
+  for index, item in ipairs(array) do 
+    if (callback(item, index)) then
+      return true
+    end
+  end
+
+  return false
 end
 
 return module

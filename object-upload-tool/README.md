@@ -8,6 +8,30 @@ Top level folders in this project:
 
 ## Using the Script
 
+### Setup
+
+- Open your Aseprite Config directory: https://www.aseprite.org/docs/preferences-folder/
+- Create a `.gather_config.json` file
+- Set your outputDirectory value
+  - TODO: we could maybe actually automate this whole process via dialog inputs/file picker
+- In Aseprite, hit `rescan scripts` to make sure you get the script to show up in Aseprite dropdown
+
+### Aseprite File Format
+
+This script expects an Aseprite file to have 3 layers:
+
+- Sprite - layer with artwork on it
+- Fold - layer with fold (depth sort line) information on it
+- Origin - layer with origin of each sprite direction on it
+
+### Usage
+
+- Select `Gather Parse Tilesheet vX.X.X` from your scripts dropdown in Aseprite
+- Fill out data in the popup
+- Verify data looks as expected in `output` folder in this repository
+- Commit this change in git and push to GitHub on the `main` branch
+- GitHub will sync those changes over to staging automatically
+
 ## Developing the Script
 
 - Use `.nvmrc` specified version of node
