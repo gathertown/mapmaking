@@ -105,18 +105,7 @@ function run()
 
   -- Ask user for information needed for task
   local tileDataDialog = Dialog()
-
-  tileDataDialog
-    -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
-    :label{ label="Gather Config File:", text=configFilePath }
-    :label{ label="Output Path:", text=configData.outputDirectory}
-    :separator{}
-    :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth), onchange=function(value) app.alert(tileDataDialog.data.width) end }
-    :number{ id="height", label="Tile height:", text=tostring(defaultTileHeight) }
-    :check{ id="hasForeground",
-    label="Sprite foreground: ",
-    text="Has foreground",
-    selected=defaultHasForeground}
+  local variantDataDialog = Dialog()
 
   -- TODO:
   -- add a row per variant here, for now, this is temp
@@ -124,27 +113,41 @@ function run()
   --
   -- Should calcuate variants in a shared logical function
   -- somehow in case we change this pattern in the future.
+  local variantRowIds={}
   local variantCount = sprite.height / defaultTileHeight
+
   if defaultHasForeground then
     variantCount = math.floor(variantCount / 2)
   end
-  tileDataDialog:separator{ text="Variants             Primary Color                      Secondary Color" }
-  for variant=0, variantCount - 1, 1 do 
-    local primaryColor = defaultOrderedColors[variant + 1]
-    local secondaryColor = ""
 
-    if defaultVariantPrimaryColors[variant + 1] ~= nil then
-        primaryColor = defaultVariantPrimaryColors[variant + 1]
-    end
-    if defaultVariantSecondaryColors[variant + 1] ~= nil then
-        secondaryColor = defaultVariantSecondaryColors[variant + 1]
+  function updateVariantRowFields()
+    variantCount = sprite.height / tileDataDialog.data.height
+
+    if tileDataDialog.data.hasForeground then
+      variantCount = math.floor(variantCount / 2)
     end
 
-    tileDataDialog
-        -- :label{ label=string.format("Row %s", variant) }
-        :entry{ id=string.format("variantColorPrimary-%d", variant), label=string.format("Row %s", variant), text=primaryColor }
-        :entry{ id=string.format("variantColorSecondary-%d", variant), text=secondaryColor }
+    tileDataDialog:modify{ id="variantCount", text=tostring(variantCount) }
   end
+
+  tileDataDialog
+    -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
+    :label{ label="Gather Config File:", text=configFilePath }
+    :label{ label="Output Path:", text=configData.outputDirectory}
+    :separator{}
+    :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth), onchange=updateVariantRowFields }
+    :number{ id="height", label="Tile height:", text=tostring(defaultTileHeight), onchange=updateVariantRowFields }
+    :check{
+        id="hasForeground",
+        label="Sprite foreground: ",
+        text="Has foreground",
+        selected=defaultHasForeground,
+        onclick=updateVariantRowFields
+    }
+    :label{ id="variantCount", label="Variant Row Count:", text=tostring(variantCount) }
+    :separator{}
+    :button{ id="confirm", text="Confirm" }
+    :button{ id="cancel", text="Cancel" }
 
   -- TODO:
   -- When we parse colors, they should either be from a
@@ -158,15 +161,45 @@ function run()
   -- entire bottom half of the Dialog? We
   -- may need to add or remove rows.
 
-  -- Add final action buttons to dialogue
-  tileDataDialog
-    :separator{}
-    :button{ id="confirm", text="Confirm" }
-    :button{ id="cancel", text="Cancel" }
-
   local tileData = tileDataDialog:show().data
 
   if not tileData.confirm then
+    app.alert('Quitting!')
+    return
+  end
+
+  variantDataDialog:separator{ text="Variants             Primary Color                      Secondary Color" }
+  for variant=0, variantCount - 1, 1 do 
+    local primaryColor = defaultOrderedColors[variant + 1]
+    local secondaryColor = ""
+
+    if defaultVariantPrimaryColors[variant + 1] ~= nil then
+        primaryColor = defaultVariantPrimaryColors[variant + 1]
+    end
+    if defaultVariantSecondaryColors[variant + 1] ~= nil then
+        secondaryColor = defaultVariantSecondaryColors[variant + 1]
+    end
+
+    local primaryColorId = string.format("variantColorPrimary-%d", variant)
+    local secondaryColorId = string.format("variantColorSecondary-%d", variant)
+    
+    table.insert(variantRowIds, primaryColorId)
+    table.insert(variantRowIds, secondaryColorId)
+    
+    variantDataDialog
+        -- :label{ label=string.format("Row %s", variant) }
+        :entry{ id=primaryColorId, label=string.format("Row %s", variant), text=primaryColor }
+        :entry{ id=secondaryColorId, text=secondaryColor }
+  end
+
+  variantDataDialog
+    :separator{}
+    :button{ id="confirm", text="Confirm" }
+    :button{ id="cancel", text="Cancel" }
+    
+  local variantData = variantDataDialog:show().data
+
+  if not variantData.confirm then
     app.alert('Quitting!')
     return
   end
@@ -209,8 +242,8 @@ function run()
         table.insert(manifestData.variants, {
             id=variant,
             color={
-                primary=tileData[string.format("variantColorPrimary-%d", variant)],
-                secondary=tileData[string.format("variantColorSecondary-%d", variant)],
+                primary=variantData[string.format("variantColorPrimary-%d", variant)],
+                secondary=variantData[string.format("variantColorSecondary-%d", variant)],
             }
         })
     end
