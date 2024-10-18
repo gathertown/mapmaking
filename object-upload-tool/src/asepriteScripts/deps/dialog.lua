@@ -1,3 +1,6 @@
+local color = require('color')
+local array = require('array')
+
 local module = {}
 
 function module.collectTileData(sprite, defaults, configData) 
@@ -13,7 +16,7 @@ function module.collectTileData(sprite, defaults, configData)
     variantCount = math.floor(variantCount / 2)
   end
 
-  function updateVariantRowFields()
+  function updateVariantCount()
     variantCount = sprite.height / tileDataDialog.data.height
 
     if tileDataDialog.data.hasForeground then
@@ -25,17 +28,17 @@ function module.collectTileData(sprite, defaults, configData)
 
   tileDataDialog
     -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
-    :label{ label="Gather Config File:", text=configFilePath }
+    :label{ label="Gather Config File:", text=configData.filePath }
     :label{ label="Output Path:", text=configData.outputDirectory}
     :separator{}
-    :number{ id="width", label="Tile width:", text=tostring(defaults.tileWidth), onchange=updateVariantRowFields }
-    :number{ id="height", label="Tile height:", text=tostring(defaults.tileHeight), onchange=updateVariantRowFields }
+    :number{ id="width", label="Tile width:", text=tostring(defaults.tileWidth), onchange=updateVariantCount }
+    :number{ id="height", label="Tile height:", text=tostring(defaults.tileHeight), onchange=updateVariantCount }
     :check{
         id="hasForeground",
         label="Sprite foreground: ",
         text="Has foreground",
         selected=defaults.hasForeground,
-        onclick=updateVariantRowFields
+        onclick=updateVariantCount
     }
     :label{ id="variantCount", label="Variant Row Count:", text=tostring(variantCount) }
     :separator{}
@@ -47,6 +50,39 @@ end
 
 function module.collectVariantData(defaults, tileData)
     local variantDataDialog = Dialog()
+
+    function updateErrors()
+      local errors = {}
+
+      for variant=0, tileData.variantCount - 1, 1 do
+        local primaryColor = variantDataDialog.data[string.format("variantColorPrimary-%d", variant)]
+        local secondaryColor = variantDataDialog.data[string.format("variantColorSecondary-%d", variant)]
+
+        if not color.isValidColor(primaryColor) then
+          table.insert(errors, string.format("v%d_1st", variant))
+        end
+
+        if secondaryColor ~= "" and not color.isValidColor(secondaryColor) then
+          table.insert(errors, string.format("v%d_2nd", variant))
+        end
+      end
+
+      if #errors > 0 then
+        variantDataDialog:modify{ id="errors", text=array.join(errors, ", ") }
+        variantDataDialog:modify{ id="confirm", visible=false }
+      else
+        variantDataDialog:modify{ id="errors", text="" }
+        variantDataDialog:modify{ id="confirm", visible=true }
+      end
+
+      -- variantCount = sprite.height / tileDataDialog.data.height
+  
+      -- if tileDataDialog.data.hasForeground then
+      --   variantCount = math.floor(variantCount / 2)
+      -- end
+  
+      -- tileDataDialog:modify{ id="errors", text=tostring(variantCount) }
+    end
 
     variantDataDialog:separator{ text="Variants         Primary Color              Secondary Color" }
     for variant=0, tileData.variantCount - 1, 1 do 
@@ -65,9 +101,13 @@ function module.collectVariantData(defaults, tileData)
       
       variantDataDialog
           -- :label{ label=string.format("Row %s", variant) }
-          :entry{ id=primaryColorId, label=string.format("Row %s", variant), text=primaryColor }
-          :entry{ id=secondaryColorId, text=secondaryColor }
+          :entry{ id=primaryColorId, label=string.format("Row %s", variant), text=primaryColor, onchange=updateErrors }
+          :entry{ id=secondaryColorId, text=secondaryColor, onchange=updateErrors }
     end
+
+    variantDataDialog
+      :separator{}
+      :label{ id="errors", label="Invalid Colors:", text="" }
   
     variantDataDialog
       :separator{}

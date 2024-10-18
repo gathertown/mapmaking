@@ -52,6 +52,8 @@ local file = require("deps/file")
 local stringUtils = require("deps/stringUtils")
 local dialog = require("deps/dialog")
 
+local baseTileSize = 32
+
 function run()
   local sprite = app.activeSprite
 
@@ -80,11 +82,16 @@ function run()
   if not originLayer then
     table.insert(layerErrors, 'Layer named "Origin" is missing')
   end
+  if not collisionLayer then
+    table.insert(layerErrors, 'Layer named "Collision" is missing')
+  end
+  if not sittableLayer then
+    table.insert(layerErrors, 'Layer named "Sittable" is missing')
+  end
   if #layerErrors ~= 0 then
       app.alert("There were errors processing the layers of this Sprite. " .. array.join(layerErrors, ", "))
       return
   end
-
 
   -- Get the script config file from Aseprite config files
   local configFilePath = app.fs.joinPath(app.fs.userConfigPath, configFileName)
@@ -96,6 +103,7 @@ function run()
     return
   end
   local configData = file.readJson(configFilePath)
+  configData.filePath = configFilePath
 
   -- TODO:
   -- This is a temp (?) override.
@@ -106,6 +114,8 @@ function run()
   local spriteImage = aseprite.getCelImageWithTransparentPadding(spriteLayer:cel(1))
   local foldImage = aseprite.getCelImageWithTransparentPadding(foldLayer:cel(1))
   local originImage = aseprite.getCelImageWithTransparentPadding(originLayer:cel(1))
+  local collisionImage = aseprite.getCelImageWithTransparentPadding(collisionLayer:cel(1))
+  local sittableImage = aseprite.getCelImageWithTransparentPadding(sittableLayer:cel(1))
 
   -- Default dialog values
   local defaultTileWidth=32
@@ -198,7 +208,7 @@ function run()
   -- Calculate rows/cols in the spritesheet
   local rows = sprite.height / tileData.height
   local cols = sprite.width / tileData.width
-
+  
   -- TODO:
   -- only allow folds on first image? Maybe this is just default?
   -- only allow centers on first image? Maybe this is just default?
@@ -260,6 +270,14 @@ function run()
       local originValue = findOrigin(originSubImage)
       imageData.origin = originValue
 
+      local collisionSubImage = aseprite.getSubImageInBounds(collisionImage, imageBounds)
+      local collisionValue = findUniqueCoords(collisionSubImage, tileData)
+      imageData.collision = collisionValue
+
+      local sittableSubImage = aseprite.getSubImageInBounds(sittableImage, imageBounds)
+      local sittableValue = findUniqueCoords(sittableSubImage, tileData)
+      imageData.sittable = sittableValue
+
       table.insert(manifestData.images, imageData)
     end
   end
@@ -314,6 +332,19 @@ function findOrigin(image)
   return opaqueOriginPixels[1]
 end
 
+function findUniqueCoords(image, tileData) 
+    local opaquePixels = aseprite.getAllOpaquePixels(image)
+
+    if #opaquePixels == 0 then
+        return false
+    end
+
+    local tileCoords = array.map(opaquePixels, function(pixel) return { x=pixel.x // baseTileSize, y=pixel.y // baseTileSize } end)
+    local uniqueCoords = array.removeDuplicatesByComparator(tileCoords, function(a, b) return a.x == b.x and a.y == b.y end)
+    
+    return uniqueCoords
+end
+
 function isCompatibleScriptVersion(version) 
     local versionParts = stringUtils.split(version, '.')
     local majorVersion = tonumber(versionParts[1]) -- lua is 1-indexed
@@ -331,6 +362,9 @@ end
 run()
 end)
 __bundle_register("deps/dialog", function(require, _LOADED, __bundle_register, __bundle_modules)
+local color = require("color")
+local array = require("array")
+
 local module = {}
 
 function module.collectTileData(sprite, defaults, configData) 
@@ -346,7 +380,7 @@ function module.collectTileData(sprite, defaults, configData)
     variantCount = math.floor(variantCount / 2)
   end
 
-  function updateVariantRowFields()
+  function updateVariantCount()
     variantCount = sprite.height / tileDataDialog.data.height
 
     if tileDataDialog.data.hasForeground then
@@ -358,17 +392,17 @@ function module.collectTileData(sprite, defaults, configData)
 
   tileDataDialog
     -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
-    :label{ label="Gather Config File:", text=configFilePath }
+    :label{ label="Gather Config File:", text=configData.filePath }
     :label{ label="Output Path:", text=configData.outputDirectory}
     :separator{}
-    :number{ id="width", label="Tile width:", text=tostring(defaults.tileWidth), onchange=updateVariantRowFields }
-    :number{ id="height", label="Tile height:", text=tostring(defaults.tileHeight), onchange=updateVariantRowFields }
+    :number{ id="width", label="Tile width:", text=tostring(defaults.tileWidth), onchange=updateVariantCount }
+    :number{ id="height", label="Tile height:", text=tostring(defaults.tileHeight), onchange=updateVariantCount }
     :check{
         id="hasForeground",
         label="Sprite foreground: ",
         text="Has foreground",
         selected=defaults.hasForeground,
-        onclick=updateVariantRowFields
+        onclick=updateVariantCount
     }
     :label{ id="variantCount", label="Variant Row Count:", text=tostring(variantCount) }
     :separator{}
@@ -380,6 +414,39 @@ end
 
 function module.collectVariantData(defaults, tileData)
     local variantDataDialog = Dialog()
+
+    function updateErrors()
+      local errors = {}
+
+      for variant=0, tileData.variantCount - 1, 1 do
+        local primaryColor = variantDataDialog.data[string.format("variantColorPrimary-%d", variant)]
+        local secondaryColor = variantDataDialog.data[string.format("variantColorSecondary-%d", variant)]
+
+        if not color.isValidColor(primaryColor) then
+          table.insert(errors, string.format("v%d_1st", variant))
+        end
+
+        if secondaryColor ~= "" and not color.isValidColor(secondaryColor) then
+          table.insert(errors, string.format("v%d_2nd", variant))
+        end
+      end
+
+      if #errors > 0 then
+        variantDataDialog:modify{ id="errors", text=array.join(errors, ", ") }
+        variantDataDialog:modify{ id="confirm", visible=false }
+      else
+        variantDataDialog:modify{ id="errors", text="" }
+        variantDataDialog:modify{ id="confirm", visible=true }
+      end
+
+      -- variantCount = sprite.height / tileDataDialog.data.height
+  
+      -- if tileDataDialog.data.hasForeground then
+      --   variantCount = math.floor(variantCount / 2)
+      -- end
+  
+      -- tileDataDialog:modify{ id="errors", text=tostring(variantCount) }
+    end
 
     variantDataDialog:separator{ text="Variants         Primary Color              Secondary Color" }
     for variant=0, tileData.variantCount - 1, 1 do 
@@ -398,9 +465,13 @@ function module.collectVariantData(defaults, tileData)
       
       variantDataDialog
           -- :label{ label=string.format("Row %s", variant) }
-          :entry{ id=primaryColorId, label=string.format("Row %s", variant), text=primaryColor }
-          :entry{ id=secondaryColorId, text=secondaryColor }
+          :entry{ id=primaryColorId, label=string.format("Row %s", variant), text=primaryColor, onchange=updateErrors }
+          :entry{ id=secondaryColorId, text=secondaryColor, onchange=updateErrors }
     end
+
+    variantDataDialog
+      :separator{}
+      :label{ id="errors", label="Invalid Colors:", text="" }
   
     variantDataDialog
       :separator{}
@@ -414,6 +485,145 @@ function module.collectVariantData(defaults, tileData)
   
     return variantDataDialog:show().data
 end
+
+return module
+end)
+__bundle_register("array", function(require, _LOADED, __bundle_register, __bundle_modules)
+local module = {}
+
+-- Like JS array.join
+function module.join(array, separator) 
+  local output = ""
+  
+  for index, item in ipairs(array) do 
+    output = output .. item
+
+    if index < #array then
+      output = output .. separator
+    end
+  end
+
+  return output
+end
+
+-- Like JS array.every
+function module.every(array, callback)
+  for index, item in ipairs(array) do 
+    if not callback(item, index) then
+      return false
+    end
+  end
+
+  return true
+end
+
+-- Like JS array.map
+function module.map(array, callback)
+  local output = {}
+
+  for index, item in ipairs(array) do 
+    table.insert(output, callback(item, index))
+  end
+
+  return output
+end
+
+-- Like JS array.filter
+function module.filter(array, callback)
+  local output = {}
+
+  for index, item in ipairs(array) do 
+    if (callback(item, index)) then
+      table.insert(output, item)
+    end
+  end
+
+  return output
+end
+
+  -- Create a "set" of unique values from an array
+function module.getUniqueValueSet(array) 
+  local uniqueSet = {}
+
+  for _, item in ipairs(array) do 
+    uniqueSet[item] = true
+  end
+
+  return uniqueSet
+end
+
+function module.removeDuplicatesByComparator(array, comparator) 
+  local deduped = {}
+
+  for index, item in ipairs(array) do 
+    if (not module.contains(deduped, function (includedItem) return comparator(includedItem, item) end)) then
+      table.insert(deduped, item)
+    end
+  end
+
+  return deduped
+end
+  
+
+function module.contains(array, callback)
+  for index, item in ipairs(array) do 
+    if (callback(item, index)) then
+      return true
+    end
+  end
+
+  return false
+end
+
+return module
+end)
+__bundle_register("color", function(require, _LOADED, __bundle_register, __bundle_modules)
+local array = require("array")
+
+local module = {}
+
+-- See reference/palette_naming_reference.png for more info here.
+local validColorsWithShadeModifier = {
+    "brown",
+    "coffee",
+    "pink",
+    "purple",
+    "blue",
+    "teal",
+    "green",
+    "yellow",
+    "orange",
+    "red"
+}
+local validOtherColors = {
+    "white",
+    "grey",
+    "black"
+}
+
+function module.isValidColor(color)
+    local firstChar = string.sub(color, 1, 1)
+    
+    if string.len(color) == 7 and firstChar == '#' then
+        -- This is probably a valid hex code
+        return true
+    end
+
+    local validColors = {}
+
+    for index, baseColor in ipairs(validColorsWithShadeModifier) do 
+        table.insert(validColors, baseColor)
+        table.insert(validColors, "light" .. baseColor)
+        table.insert(validColors, "dark" .. baseColor)
+    end
+    
+    for index, color in ipairs(validOtherColors) do 
+        table.insert(validColors, color)
+    end
+
+    return array.contains(validColors, function(validColor) return validColor == color end)
+end
+
 
 return module
 end)
@@ -620,6 +830,19 @@ function module.getUniqueValueSet(array)
 
   return uniqueSet
 end
+
+function module.removeDuplicatesByComparator(array, comparator) 
+  local deduped = {}
+
+  for index, item in ipairs(array) do 
+    if (not module.contains(deduped, function (includedItem) return comparator(includedItem, item) end)) then
+      table.insert(deduped, item)
+    end
+  end
+
+  return deduped
+end
+  
 
 function module.contains(array, callback)
   for index, item in ipairs(array) do 

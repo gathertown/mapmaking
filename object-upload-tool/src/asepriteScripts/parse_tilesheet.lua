@@ -8,6 +8,8 @@ local file = require('deps/file')
 local stringUtils = require('deps/stringUtils')
 local dialog = require('deps/dialog')
 
+local baseTileSize = 32
+
 function run()
   local sprite = app.activeSprite
 
@@ -36,11 +38,16 @@ function run()
   if not originLayer then
     table.insert(layerErrors, 'Layer named "Origin" is missing')
   end
+  if not collisionLayer then
+    table.insert(layerErrors, 'Layer named "Collision" is missing')
+  end
+  if not sittableLayer then
+    table.insert(layerErrors, 'Layer named "Sittable" is missing')
+  end
   if #layerErrors ~= 0 then
       app.alert("There were errors processing the layers of this Sprite. " .. array.join(layerErrors, ", "))
       return
   end
-
 
   -- Get the script config file from Aseprite config files
   local configFilePath = app.fs.joinPath(app.fs.userConfigPath, configFileName)
@@ -52,6 +59,7 @@ function run()
     return
   end
   local configData = file.readJson(configFilePath)
+  configData.filePath = configFilePath
 
   -- TODO:
   -- This is a temp (?) override.
@@ -62,6 +70,8 @@ function run()
   local spriteImage = aseprite.getCelImageWithTransparentPadding(spriteLayer:cel(1))
   local foldImage = aseprite.getCelImageWithTransparentPadding(foldLayer:cel(1))
   local originImage = aseprite.getCelImageWithTransparentPadding(originLayer:cel(1))
+  local collisionImage = aseprite.getCelImageWithTransparentPadding(collisionLayer:cel(1))
+  local sittableImage = aseprite.getCelImageWithTransparentPadding(sittableLayer:cel(1))
 
   -- Default dialog values
   local defaultTileWidth=32
@@ -154,7 +164,7 @@ function run()
   -- Calculate rows/cols in the spritesheet
   local rows = sprite.height / tileData.height
   local cols = sprite.width / tileData.width
-
+  
   -- TODO:
   -- only allow folds on first image? Maybe this is just default?
   -- only allow centers on first image? Maybe this is just default?
@@ -216,6 +226,14 @@ function run()
       local originValue = findOrigin(originSubImage)
       imageData.origin = originValue
 
+      local collisionSubImage = aseprite.getSubImageInBounds(collisionImage, imageBounds)
+      local collisionValue = findUniqueCoords(collisionSubImage, tileData)
+      imageData.collision = collisionValue
+
+      local sittableSubImage = aseprite.getSubImageInBounds(sittableImage, imageBounds)
+      local sittableValue = findUniqueCoords(sittableSubImage, tileData)
+      imageData.sittable = sittableValue
+
       table.insert(manifestData.images, imageData)
     end
   end
@@ -268,6 +286,19 @@ function findOrigin(image)
 
   -- Return only origin
   return opaqueOriginPixels[1]
+end
+
+function findUniqueCoords(image, tileData) 
+    local opaquePixels = aseprite.getAllOpaquePixels(image)
+
+    if #opaquePixels == 0 then
+        return false
+    end
+
+    local tileCoords = array.map(opaquePixels, function(pixel) return { x=pixel.x // baseTileSize, y=pixel.y // baseTileSize } end)
+    local uniqueCoords = array.removeDuplicatesByComparator(tileCoords, function(a, b) return a.x == b.x and a.y == b.y end)
+    
+    return uniqueCoords
 end
 
 function isCompatibleScriptVersion(version) 

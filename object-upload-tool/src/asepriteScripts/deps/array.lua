@@ -61,6 +61,19 @@ function module.getUniqueValueSet(array)
   return uniqueSet
 end
 
+function module.removeDuplicatesByComparator(array, comparator) 
+  local deduped = {}
+
+  for index, item in ipairs(array) do 
+    if (not module.contains(deduped, function (includedItem) return comparator(includedItem, item) end)) then
+      table.insert(deduped, item)
+    end
+  end
+
+  return deduped
+end
+  
+
 function module.contains(array, callback)
   for index, item in ipairs(array) do 
     if (callback(item, index)) then
