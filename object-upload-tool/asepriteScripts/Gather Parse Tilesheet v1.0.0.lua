@@ -50,6 +50,7 @@ local tableUtils = require("deps/tableUtils")
 local aseprite = require("deps/aseprite")
 local file = require("deps/file")
 local stringUtils = require("deps/stringUtils")
+local dialog = require("deps/dialog")
 
 function run()
   local sprite = app.activeSprite
@@ -95,6 +96,11 @@ function run()
     return
   end
   local configData = file.readJson(configFilePath)
+
+  -- TODO:
+  -- This is a temp (?) override.
+  -- Override output directory to just output next to aseprite file:
+  configData.outputDirectory = app.fs.filePath(sprite.filename)
 
   -- Get images from each Aseprite layer to operate on
   local spriteImage = aseprite.getCelImageWithTransparentPadding(spriteLayer:cel(1))
@@ -146,102 +152,23 @@ function run()
     defaultVariantPrimaryColors = array.map(existingManifestData.variants, function(variant) return variant.color.primary end)
     defaultVariantSecondaryColors = array.map(existingManifestData.variants, function(variant) return variant.color.secondary end)
   end
-
-  -- Ask user for information needed for task
-  local tileDataDialog = Dialog()
-  local variantDataDialog = Dialog()
-
-  -- TODO:
-  -- add a row per variant here, for now, this is temp
-  -- this should sync with the information below too.
-  --
-  -- Should calcuate variants in a shared logical function
-  -- somehow in case we change this pattern in the future.
-  local variantRowIds={}
-  local variantCount = sprite.height / defaultTileHeight
-
-  if defaultHasForeground then
-    variantCount = math.floor(variantCount / 2)
-  end
-
-  function updateVariantRowFields()
-    variantCount = sprite.height / tileDataDialog.data.height
-
-    if tileDataDialog.data.hasForeground then
-      variantCount = math.floor(variantCount / 2)
-    end
-
-    tileDataDialog:modify{ id="variantCount", text=tostring(variantCount) }
-  end
-
-  tileDataDialog
-    -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
-    :label{ label="Gather Config File:", text=configFilePath }
-    :label{ label="Output Path:", text=configData.outputDirectory}
-    :separator{}
-    :number{ id="width", label="Tile width:", text=tostring(defaultTileWidth), onchange=updateVariantRowFields }
-    :number{ id="height", label="Tile height:", text=tostring(defaultTileHeight), onchange=updateVariantRowFields }
-    :check{
-        id="hasForeground",
-        label="Sprite foreground: ",
-        text="Has foreground",
-        selected=defaultHasForeground,
-        onclick=updateVariantRowFields
-    }
-    :label{ id="variantCount", label="Variant Row Count:", text=tostring(variantCount) }
-    :separator{}
-    :button{ id="confirm", text="Confirm" }
-    :button{ id="cancel", text="Cancel" }
-
-  -- TODO:
-  -- When we parse colors, they should either be from a
-  -- set of pre-approved aliases or they should be a 
-  -- valid hex code. 
-
-  -- TODO:
-  -- We need to add change handlers to data
-  -- and recompute the rows and modify them 
-  -- as the data changes. Really redo the
-  -- entire bottom half of the Dialog? We
-  -- may need to add or remove rows.
-
-  local tileData = tileDataDialog:show().data
+  
+  local tileData = dialog.collectTileData(sprite, {
+    tileHeight=defaultTileHeight,
+    tileWidth=defaultTileWidth,
+    hasForeground=defaultHasForeground
+  }, configData)
 
   if not tileData.confirm then
     app.alert('Quitting!')
     return
   end
 
-  variantDataDialog:separator{ text="Variants             Primary Color                      Secondary Color" }
-  for variant=0, variantCount - 1, 1 do 
-    local primaryColor = defaultOrderedColors[variant + 1]
-    local secondaryColor = ""
-
-    if defaultVariantPrimaryColors[variant + 1] ~= nil then
-        primaryColor = defaultVariantPrimaryColors[variant + 1]
-    end
-    if defaultVariantSecondaryColors[variant + 1] ~= nil then
-        secondaryColor = defaultVariantSecondaryColors[variant + 1]
-    end
-
-    local primaryColorId = string.format("variantColorPrimary-%d", variant)
-    local secondaryColorId = string.format("variantColorSecondary-%d", variant)
-    
-    table.insert(variantRowIds, primaryColorId)
-    table.insert(variantRowIds, secondaryColorId)
-    
-    variantDataDialog
-        -- :label{ label=string.format("Row %s", variant) }
-        :entry{ id=primaryColorId, label=string.format("Row %s", variant), text=primaryColor }
-        :entry{ id=secondaryColorId, text=secondaryColor }
-  end
-
-  variantDataDialog
-    :separator{}
-    :button{ id="confirm", text="Confirm" }
-    :button{ id="cancel", text="Cancel" }
-    
-  local variantData = variantDataDialog:show().data
+  local variantData = dialog.collectVariantData({
+    orderedColors=defaultOrderedColors,
+    variantPrimaryColors=defaultVariantPrimaryColors,
+    variantSecondaryColors=defaultVariantSecondaryColors
+  }, tileData)
 
   if not variantData.confirm then
     app.alert('Quitting!')
@@ -402,6 +329,93 @@ end
 -- Using this run function pattern to allow
 -- functions to be defined after usage
 run()
+end)
+__bundle_register("deps/dialog", function(require, _LOADED, __bundle_register, __bundle_modules)
+local module = {}
+
+function module.collectTileData(sprite, defaults, configData) 
+  -- Ask user for information needed for task
+  local tileDataDialog = Dialog()
+
+  -- TODO:
+  -- Should calcuate variants in a shared logical function
+  -- somehow in case we change this pattern in the future.
+  local variantCount = sprite.height / defaults.tileHeight
+
+  if defaults.hasForeground then
+    variantCount = math.floor(variantCount / 2)
+  end
+
+  function updateVariantRowFields()
+    variantCount = sprite.height / tileDataDialog.data.height
+
+    if tileDataDialog.data.hasForeground then
+      variantCount = math.floor(variantCount / 2)
+    end
+
+    tileDataDialog:modify{ id="variantCount", text=tostring(variantCount) }
+  end
+
+  tileDataDialog
+    -- :modify{ title="Gather Parse Tilesheet" } -- not sure why this isn't working?
+    :label{ label="Gather Config File:", text=configFilePath }
+    :label{ label="Output Path:", text=configData.outputDirectory}
+    :separator{}
+    :number{ id="width", label="Tile width:", text=tostring(defaults.tileWidth), onchange=updateVariantRowFields }
+    :number{ id="height", label="Tile height:", text=tostring(defaults.tileHeight), onchange=updateVariantRowFields }
+    :check{
+        id="hasForeground",
+        label="Sprite foreground: ",
+        text="Has foreground",
+        selected=defaults.hasForeground,
+        onclick=updateVariantRowFields
+    }
+    :label{ id="variantCount", label="Variant Row Count:", text=tostring(variantCount) }
+    :separator{}
+    :button{ id="confirm", text="Continue" }
+    :button{ id="cancel", text="Cancel" }
+
+  return tileDataDialog:show().data
+end
+
+function module.collectVariantData(defaults, tileData)
+    local variantDataDialog = Dialog()
+
+    variantDataDialog:separator{ text="Variants         Primary Color              Secondary Color" }
+    for variant=0, tileData.variantCount - 1, 1 do 
+      local primaryColor = defaults.orderedColors[variant + 1]
+      local secondaryColor = ""
+  
+      if defaults.variantPrimaryColors[variant + 1] ~= nil then
+          primaryColor = defaults.variantPrimaryColors[variant + 1]
+      end
+      if defaults.variantSecondaryColors[variant + 1] ~= nil then
+          secondaryColor = defaults.variantSecondaryColors[variant + 1]
+      end
+  
+      local primaryColorId = string.format("variantColorPrimary-%d", variant)
+      local secondaryColorId = string.format("variantColorSecondary-%d", variant)
+      
+      variantDataDialog
+          -- :label{ label=string.format("Row %s", variant) }
+          :entry{ id=primaryColorId, label=string.format("Row %s", variant), text=primaryColor }
+          :entry{ id=secondaryColorId, text=secondaryColor }
+    end
+  
+    variantDataDialog
+      :separator{}
+      :button{ id="confirm", text="Parse" }
+      :button{ id="cancel", text="Cancel" }
+      
+    -- TODO:
+    -- When we parse colors, they should either be from a
+    -- set of pre-approved aliases or they should be a 
+    -- valid hex code.
+  
+    return variantDataDialog:show().data
+end
+
+return module
 end)
 __bundle_register("deps/stringUtils", function(require, _LOADED, __bundle_register, __bundle_modules)
 -- string is a base library namespace already, using stringUtils instead

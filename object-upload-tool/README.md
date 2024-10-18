@@ -2,11 +2,34 @@
 
 Top level folders in this project:
 
-- `output` - this is where the image and metadata generated output of the tool lives
+<!-- - `output` - this is where the image and metadata generated output of the tool lives -->
+
 - `src` - this is where all of the development tooling needed to work on the tool lives
 - `asepriteScripts` - these are all of the Aseprite scripts that need to be put into your [Aseprite scripts folder](https://community.aseprite.org/t/locate-user-scripts-folder/2170) to use the tool
+- `objects`
 
 ## Using the Script
+
+### File structure
+
+Example:
+
+```txt
+objects
+- Seating
+  - Couch
+    - Chaise
+      - Chaise.aseprite
+      - Chaise_generated.png
+      - manifest.json
+```
+
+All object data lives in the root `objects` folder.
+
+1. `Category` - these correspond to tabs/sections in the Catalog
+2. `Family` - objects in the same family are swappable by changing `Type` in Studio
+3. `Type` - specific type of object in a given family, the available Type options
+4. `Style` - visual variations per catalog item not tied specifically to color
 
 ### Setup
 
@@ -23,6 +46,8 @@ This script expects an Aseprite file to have 3 layers:
 - Sprite - layer with artwork on it
 - Fold - layer with fold (depth sort line) information on it
 - Origin - layer with origin of each sprite direction on it
+- Collision - layer to specify which tiles block movement
+- Sittable - layer to specify which tiles are able to be sat on by players
 
 ### Usage
 
