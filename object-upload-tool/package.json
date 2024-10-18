@@ -5,11 +5,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "asesprite:sync": "node src/devScripts/copyScriptsToAsepriteScriptsDirectory.js",
-    "asesprite:sync:watch": "node src/devScripts/watchSyncAsepriteScripts.js",
-    "asesprite:clean": "node src/devScripts/clearGatherAsepriteScriptsDirectory.js",
-    "watch": "node src/devScripts/watchBuildSyncAsepritesSourceDirectory.js",
-    "build": "node src/devScripts/bundleAsepriteScripts.js"
+    "asesprite:sync": "node src/dev/copyScriptsToAsepriteScriptsDirectory.js",
+    "asesprite:sync:watch": "node src/dev/watchSyncAsepriteScripts.js",
+    "asesprite:clean": "node src/dev/clearGatherAsepriteScriptsDirectory.js",
+    "watch": "node src/dev/watchBuildSyncAsepritesSourceDirectory.js",
+    "build": "node src/dev/bundleAsepriteScripts.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +17,7 @@
     "chokidar": "^4.0.1",
     "dotenv": "^16.4.5",
     "luabundle": "^1.7.0",
-    "luabundler": "^1.2.3",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.0.1",
+    "simple-git": "^3.27.0"
   }
 }
