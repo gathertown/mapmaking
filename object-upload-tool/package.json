@@ -1,0 +1,23 @@
+{
+  "name": "object-upload-tool",
+  "version": "1.0.0",
+  "description": "Tool for uploading sprite objects and associated metadata",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "asesprite:sync": "node src/dev/copyScriptsToAsepriteScriptsDirectory.js",
+    "asesprite:sync:watch": "node src/dev/watchSyncAsepriteScripts.js",
+    "asesprite:clean": "node src/dev/clearGatherAsepriteScriptsDirectory.js",
+    "watch": "node src/dev/watchBuildSyncAsepritesSourceDirectory.js",
+    "build": "node src/dev/bundleAsepriteScripts.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^4.0.1",
+    "dotenv": "^16.4.5",
+    "luabundle": "^1.7.0",
+    "rimraf": "^6.0.1",
+    "simple-git": "^3.27.0"
+  }
+}
