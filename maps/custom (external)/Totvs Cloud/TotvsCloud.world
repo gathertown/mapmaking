@@ -1,0 +1,55 @@
+{
+    "maps": [
+        {
+            "fileName": "DEU.tmx",
+            "height": 2400,
+            "width": 2880,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "Sustentação.tmx",
+            "height": 2400,
+            "width": 2880,
+            "x": 2880,
+            "y": 0
+        },
+        {
+            "fileName": "CloudDelivery.tmx",
+            "height": 2208,
+            "width": 2880,
+            "x": 5600,
+            "y": 0
+        },
+        {
+            "fileName": "Liderança.tmx",
+            "height": 2208,
+            "width": 2880,
+            "x": 8480,
+            "y": 0
+        },
+        {
+            "fileName": "Lobby.tmx",
+            "height": 1568,
+            "width": 1632,
+            "x": -3168,
+            "y": 0
+        },
+        {
+            "fileName": "Game Room.tmx",
+            "height": 1568,
+            "width": 1536,
+            "x": -1536,
+            "y": 0
+        },
+        {
+            "fileName": "Event Floor.tmx",
+            "height": 2112,
+            "width": 2144,
+            "x": 11360,
+            "y": 0
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
